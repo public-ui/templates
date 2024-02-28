@@ -1,0 +1,86 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    labels:
+      - dependabot
+    schedule:
+      interval: daily
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/angular-webpack/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/astro/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/next.js/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/preact-webpack/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/react-vite/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/react-webpack/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/solid-webpack/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/static-page/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/svg2font/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/vue-vite/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/templates/vue-webpack/"
+    labels:
+      - dependabot
+    schedule:
+      interval: "daily"

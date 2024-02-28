@@ -1,0 +1,21 @@
+{
+	"name": "svg-2font-icons",
+	"dependencies": {
+		"rimraf": "3.0.2",
+		"serve": "14.2.1",
+		"svgtofont": "4.1.2"
+	},
+	"license": "EUPL-1.2",
+	"private": true,
+	"scripts": {
+		"build": "rimraf ./font && svgtofont --sources ./svg --output ./font",
+		"start": "serve"
+	},
+	"svgtofont": {
+		"fontName": "svg-2font-icons",
+		"classNamePrefix": "svg-2font",
+		"css": {
+			"fileName": "style"
+		}
+	}
+}

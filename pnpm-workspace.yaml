@@ -1,0 +1,12 @@
+packages:
+  - 'templates/angular-webpack/'
+  # - 'templates/astro/'
+  # - 'templates/next.js/'
+  # - 'templates/preact-webpack/'
+  - 'templates/react-vite/'
+  - 'templates/react-webpack/'
+  - 'templates/solid-webpack/'
+  - 'templates/static-page/'
+  - 'templates/svg2font/'
+  - 'templates/vue-vite/'
+  - 'templates/vue-webpack/'
