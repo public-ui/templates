@@ -22,7 +22,7 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@astrojs/react": "1.2.2",
+		"@astrojs/react": "3.0.10",
 		"@astrojs/preact": "1.2.0",
 		"@leanup/stack": "1.3.49",
 		"@public-ui/components": "2.0.8",
