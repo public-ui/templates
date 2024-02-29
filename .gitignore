@@ -1,16 +1,1 @@
-.husky/
-.reports/
-dist*/
-node_modules*/
-/templates/**/assets/bundes/
-/templates/**/assets/codicons/
-/templates/**/assets/fontawesome-free/
-/templates/**/assets/icofont/
-/templates/**/assets/kreon/
-/templates/**/assets/material-icons/
-/templates/**/assets/material-symbols/
-/templates/**/assets/noto-sans/
-/templates/**/assets/roboto/
-/templates/**/assets/tabler-icons/
-/templates/**/assets/kolibri.ico
-/templates/**/public/assets/logo.*
+node_modules/

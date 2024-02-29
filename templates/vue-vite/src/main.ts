@@ -1,7 +1,7 @@
-import 'uno.css' // https://github.com/antfu/unocss
+import 'uno.css'; // https://github.com/antfu/unocss
 
 // App style
-import './style.scss'
+import './style.scss';
 
 // App
-import './vue.main'
+import './vue.main';

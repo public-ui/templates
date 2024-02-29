@@ -6,11 +6,7 @@
 					<KolKolibri :_labeled="false"></KolKolibri>
 				</div>
 				<div>
-					<img
-						class="block m-auto h-25"
-						src="./assets/logo.vue.png"
-						alt="Logo vom React Framework"
-					/>
+					<img class="block m-auto h-25" src="./assets/logo.vue.png" alt="Logo vom React Framework" />
 				</div>
 			</div>
 			<strong class="text-2xl">Willkommen zu KoliBri</strong>
@@ -22,11 +18,7 @@
 				</KolLink>
 			</KolAlert>
 			<KolAlert :_type="'info'" _heading="Theming" _variant="card" :_level="2">
-				<KolLink
-					_href="https://public-ui.github.io/docs/concepts/styling/designer"
-					_label=""
-					_target="_blank"
-				>
+				<KolLink _href="https://public-ui.github.io/docs/concepts/styling/designer" _label="" _target="_blank">
 					<KolIcon _label="" _icons="fa-solid fa-palette" /> KoliBri-Designer öffnen
 				</KolLink>
 			</KolAlert>
@@ -36,31 +28,29 @@
 				</KolLink>
 			</KolAlert>
 			<KolAlert :_type="'error'" _heading="Kontakt" _variant="card" :_level="2">
-				<KolLink _href="mailto:kolibri@itzbund.de" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-solid fa-envelope" /> E-Mail schreiben
-				</KolLink>
+				<KolLink _href="mailto:kolibri@itzbund.de" _label="" _target="_blank"> <KolIcon _label="" _icons="fa-solid fa-envelope" /> E-Mail schreiben </KolLink>
 			</KolAlert>
 		</main>
 	</div>
 </template>
 
 <script lang="ts">
-import { KolKolibri, KolIcon, KolLink, KolAlert } from '@public-ui/vue'
+import { KolKolibri, KolIcon, KolLink, KolAlert } from '@public-ui/vue';
 
 export default {
 	components: {
 		KolKolibri,
 		KolIcon,
 		KolLink,
-		KolAlert
+		KolAlert,
 	},
 	setup() {
 		return {
 			label: 'My Button',
 			on: {
-				onClick: console.log
-			}
-		}
-	}
-}
+				onClick: console.log,
+			},
+		};
+	},
+};
 </script>

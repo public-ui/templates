@@ -1,0 +1,8 @@
+packages:
+  - 'app'
+  - 'components'
+  - 'components/adapters/angular'
+  - 'components/adapters/react'
+  - 'components/adapters/vue'
+  - 'schema'
+  - 'theme'

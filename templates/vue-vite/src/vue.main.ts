@@ -1,11 +1,11 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue';
 
-import App from './App.vue'
+import App from './App.vue';
 
-import { ComponentLibrary } from './plugins/kolibri'
+import { ComponentLibrary } from './plugins/kolibri';
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(ComponentLibrary)
+app.use(ComponentLibrary);
 
-app.mount('#app')
+app.mount('#app');
