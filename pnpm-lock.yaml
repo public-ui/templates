@@ -74,13 +74,13 @@ importers:
         version: 1.3.49(chromedriver@122.0.3)(esbuild@0.20.0)(typescript@5.3.3)
       '@leanup/stack-angular':
         specifier: 1.3.49
-        version: 1.3.49(@angular/compiler-cli@17.2.3)(@angular/core@17.2.3)(@babel/core@7.23.9)(@leanup/stack-webpack@1.3.49)(@ngtools/webpack@17.2.1)(webpack@5.90.1)
+        version: 1.3.49(@angular/compiler-cli@17.2.3)(@angular/core@17.2.3)(@babel/core@7.23.9)(@leanup/stack-webpack@1.3.49)(@ngtools/webpack@17.2.2)(webpack@5.90.1)
       '@leanup/stack-webpack':
         specifier: 1.3.49
         version: 1.3.49(@leanup/stack@1.3.49)(esbuild@0.20.0)(less@4.2.0)(postcss@8.4.35)
       '@ngtools/webpack':
-        specifier: 17.2.1
-        version: 17.2.1(@angular/compiler-cli@17.2.3)(typescript@5.3.3)(webpack@5.90.1)
+        specifier: 17.2.2
+        version: 17.2.2(@angular/compiler-cli@17.2.3)(typescript@5.3.3)(webpack@5.90.1)
       '@public-ui/schema':
         specifier: 2.0.8
         version: 2.0.8
@@ -3158,7 +3158,7 @@ packages:
       - supports-color
     dev: true
 
-  /@leanup/stack-angular@1.3.49(@angular/compiler-cli@17.2.3)(@angular/core@17.2.3)(@babel/core@7.23.9)(@leanup/stack-webpack@1.3.49)(@ngtools/webpack@17.2.1)(webpack@5.90.1):
+  /@leanup/stack-angular@1.3.49(@angular/compiler-cli@17.2.3)(@angular/core@17.2.3)(@babel/core@7.23.9)(@leanup/stack-webpack@1.3.49)(@ngtools/webpack@17.2.2)(webpack@5.90.1):
     resolution: {integrity: sha512-+IwgMj3iUVGpPKhq58DxP6ESIE7wVDLY97TDUDesa3M5LTZAqwKiY54v9wxvlykRdPPx3XE/EAuWUybEdwFMmA==}
     peerDependencies:
       '@angular/compiler-cli': ^16
@@ -3169,7 +3169,7 @@ packages:
       '@angular/compiler-cli': 17.2.3(@angular/compiler@17.2.3)(typescript@5.3.3)
       '@angular/core': 17.2.3(rxjs@7.8.1)(zone.js@0.14.4)
       '@leanup/stack-webpack': 1.3.49(@leanup/stack@1.3.49)(esbuild@0.20.0)(less@4.2.0)(postcss@8.4.35)
-      '@ngtools/webpack': 17.2.1(@angular/compiler-cli@17.2.3)(typescript@5.3.3)(webpack@5.90.1)
+      '@ngtools/webpack': 17.2.2(@angular/compiler-cli@17.2.3)(typescript@5.3.3)(webpack@5.90.1)
       babel-loader: 9.1.3(@babel/core@7.23.9)(webpack@5.90.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -3350,8 +3350,8 @@ packages:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
 
-  /@ngtools/webpack@17.2.1(@angular/compiler-cli@17.2.3)(typescript@5.3.3)(webpack@5.90.1):
-    resolution: {integrity: sha512-5O493oqZw0os1Gj3otVTcIXS3nGs60eXZ9w3vsK5w7tZ5x6XqZvO00X8WZQhcxXA9HMG4iDCsU2ll3lcYZVxmg==}
+  /@ngtools/webpack@17.2.2(@angular/compiler-cli@17.2.3)(typescript@5.3.3)(webpack@5.90.1):
+    resolution: {integrity: sha512-HgvClGO6WVq4VA5d0ZvlDG5hrj8lQzRH99Gt87URm7G8E5XkatysdOsMqUQsJz+OwFWhP4PvTRWVblpBDiDl/A==}
     engines: {node: ^18.13.0 || >=20.9.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^17.0.0
