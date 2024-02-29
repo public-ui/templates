@@ -35,7 +35,7 @@
 		"@leanup/stack": "1.3.49",
 		"@leanup/stack-angular": "1.3.49",
 		"@leanup/stack-webpack": "1.3.49",
-		"@ngtools/webpack": "17.2.1",
+		"@ngtools/webpack": "17.2.2",
 		"@public-ui/schema": "2.0.8",
 		"@unocss/preset-mini": "0.58.5",
 		"@unocss/webpack": "0.58.5",
