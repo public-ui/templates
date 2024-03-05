@@ -41,7 +41,7 @@
 		"@unocss/webpack": "0.58.5",
 		"chromedriver": "122.0.4",
 		"cpy-cli": "5.0.0",
-		"knip": "5.0.2",
+		"knip": "5.0.3",
 		"eslint-plugin-jsx-a11y": "6.8.0",
 		"nightwatch-axe-verbose": "2.3.0",
 		"npm-check-updates": "16.14.15",
