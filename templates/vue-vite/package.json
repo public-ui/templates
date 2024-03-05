@@ -29,6 +29,6 @@
 		"prettier": "3.2.5",
 		"unocss": "0.58.5",
 		"typescript": "5.3.3",
-		"vite": "5.1.4"
+		"vite": "5.1.5"
 	}
 }
