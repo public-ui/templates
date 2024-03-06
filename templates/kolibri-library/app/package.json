@@ -25,7 +25,7 @@
 		"@public-ui/library-react": "0.0.0",
 		"@public-ui/react": "2.0.8",
 		"@types/node": "20.11.22",
-		"@types/react": "18.2.60",
+		"@types/react": "18.2.63",
 		"@types/react-dom": "18.2.19",
 		"@unocss/preset-uno": "0.58.5",
 		"@unocss/webpack": "0.58.5",
