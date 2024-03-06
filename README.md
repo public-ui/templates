@@ -23,57 +23,50 @@ These templates are meant to be used as is via the [degit](https://github.com/Ri
 #### Client side rendering
 
 ```bash
-# Angular template
+# Angular webpack template
 $ npx degit public-ui/create-kolibri-templates/angular-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
-# Preact template
+# Preact webpack template
 $ npx degit public-ui/create-kolibri-templates/preact-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
-# React template
+# React vite template
 $ npx degit public-ui/create-kolibri-templates/react-vite my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
-# React template
+# React webpack template
 $ npx degit public-ui/create-kolibri-templates/react-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
-# React template
+# Solid webpack template
 $ npx degit public-ui/create-kolibri-templates/solid-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
-# React template
+# Vue vite template
 $ npx degit public-ui/create-kolibri-templates/vue-vite my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
-# React template
+# Vue webpack template
 $ npx degit public-ui/create-kolibri-templates/vue-webpack my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-```bash
-# React template
-$ npx degit public-ui/create-kolibri-templates/react-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
