@@ -1,5 +1,5 @@
 <!-- <p>
-  <img width="100%" src="https://raw.githubusercontent.com/public-ui/create-kolibri-templates/master/banner.png" alt="Solid Vite Templates">
+  <img width="100%" src="https://raw.githubusercontent.com/public-ui/templates/master/banner.png" alt="Solid Vite Templates">
 </p> -->
 
 # KoliBri Templates
@@ -24,49 +24,49 @@ These templates are meant to be used as is via the [degit](https://github.com/Ri
 
 ```bash
 # Angular webpack template
-$ npx degit public-ui/create-kolibri-templates/angular-webpack my-kolibri-project
+$ npx degit public-ui/templates/angular-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # Preact webpack template
-$ npx degit public-ui/create-kolibri-templates/preact-webpack my-kolibri-project
+$ npx degit public-ui/templates/preact-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # React vite template
-$ npx degit public-ui/create-kolibri-templates/react-vite my-kolibri-project
+$ npx degit public-ui/templates/react-vite my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # React webpack template
-$ npx degit public-ui/create-kolibri-templates/react-webpack my-kolibri-project
+$ npx degit public-ui/templates/react-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # Solid webpack template
-$ npx degit public-ui/create-kolibri-templates/solid-webpack my-kolibri-project
+$ npx degit public-ui/templates/solid-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # Vue vite template
-$ npx degit public-ui/create-kolibri-templates/vue-vite my-kolibri-project
+$ npx degit public-ui/templates/vue-vite my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # Vue webpack template
-$ npx degit public-ui/create-kolibri-templates/vue-webpack my-kolibri-project
+$ npx degit public-ui/templates/vue-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
@@ -77,14 +77,14 @@ $ npm i # or pnpm i or yarn
 
 ```bash
 # Astro template
-$ npx degit public-ui/create-kolibri-templates/astro my-kolibri-project
+$ npx degit public-ui/templates/astro my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # Next.js template
-$ npx degit public-ui/create-kolibri-templates/next.js my-kolibri-project
+$ npx degit public-ui/templates/next.js my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
@@ -93,14 +93,14 @@ $ npm i # or pnpm i or yarn
 
 ```bash
 # KoliBri library template
-$ npx degit public-ui/create-kolibri-templates/kolibri-library my-kolibri-project
+$ npx degit public-ui/templates/kolibri-library my-kolibri-project
 $ cd my-kolibri-project
 $ pnpm i # no npm or yarn
 ```
 
 ```bash
 # KoliBri theme template
-$ npx degit public-ui/create-kolibri-templates/kolibri-theme my-kolibri-project
+$ npx degit public-ui/templates/kolibri-theme my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
@@ -109,14 +109,14 @@ $ npm i # or pnpm i or yarn
 
 ```bash
 # Static page template
-$ npx degit public-ui/create-kolibri-templates/static-page my-kolibri-project
+$ npx degit public-ui/templates/static-page my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
 ```bash
 # Svg2Font template
-$ npx degit public-ui/create-kolibri-templates/svg2font my-kolibri-project
+$ npx degit public-ui/templates/svg2font my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
