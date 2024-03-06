@@ -30,7 +30,7 @@
 		"@public-ui/themes": "2.0.8",
 		"@types/react": "18.2.60",
 		"@types/node": "18.19.19",
-		"@types/react-dom": "18.2.19",
+		"@types/react-dom": "18.2.20",
 		"astro": "1.9.2",
 		"chromedriver": "122.0.4",
 		"cpy-cli": "5.0.0",
