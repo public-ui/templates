@@ -19,7 +19,7 @@
 		"unused": "knip"
 	},
 	"dependencies": {
-		"@angular/common": "17.2.3",
+		"@angular/common": "17.2.4",
 		"@angular/compiler": "17.2.3",
 		"@angular/compiler-cli": "17.2.3",
 		"@angular/core": "17.2.3",
