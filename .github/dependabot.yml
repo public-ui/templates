@@ -12,75 +12,75 @@ updates:
     schedule:
       interval: daily
 
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: npm
+    directory: /
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/angular-webpack/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/angular-webpack/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/astro/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/astro/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/next.js/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/next.js/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/preact-webpack/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/preact-webpack/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/react-vite/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/react-vite/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/react-webpack/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/react-webpack/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/solid-webpack/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/solid-webpack/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/static-page/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/static-page/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/svg2font/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/svg2font/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/vue-vite/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/vue-vite/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/templates/vue-webpack/"
+      interval: daily
+  - package-ecosystem: npm
+    directory: /templates/vue-webpack/
     labels:
       - dependabot
     schedule:
-      interval: "daily"
+      interval: daily
