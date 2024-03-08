@@ -16,7 +16,7 @@
 		"@types/node": "ts5.3",
 		"@types/normalize-package-data": "2.4.4",
 		"typescript": "5.4.2",
-		"unbuild": "1.2.1",
+		"unbuild": "2.0.0",
 		"vue": "3.4.21"
 	},
 	"peerDependencies": {
