@@ -26,7 +26,7 @@
 	"dependencies": {
 		"@public-ui/components": "2.0.8",
 		"@public-ui/preact": "2.0.8",
-		"@public-ui/themes": "2.0.8",
+		"@public-ui/themes": "2.0.9",
 		"preact": "10.19.6"
 	},
 	"devDependencies": {

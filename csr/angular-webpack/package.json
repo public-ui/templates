@@ -28,7 +28,7 @@
 		"@angular/platform-browser-dynamic": "17.2.4",
 		"@public-ui/angular-v17": "2.0.9",
 		"@public-ui/components": "2.0.8",
-		"@public-ui/themes": "2.0.8",
+		"@public-ui/themes": "2.0.9",
 		"zone.js": "0.14.4"
 	},
 	"devDependencies": {
