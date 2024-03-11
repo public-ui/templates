@@ -64,13 +64,13 @@ importers:
         version: 17.2.4(@angular/common@17.2.4)(@angular/compiler@17.2.4)(@angular/core@17.2.4)(@angular/platform-browser@17.2.4)
       '@public-ui/angular-v17':
         specifier: 2.0.9
-        version: 2.0.9(@angular/core@17.2.4)(@public-ui/components@2.0.8)
+        version: 2.0.9(@angular/core@17.2.4)(@public-ui/components@2.0.9)
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       zone.js:
         specifier: 0.14.4
         version: 0.14.4
@@ -130,14 +130,14 @@ importers:
   csr/preact-webpack:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/preact':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.0.8(@public-ui/components@2.0.9)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0)
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       preact:
         specifier: 10.19.6
         version: 10.19.6
@@ -191,14 +191,14 @@ importers:
   csr/react-vite:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/react':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0)
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -237,14 +237,14 @@ importers:
   csr/react-webpack:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/react':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0)
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -310,14 +310,14 @@ importers:
   csr/solid-webpack:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/solid':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(solid-js@1.8.15)
+        version: 2.0.8(@public-ui/components@2.0.9)(solid-js@1.8.15)
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       solid-js:
         specifier: 1.8.15
         version: 1.8.15
@@ -374,11 +374,11 @@ importers:
   csr/static-page:
     devDependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       cpy-cli:
         specifier: 5.0.0
         version: 5.0.0
@@ -395,14 +395,14 @@ importers:
   csr/vue-vite:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       '@public-ui/vue':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(vue@3.4.21)
+        version: 2.0.8(@public-ui/components@2.0.9)(vue@3.4.21)
       vue:
         specifier: 3.4.21
         version: 3.4.21(typescript@5.4.2)
@@ -435,14 +435,14 @@ importers:
   csr/vue-webpack:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/themes':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       '@public-ui/vue':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(vue@3.4.21)
+        version: 2.0.8(@public-ui/components@2.0.9)(vue@3.4.21)
       vue:
         specifier: 3.4.21
         version: 3.4.21(typescript@5.4.2)
@@ -493,8 +493,8 @@ importers:
         specifier: 1.3.49
         version: 1.3.49(@leanup/stack@1.3.49)(esbuild@0.20.1)(less@4.2.0)(postcss@8.4.35)
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/library-components':
         specifier: 0.0.0
         version: link:../components
@@ -503,7 +503,7 @@ importers:
         version: link:../components/adapters/react
       '@public-ui/react':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0)
       '@types/node':
         specifier: 20.11.25
         version: 20.11.25
@@ -587,8 +587,8 @@ importers:
         version: 1.1.4
     devDependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@stencil/angular-output-target':
         specifier: 0.8.4
         version: 0.8.4(@stencil/core@4.12.5)
@@ -941,14 +941,14 @@ importers:
   ssr/express:
     dependencies:
       '@public-ui/components':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@public-ui/hydrate':
         specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.8)
+        version: 2.0.9(@public-ui/components@2.0.9)
       '@public-ui/theme-default':
         specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.8)
+        version: 2.0.8(@public-ui/components@2.0.9)
       express:
         specifier: 4.18.3
         version: 4.18.3
@@ -4893,33 +4893,36 @@ packages:
       - supports-color
     dev: true
 
-  /@public-ui/angular-v17@2.0.9(@angular/core@17.2.4)(@public-ui/components@2.0.8):
+  /@public-ui/angular-v17@2.0.9(@angular/core@17.2.4)(@public-ui/components@2.0.9):
     resolution: {integrity: sha512-4HFAhlQ7T8v5fjX7ih/2udWJ7wBfXZ4BVz1wCjbDZR2g0cdG3x7mDVrqL0wgQFBzJBYc83tDJcIBsL1snGj8CQ==}
     peerDependencies:
       '@angular/core': ^17
       '@public-ui/components': 2.0.9
     dependencies:
       '@angular/core': 17.2.4(rxjs@7.8.1)(zone.js@0.14.4)
-      '@public-ui/components': 2.0.8
+      '@public-ui/components': 2.0.9
     dev: false
 
   /@public-ui/components@2.0.8:
     resolution: {integrity: sha512-PdL7Hldr9Z2qpUxfkQ+5vXcV4CyTO6aRD3UL+umgIHRKWxXZh+k9E+gmIy6sZthZ5xeJSV/hTHqv4tP1gbVLnw==}
 
-  /@public-ui/hydrate@2.0.9(@public-ui/components@2.0.8):
+  /@public-ui/components@2.0.9:
+    resolution: {integrity: sha512-eyx5KbPRsU4SRU5Kh+blNV8xXLrzE5peFKzQqvJ00Fa1x5Jm9DuPNF3Z/I6RfceuYYYtHeApF7rzYWLzo46BVg==}
+
+  /@public-ui/hydrate@2.0.9(@public-ui/components@2.0.9):
     resolution: {integrity: sha512-AJpAe+Z4mhhUpMCV39sLxQ2cPN+XaIgRZjnVF+7lS69WdaeBL0cX7sCRWIBpkmOMJx9Rb6SUK9GZSbSVws47LA==}
     peerDependencies:
       '@public-ui/components': 2.0.9
     dependencies:
-      '@public-ui/components': 2.0.8
+      '@public-ui/components': 2.0.9
     dev: false
 
-  /@public-ui/preact@2.0.8(@public-ui/components@2.0.8)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0):
+  /@public-ui/preact@2.0.8(@public-ui/components@2.0.9)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-FGdCG1IgRCX0dIYLNoQ8MRctHromx91SrePa5Ly7iCjBfs38dBmyw9/Esa+lvEJlPPdN2Vv+Cx66ivrpgg8n0g==}
     peerDependencies:
       preact: '>=10.11.3'
     dependencies:
-      '@public-ui/react': 2.0.8(@public-ui/components@2.0.8)(react-dom@18.2.0)(react@18.2.0)
+      '@public-ui/react': 2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0)
       preact: 10.19.6
     transitivePeerDependencies:
       - '@public-ui/components'
@@ -4937,6 +4940,19 @@ packages:
       '@public-ui/components': 2.0.8
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: true
+
+  /@public-ui/react@2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-kF6C6+qs/6MZYcewPwrOVgKrtf5M+JY66RNw9GUIXmNqCzbdtFaCiWps/FCTk3g8ctp+naiEX/uJ9dTLrD4xfQ==}
+    peerDependencies:
+      '@public-ui/components': 2.0.8
+      react: '>=16.14.0'
+      react-dom: '>=16.14.0'
+    dependencies:
+      '@public-ui/components': 2.0.9
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /@public-ui/sample-react@2.0.8(esbuild@0.20.1)(eslint@8.57.0)(less@4.2.0)(postcss@8.4.35)(rollup@4.12.1)(webpack@5.90.3):
     resolution: {integrity: sha512-UxRJ4pG36b5bt7R9igpLMg6aKcCLBiKFXMxZPKeqOm5/CwB+ZQ9qX5URcZOxqUKkkFQ8UIX+7+9WzSMJXSxKng==}
@@ -5005,22 +5021,22 @@ packages:
       rgba-convert: 0.3.0
       wcag-contrast: 3.0.0
 
-  /@public-ui/solid@2.0.8(@public-ui/components@2.0.8)(solid-js@1.8.15):
+  /@public-ui/solid@2.0.8(@public-ui/components@2.0.9)(solid-js@1.8.15):
     resolution: {integrity: sha512-PYSvOehq+XtcArQZQS5kTmSwmA06fgZYb120oYX04KfR6zPTcwehwObYamQIfnWuESsq1pqyc4LNwgRACbKrkQ==}
     peerDependencies:
       '@public-ui/components': 2.0.8
       solid-js: '>=1.2.0'
     dependencies:
-      '@public-ui/components': 2.0.8
+      '@public-ui/components': 2.0.9
       solid-js: 1.8.15
     dev: false
 
-  /@public-ui/theme-default@2.0.8(@public-ui/components@2.0.8):
+  /@public-ui/theme-default@2.0.8(@public-ui/components@2.0.9):
     resolution: {integrity: sha512-ZqvMT4gs/qY4/PAWUoG5WeFo4hYOsPlR10gL3cb1L5d4Q+XnresesAHvm6+u73P1XXKgYrwtdN/o7SCZ3Hd7DQ==}
     peerDependencies:
       '@public-ui/components': 2.0.8
     dependencies:
-      '@public-ui/components': 2.0.8
+      '@public-ui/components': 2.0.9
     dev: false
 
   /@public-ui/themes@2.0.8(@public-ui/components@2.0.8):
@@ -5031,12 +5047,12 @@ packages:
       '@public-ui/components': 2.0.8
     dev: true
 
-  /@public-ui/themes@2.0.9(@public-ui/components@2.0.8):
+  /@public-ui/themes@2.0.9(@public-ui/components@2.0.9):
     resolution: {integrity: sha512-p6X1v62V86Rka73ooFqXrKLzJUKh779e8Jmg/6VX4og3x8o9ENn/ToGEOWEANeJJqgQa96fhybM5oz25lWlfVQ==}
     peerDependencies:
       '@public-ui/components': 2.0.9
     dependencies:
-      '@public-ui/components': 2.0.8
+      '@public-ui/components': 2.0.9
 
   /@public-ui/visual-tests@2.0.8(esbuild@0.20.1)(eslint@8.57.0)(less@4.2.0)(playwright@1.42.1)(postcss@8.4.35)(rollup@4.12.1)(webpack@5.90.3):
     resolution: {integrity: sha512-FbGEsOYETy5XyUwwCu1y/6J7lbcT+t9Hw+cPAmu0c2Ti9dEwlkhRGQxlkAS5fec56JGXbRzgn77rohmxnl1IZA==}
@@ -5073,13 +5089,13 @@ packages:
       - webpack-bundle-analyzer
     dev: true
 
-  /@public-ui/vue@2.0.8(@public-ui/components@2.0.8)(vue@3.4.21):
+  /@public-ui/vue@2.0.8(@public-ui/components@2.0.9)(vue@3.4.21):
     resolution: {integrity: sha512-Dkc95mj9PCvN3sjvD3s2AascLTkdfd0l4BGfaae1nQGy90D4+rvLTsX71tnKWs8uSXoe5jmQ/Mk1n3sReqvBsw==}
     peerDependencies:
       '@public-ui/components': 2.0.8
       vue: '>=3'
     dependencies:
-      '@public-ui/components': 2.0.8
+      '@public-ui/components': 2.0.9
       vue: 3.4.21(typescript@5.4.2)
     dev: false
 

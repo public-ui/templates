@@ -15,7 +15,7 @@
 		"start": "serve"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.0.8",
+		"@public-ui/components": "2.0.9",
 		"@public-ui/themes": "2.0.9",
 		"cpy-cli": "5.0.0",
 		"npm-check-updates": "16.14.15",
