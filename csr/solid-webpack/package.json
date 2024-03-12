@@ -24,7 +24,7 @@
 	},
 	"dependencies": {
 		"@public-ui/components": "2.0.9",
-		"@public-ui/solid": "2.0.8",
+		"@public-ui/solid": "2.0.9",
 		"@public-ui/themes": "2.0.9",
 		"solid-js": "1.8.15"
 	},
