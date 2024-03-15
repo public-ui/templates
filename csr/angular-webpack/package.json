@@ -24,7 +24,7 @@
 		"@angular/compiler-cli": "17.2.4",
 		"@angular/core": "17.2.4",
 		"@angular/forms": "17.2.4",
-		"@angular/platform-browser": "17.2.4",
+		"@angular/platform-browser": "17.3.0",
 		"@angular/platform-browser-dynamic": "17.2.4",
 		"@public-ui/angular-v17": "2.0.9",
 		"@public-ui/components": "2.0.9",
