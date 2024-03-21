@@ -44,7 +44,7 @@
 		"react-router-dom": "6.22.3",
 		"rimraf": "5.0.5",
 		"ts-prune": "0.10.3",
-		"typescript": "5.4.2",
+		"typescript": "5.4.3",
 		"world_countries_lists": "2.9.0",
 		"yup": "1.4.0"
 	},
