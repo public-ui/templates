@@ -37,7 +37,7 @@
 		"prettier": "3.2.5",
 		"rollup": "4.12.1",
 		"rollup-plugin-postcss": "4.0.2",
-		"typescript": "5.4.2",
+		"typescript": "5.4.3",
 		"unbuild": "1.2.1"
 	},
 	"peerDependencies": {
