@@ -24,7 +24,7 @@
 		"@public-ui/library-components": "0.0.0",
 		"@public-ui/library-react": "0.0.0",
 		"@public-ui/react": "2.0.8",
-		"@types/node": "20.11.27",
+		"@types/node": "20.11.30",
 		"@types/react": "18.2.65",
 		"@types/react-dom": "18.2.21",
 		"@unocss/preset-uno": "0.58.6",
