@@ -944,8 +944,8 @@ importers:
         specifier: 2.0.9
         version: 2.0.9
       '@public-ui/hydrate':
-        specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.9)
+        specifier: 2.0.10
+        version: 2.0.10(@public-ui/components@2.0.9)
       '@public-ui/theme-default':
         specifier: 2.0.9
         version: 2.0.9(@public-ui/components@2.0.9)
@@ -4976,10 +4976,10 @@ packages:
   /@public-ui/components@2.0.9:
     resolution: {integrity: sha512-eyx5KbPRsU4SRU5Kh+blNV8xXLrzE5peFKzQqvJ00Fa1x5Jm9DuPNF3Z/I6RfceuYYYtHeApF7rzYWLzo46BVg==}
 
-  /@public-ui/hydrate@2.0.9(@public-ui/components@2.0.9):
-    resolution: {integrity: sha512-AJpAe+Z4mhhUpMCV39sLxQ2cPN+XaIgRZjnVF+7lS69WdaeBL0cX7sCRWIBpkmOMJx9Rb6SUK9GZSbSVws47LA==}
+  /@public-ui/hydrate@2.0.10(@public-ui/components@2.0.9):
+    resolution: {integrity: sha512-JO3GKuG0ZGLGPdXCrWEEK0IuzE03vmb/kkkMiu6364gdCH418c/7t6SuzZXgKk0ucxJolG74JpmMp8UIWqHTSw==}
     peerDependencies:
-      '@public-ui/components': 2.0.9
+      '@public-ui/components': 2.0.10
     dependencies:
       '@public-ui/components': 2.0.9
     dev: false
