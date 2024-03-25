@@ -401,8 +401,8 @@ importers:
         specifier: 2.0.9
         version: 2.0.9(@public-ui/components@2.0.9)
       '@public-ui/vue':
-        specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.9)(vue@3.4.21)
+        specifier: 2.0.10
+        version: 2.0.10(@public-ui/components@2.0.9)(vue@3.4.21)
       vue:
         specifier: 3.4.21
         version: 3.4.21(typescript@5.4.3)
@@ -441,8 +441,8 @@ importers:
         specifier: 2.0.9
         version: 2.0.9(@public-ui/components@2.0.9)
       '@public-ui/vue':
-        specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.9)(vue@3.4.21)
+        specifier: 2.0.10
+        version: 2.0.10(@public-ui/components@2.0.9)(vue@3.4.21)
       vue:
         specifier: 3.4.21
         version: 3.4.21(typescript@5.4.3)
@@ -5115,10 +5115,10 @@ packages:
       - webpack-bundle-analyzer
     dev: true
 
-  /@public-ui/vue@2.0.9(@public-ui/components@2.0.9)(vue@3.4.21):
-    resolution: {integrity: sha512-5utlpwLNsUFIBna8NZwymFdivhku4ODrT9mC1QVH27VISBWozioIIp0Em8xyi7ZSVubLPFkuc5gLVwpj43Kf9Q==}
+  /@public-ui/vue@2.0.10(@public-ui/components@2.0.9)(vue@3.4.21):
+    resolution: {integrity: sha512-gpcw1r8Tn2jpPc4d5HB66IB7AwiZxCzSLbGW2ICcSHWjcVGe/QhrD5I7JspxTpMA5R8cDuQGWPmVN0aONcW7LQ==}
     peerDependencies:
-      '@public-ui/components': 2.0.9
+      '@public-ui/components': 2.0.10
       vue: '>=3'
     dependencies:
       '@public-ui/components': 2.0.9

@@ -18,7 +18,7 @@
 	"dependencies": {
 		"@public-ui/components": "2.0.9",
 		"@public-ui/themes": "2.0.9",
-		"@public-ui/vue": "2.0.9",
+		"@public-ui/vue": "2.0.10",
 		"vue": "3.4.21"
 	},
 	"devDependencies": {
