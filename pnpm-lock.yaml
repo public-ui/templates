@@ -313,8 +313,8 @@ importers:
         specifier: 2.0.9
         version: 2.0.9
       '@public-ui/solid':
-        specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.9)(solid-js@1.8.15)
+        specifier: 2.0.10
+        version: 2.0.10(@public-ui/components@2.0.9)(solid-js@1.8.15)
       '@public-ui/themes':
         specifier: 2.0.9
         version: 2.0.9(@public-ui/components@2.0.9)
@@ -5161,11 +5161,11 @@ packages:
       rgba-convert: 0.3.0
       wcag-contrast: 3.0.0
 
-  /@public-ui/solid@2.0.9(@public-ui/components@2.0.9)(solid-js@1.8.15):
-    resolution: {integrity: sha512-Rtl4iU6CkhGVtE5yZepXWO3FD1jTCEHxyun5yaDR65KN8/6mU0EvTR/P4kMFGKZ9bNcUSqkGztSvZlSL88fXgw==}
+  /@public-ui/solid@2.0.10(@public-ui/components@2.0.9)(solid-js@1.8.15):
+    resolution: {integrity: sha512-Iix2k7kjfod+4tKioradg0fevz2DHkfh6gMOAdPR9rQbhhrGpZEdu1hgh8G+oj0JZZdGbRD98bN9Rh6FGb+xZg==}
     peerDependencies:
-      '@public-ui/components': 2.0.9
-      solid-js: '>=1.2.0'
+      '@public-ui/components': 2.0.10
+      solid-js: '>=1.8.16'
     dependencies:
       '@public-ui/components': 2.0.9
       solid-js: 1.8.15
