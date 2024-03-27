@@ -947,8 +947,8 @@ importers:
         specifier: 2.0.10
         version: 2.0.10(@public-ui/components@2.0.9)
       '@public-ui/theme-default':
-        specifier: 2.0.9
-        version: 2.0.9(@public-ui/components@2.0.9)
+        specifier: 2.0.10
+        version: 2.0.10(@public-ui/components@2.0.9)
       express:
         specifier: 4.18.3
         version: 4.18.3
@@ -5171,10 +5171,10 @@ packages:
       solid-js: 1.8.15
     dev: false
 
-  /@public-ui/theme-default@2.0.9(@public-ui/components@2.0.9):
-    resolution: {integrity: sha512-Ihrh5AA7RCSkHKrmqSgQjpF1CgCcWrkn/Umx7MNvmHi9Q+aynU9OPMK+2vbclpzBQN+5AZx9F7FrB7PA0sJgJg==}
+  /@public-ui/theme-default@2.0.10(@public-ui/components@2.0.9):
+    resolution: {integrity: sha512-AkG66jJaUuL3wxAE9LEAC3bO/D1dkJ4gvuxadDzSmCy6hYeJG5xi6wYy852lQ24HhOIAQZPesJ7cxsyQ1qxgeg==}
     peerDependencies:
-      '@public-ui/components': 2.0.9
+      '@public-ui/components': 2.0.10
     dependencies:
       '@public-ui/components': 2.0.9
     dev: false
