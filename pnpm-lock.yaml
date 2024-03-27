@@ -60,8 +60,8 @@ importers:
         specifier: 17.3.0
         version: 17.3.0(@angular/common@17.2.4)(@angular/core@17.2.4)
       '@angular/platform-browser-dynamic':
-        specifier: 17.2.4
-        version: 17.2.4(@angular/common@17.2.4)(@angular/compiler@17.2.4)(@angular/core@17.2.4)(@angular/platform-browser@17.3.0)
+        specifier: 17.3.1
+        version: 17.3.1(@angular/common@17.2.4)(@angular/compiler@17.2.4)(@angular/core@17.2.4)(@angular/platform-browser@17.3.0)
       '@public-ui/angular-v17':
         specifier: 2.0.10
         version: 2.0.10(@angular/core@17.2.4)(@public-ui/components@2.0.9)
@@ -1082,14 +1082,14 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@angular/platform-browser-dynamic@17.2.4(@angular/common@17.2.4)(@angular/compiler@17.2.4)(@angular/core@17.2.4)(@angular/platform-browser@17.3.0):
-    resolution: {integrity: sha512-tNS6WexBbdks4uiB0JfPjUG2/rJ/5wuWr9C11CIgsMo+Onbw49imwDQQTxsx1A3misVb72mUufRza9DcxfSBxg==}
+  /@angular/platform-browser-dynamic@17.3.1(@angular/common@17.2.4)(@angular/compiler@17.2.4)(@angular/core@17.2.4)(@angular/platform-browser@17.3.0):
+    resolution: {integrity: sha512-ACW/npNaDxUNQtEomjjv/KIBY8jHEinePff5qosnAxLE0IpA4qE9eDp36zG35xoJqrPJPYjXbZCBRqqrzM7U7Q==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/common': 17.2.4
-      '@angular/compiler': 17.2.4
-      '@angular/core': 17.2.4
-      '@angular/platform-browser': 17.2.4
+      '@angular/common': 17.3.1
+      '@angular/compiler': 17.3.1
+      '@angular/core': 17.3.1
+      '@angular/platform-browser': 17.3.1
     dependencies:
       '@angular/common': 17.2.4(@angular/core@17.2.4)(rxjs@7.8.1)
       '@angular/compiler': 17.2.4(@angular/core@17.2.4)
