@@ -63,8 +63,8 @@ importers:
         specifier: 17.2.4
         version: 17.2.4(@angular/common@17.2.4)(@angular/compiler@17.2.4)(@angular/core@17.2.4)(@angular/platform-browser@17.3.0)
       '@public-ui/angular-v17':
-        specifier: 2.0.9
-        version: 2.0.9(@angular/core@17.2.4)(@public-ui/components@2.0.9)
+        specifier: 2.0.10
+        version: 2.0.10(@angular/core@17.2.4)(@public-ui/components@2.0.9)
       '@public-ui/components':
         specifier: 2.0.9
         version: 2.0.9
@@ -4960,11 +4960,11 @@ packages:
       - supports-color
     dev: true
 
-  /@public-ui/angular-v17@2.0.9(@angular/core@17.2.4)(@public-ui/components@2.0.9):
-    resolution: {integrity: sha512-4HFAhlQ7T8v5fjX7ih/2udWJ7wBfXZ4BVz1wCjbDZR2g0cdG3x7mDVrqL0wgQFBzJBYc83tDJcIBsL1snGj8CQ==}
+  /@public-ui/angular-v17@2.0.10(@angular/core@17.2.4)(@public-ui/components@2.0.9):
+    resolution: {integrity: sha512-AIZutu7CLhOzdustt0nzEuTML0n/gGa0HyScVoQ3HTiSqD2TeZ4G8wdHClNH7x57+LtR/k1Lt3o6a7yDAN2aDQ==}
     peerDependencies:
-      '@angular/core': ^17
-      '@public-ui/components': 2.0.9
+      '@angular/core': 17.3.1
+      '@public-ui/components': 2.0.10
     dependencies:
       '@angular/core': 17.2.4(rxjs@7.8.1)(zone.js@0.14.4)
       '@public-ui/components': 2.0.9
