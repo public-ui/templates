@@ -133,8 +133,8 @@ importers:
         specifier: 2.0.9
         version: 2.0.9
       '@public-ui/preact':
-        specifier: 2.0.8
-        version: 2.0.8(@public-ui/components@2.0.9)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 2.0.12
+        version: 2.0.12(@public-ui/components@2.0.9)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0)
       '@public-ui/themes':
         specifier: 2.0.9
         version: 2.0.9(@public-ui/components@2.0.9)
@@ -4783,12 +4783,12 @@ packages:
       '@public-ui/components': 2.0.9
     dev: false
 
-  /@public-ui/preact@2.0.8(@public-ui/components@2.0.9)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-FGdCG1IgRCX0dIYLNoQ8MRctHromx91SrePa5Ly7iCjBfs38dBmyw9/Esa+lvEJlPPdN2Vv+Cx66ivrpgg8n0g==}
+  /@public-ui/preact@2.0.12(@public-ui/components@2.0.9)(preact@10.19.6)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-aR6A+Cp3JX5WOME6SndupQ/caOor6FxZaA9RpFKY4qNOKGV+NTrTOvsVB3qHQypc4b/w5o5XFwQ8Pbrd0GMx8A==}
     peerDependencies:
-      preact: '>=10.11.3'
+      preact: '>=10.20.1'
     dependencies:
-      '@public-ui/react': 2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0)
+      '@public-ui/react': 2.0.12(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0)
       preact: 10.19.6
     transitivePeerDependencies:
       - '@public-ui/components'
@@ -4807,6 +4807,18 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
+
+  /@public-ui/react@2.0.12(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-6HQG044bhHMWKcirpynk0rmcjGyVa0Opjmm9RQhs6Vqx5lce4Cg9w6C3vSA4GDfdmUYxrrUkmLIaEZ6yWqQh9A==}
+    peerDependencies:
+      '@public-ui/components': 2.0.12
+      react: '>=16.14.0'
+      react-dom: '>=16.14.0'
+    dependencies:
+      '@public-ui/components': 2.0.9
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /@public-ui/react@2.0.8(@public-ui/components@2.0.9)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-kF6C6+qs/6MZYcewPwrOVgKrtf5M+JY66RNw9GUIXmNqCzbdtFaCiWps/FCTk3g8ctp+naiEX/uJ9dTLrD4xfQ==}
