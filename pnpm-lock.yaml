@@ -514,8 +514,8 @@ importers:
         specifier: 18.2.21
         version: 18.2.21
       '@unocss/preset-uno':
-        specifier: 0.58.7
-        version: 0.58.7
+        specifier: 0.58.8
+        version: 0.58.8
       '@unocss/webpack':
         specifier: 0.58.5
         version: 0.58.5(rollup@4.12.1)(webpack@5.90.3)
@@ -6318,8 +6318,8 @@ packages:
     resolution: {integrity: sha512-m87iuENM/PLqLKnfE2mJbpfzj7NQ99LP2go0r+x5X4kXKppyGRJNQg6RIW3AqTS22jup1YPgd62UNXvvRtHtww==}
     dev: true
 
-  /@unocss/core@0.58.7:
-    resolution: {integrity: sha512-Df5ytibV0MB7kWLggzLHsJUj08Of2oqXmPg7QjRUghMvCT3dl2LUIZXiztYPMH0F4x0cPebNoa/pavNt8xz9eQ==}
+  /@unocss/core@0.58.8:
+    resolution: {integrity: sha512-R3KuNTzF6G+bb2Qqg4LNLTWHh4TGU8iQJ4KOlpWHrPKAhDSCZ3XY9lSXoepCPwv+JcGEwA97Msa3zZ5p+QDoFg==}
 
   /@unocss/extractor-arbitrary-variants@0.58.5:
     resolution: {integrity: sha512-KJQX0OJKzy4YjJo09h2la2Q+cn5IJ1JdyPVJJkzovHnv7jSBWzsfct+bj/6a+SJ4p4JBIqEJz3M/qxHv4EPJyA==}
@@ -6333,10 +6333,10 @@ packages:
       '@unocss/core': 0.58.6
     dev: true
 
-  /@unocss/extractor-arbitrary-variants@0.58.7:
-    resolution: {integrity: sha512-wEuilON0u/e1milNp1UBWGps3Hdtm9qBfmc2YmsHN8KhpTSSCluzbrLSYfF++tU5iWmVWR2514Lc2waVDhuiwg==}
+  /@unocss/extractor-arbitrary-variants@0.58.8:
+    resolution: {integrity: sha512-zQ7W3wTWWbJvG9T+1b9HqJGtEzcrc3d/TG7JJqdon6vBc64xA2AMf9DNRVlNdzkrU2Kl31TRd6bLST6iMncovw==}
     dependencies:
-      '@unocss/core': 0.58.7
+      '@unocss/core': 0.58.8
     dev: false
 
   /@unocss/inspector@0.58.6:
@@ -6395,12 +6395,12 @@ packages:
       '@unocss/rule-utils': 0.58.6
     dev: true
 
-  /@unocss/preset-mini@0.58.7:
-    resolution: {integrity: sha512-ktfrMlOtnks9j1r1ZJFzPcmCbWRjOfXh7UwoGYhH7c3Fi9Zbn1HI9+wblroEBstvbGUZGyaH5Ht+0rCmRrg5HQ==}
+  /@unocss/preset-mini@0.58.8:
+    resolution: {integrity: sha512-dCn9ny8Fpiya8qwc2dRkh8YCH5xwf+iD3MxP9YgfweO1o816onBJVqb03xEJT/MOxYkpuRFVJGU+cVSpehamiw==}
     dependencies:
-      '@unocss/core': 0.58.7
-      '@unocss/extractor-arbitrary-variants': 0.58.7
-      '@unocss/rule-utils': 0.58.7
+      '@unocss/core': 0.58.8
+      '@unocss/extractor-arbitrary-variants': 0.58.8
+      '@unocss/rule-utils': 0.58.8
     dev: false
 
   /@unocss/preset-tagify@0.58.6:
@@ -6434,13 +6434,13 @@ packages:
       '@unocss/rule-utils': 0.58.6
     dev: true
 
-  /@unocss/preset-uno@0.58.7:
-    resolution: {integrity: sha512-oirPRtIailoewLvim/VjcxHZrBotRzBNaFZFMD1GLwScAYrzS8DWJ3pozNn7+s2E80ZUBfgekRTgvUKAFMPSCw==}
+  /@unocss/preset-uno@0.58.8:
+    resolution: {integrity: sha512-zqIZLAX6g04B/9rVuGyVNd7/Jdng2rKfw9i9UFG6x0xYN1y+WuyV7+FN66bIJMj7EB17CusHWVMllHRKToOrmw==}
     dependencies:
-      '@unocss/core': 0.58.7
-      '@unocss/preset-mini': 0.58.7
-      '@unocss/preset-wind': 0.58.7
-      '@unocss/rule-utils': 0.58.7
+      '@unocss/core': 0.58.8
+      '@unocss/preset-mini': 0.58.8
+      '@unocss/preset-wind': 0.58.8
+      '@unocss/rule-utils': 0.58.8
     dev: false
 
   /@unocss/preset-web-fonts@0.58.6:
@@ -6466,12 +6466,12 @@ packages:
       '@unocss/rule-utils': 0.58.6
     dev: true
 
-  /@unocss/preset-wind@0.58.7:
-    resolution: {integrity: sha512-rELMKcd/cwMnw6fPf/dmg63u41fRXJoXDO5rlO/+Fa8DF4/r8KJTUbjJbZfcOnh3n8jHz3NUz+QigdRBuDTEuw==}
+  /@unocss/preset-wind@0.58.8:
+    resolution: {integrity: sha512-7ktb0wJgZg9q2xlNXfgx2pRjg22WJ+B3ENIk9+DB88pty2f6dYo24l8ZyJXQbHglgCilY64NP0fNHkBlUF9olg==}
     dependencies:
-      '@unocss/core': 0.58.7
-      '@unocss/preset-mini': 0.58.7
-      '@unocss/rule-utils': 0.58.7
+      '@unocss/core': 0.58.8
+      '@unocss/preset-mini': 0.58.8
+      '@unocss/rule-utils': 0.58.8
     dev: false
 
   /@unocss/reset@0.58.6:
@@ -6482,7 +6482,7 @@ packages:
     resolution: {integrity: sha512-w0sGJoeUGwMWLVFLEE9PDiv/fQcQqZnTIIQLYNCjTdqXDRlwTp9ACW0h47x/hAAIXdOtEOOBuTfjGD79GznUmA==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/core': 0.58.7
+      '@unocss/core': 0.58.8
       magic-string: 0.30.8
     dev: true
 
@@ -6490,15 +6490,15 @@ packages:
     resolution: {integrity: sha512-qbVDeyKzExFY/YeoIbMw/lu8PXEGJzSHrFXRumNHX5lvTu8ggAjH6p9xyvYa/YnuNU0+pFKuYxG8LNK2F8f1EQ==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/core': 0.58.7
+      '@unocss/core': 0.58.8
       magic-string: 0.30.8
     dev: true
 
-  /@unocss/rule-utils@0.58.7:
-    resolution: {integrity: sha512-SbMwAUSgx5v4TXy+MXiWbqzoMjVHSeMaJpJOruU9PmtrOuZmqeajffMtI6pLtGlgrEL76frLRyMmSErxhyNelw==}
+  /@unocss/rule-utils@0.58.8:
+    resolution: {integrity: sha512-F7TKtTkiV9ICf8JMYO1+Eq/5zrrV7Fw966rQfHfIKrN6Vwo3tw84b5R0bLJghAFtb9UuD7q9eCfy6WBQK0d7Tw==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/core': 0.58.7
+      '@unocss/core': 0.58.8
       magic-string: 0.30.8
     dev: false
 
