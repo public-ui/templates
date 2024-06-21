@@ -9,7 +9,7 @@
 		"prepack": "unbuild"
 	},
 	"devDependencies": {
-		"@public-ui/library-components": "0.0.0",
+		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
 		"@types/node": "ts5.3",
@@ -22,7 +22,7 @@
 		"unbuild": "2.0.0"
 	},
 	"peerDependencies": {
-		"@public-ui/library-components": "0.0.0",
+		"@public-ui/library-components": "workspace:*",
 		"react": ">=16.14.0",
 		"react-dom": ">=16.14.0"
 	},

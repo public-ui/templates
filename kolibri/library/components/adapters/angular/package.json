@@ -29,7 +29,7 @@
 		"@angular/compiler": "17.2.4",
 		"@angular/compiler-cli": "17.3.0",
 		"@angular/core": "17.2.4",
-		"@public-ui/library-components": "0.0.0",
+		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
 		"@types/node": "ts5.2",
@@ -43,7 +43,7 @@
 	},
 	"peerDependencies": {
 		"@angular/core": "^17",
-		"@public-ui/library-components": "0.0.0"
+		"@public-ui/library-components": "workspace:*"
 	},
 	"files": [
 		"dist"

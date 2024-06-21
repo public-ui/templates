@@ -30,8 +30,8 @@
 		"xunused": "knip"
 	},
 	"dependencies": {
-		"@public-ui/library-schema": "0.0.0",
-		"@public-ui/library-theme": "0.0.0",
+		"@public-ui/library-schema": "workspace:*",
+		"@public-ui/library-theme": "workspace:*",
 		"adopted-style-sheets": "1.1.4"
 	},
 	"devDependencies": {
