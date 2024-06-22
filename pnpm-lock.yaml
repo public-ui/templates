@@ -264,6 +264,9 @@ importers:
       '@vitejs/plugin-react':
         specifier: 4.3.1
         version: 4.3.1(vite@5.3.1(@types/node@20.14.7)(less@4.2.0)(sass@1.77.4)(terser@5.29.2))
+      formik:
+        specifier: 2.4.5
+        version: 2.4.5(react@18.3.1)
       npm-check-updates:
         specifier: 16.14.20
         version: 16.14.20
@@ -14394,7 +14397,7 @@ snapshots:
 
   '@types/hoist-non-react-statics@3.3.5':
     dependencies:
-      '@types/react': 18.2.65
+      '@types/react': 18.3.3
       hoist-non-react-statics: 3.3.2
 
   '@types/http-cache-semantics@4.0.4': {}
@@ -15843,7 +15846,7 @@ snapshots:
 
   ast-types@0.13.4:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   async@2.6.4:
     dependencies:
@@ -18204,6 +18207,18 @@ snapshots:
       react-fast-compare: 2.0.4
       tiny-warning: 1.0.3
       tslib: 2.6.2
+
+  formik@2.4.5(react@18.3.1):
+    dependencies:
+      '@types/hoist-non-react-statics': 3.3.5
+      deepmerge: 2.2.1
+      hoist-non-react-statics: 3.3.2
+      lodash: 4.17.21
+      lodash-es: 4.17.21
+      react: 18.3.1
+      react-fast-compare: 2.0.4
+      tiny-warning: 1.0.3
+      tslib: 2.6.3
 
   forwarded@0.2.0: {}
 
