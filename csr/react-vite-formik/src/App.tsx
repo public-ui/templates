@@ -1,4 +1,3 @@
-import './App.css';
 import { Formik, FormikHelpers } from 'formik';
 import {
 	KolButton,
