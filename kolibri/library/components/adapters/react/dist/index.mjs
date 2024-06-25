@@ -115,6 +115,12 @@ const createForwardRef = (ReactComponent, displayName) => {
   return React.forwardRef(forwardRef);
 };
 
+var __defProp = Object.defineProperty;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __publicField = (obj, key, value) => {
+  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+  return value;
+};
 const createReactComponent = (tagName, ReactComponentContext, manipulatePropsFunction, defineCustomElement) => {
   if (defineCustomElement !== void 0) {
     defineCustomElement();
@@ -123,9 +129,10 @@ const createReactComponent = (tagName, ReactComponentContext, manipulatePropsFun
   const ReactComponent = class extends React.Component {
     constructor(props) {
       super(props);
-      this.setComponentElRef = (element) => {
+      __publicField(this, "componentEl");
+      __publicField(this, "setComponentElRef", (element) => {
         this.componentEl = element;
-      };
+      });
     }
     componentDidMount() {
       this.componentDidUpdate(this.props);
