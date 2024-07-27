@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+	<head>
+		<title>Seed-Projekt | KoliBri</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Webanwendung mit der KoliBri-Komponentenbibliothek." />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" type="image/x-icon" href="assets/kolibri.ico" />
+		<link rel="stylesheet" href="assets/bundes/style.css" />
+		<link rel="stylesheet" href="assets/codicons/codicon.css" />
+		<link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css" />
+		<link rel="stylesheet" href="assets/icofont/icofont.min.css" />
+		<link rel="stylesheet" href="assets/kreon/style.css" />
+		<link rel="stylesheet" href="assets/noto-sans/noto-sans.css" />
+		<link rel="stylesheet" href="assets/material-icons/iconfont/material-icons.css" />
+		<link rel="stylesheet" href="assets/material-symbols/index.css" />
+		<link rel="stylesheet" href="assets/roboto/roboto.css" />
+		<link rel="stylesheet" href="assets/tabler-icons/tabler-icons.css" />
+		<link rel="stylesheet" href="style.css" />
+		<meta name="robots" content="noindex" />
+		<meta name="kolibri" content="dev-mode=true,experimental-mode=true" />
+	</head>
+	<body>
+		<main id="app"></main>
+
+		<!-- React -->
+		<script src="/node_modules/react/umd/react.production.min.js"></script>
+		<script src="/node_modules/react-dom/umd/react-dom.production.min.js"></script>
+
+		<!-- KoliBri -->
+		<script src="/node_modules/@public-ui/components/dist/kolibri/kolibri.esm.js" type="module"></script>
+		<script src="/node_modules/@public-ui/react-standalone/dist/index.mjs" type="module"></script>
+
+		<!-- Babel -->
+		<script src="/node_modules/@babel/standalone/babel.min.js"></script>
+
+		<script type="module">
+			import { register } from '/node_modules/@public-ui/components/dist/index.js';
+			import { DEFAULT } from '/node_modules/@public-ui/themes/dist/index.mjs';
+			register(DEFAULT, []).catch(console.warn);
+		</script>
+
+		<script type="text/babel" data-type="module">
+			console.log('KolButton', KolButton);
+			console.log('KolInputText', KolInputText);
+			const options = [
+				{ label: 'Test 1', value: 1 },
+				{ label: 'Test 2', value: 2 },
+			];
+
+			const App = () => {
+				const refButton = React.useRef();
+				const refSelect = React.useRef();
+
+				const on = {
+					onClick: console.log,
+				};
+
+				React.useEffect(() => {
+					if (refButton.current) {
+						const button = refButton.current;
+						button._on = {
+							onClick: () => alert('Clicked!'),
+						};
+					}
+				}, [refButton]);
+
+				React.useEffect(() => {
+					if (refSelect.current) {
+						const select = refSelect.current;
+						select._on = {
+							onChange: (event, value) => console.log(`${value} selected!`),
+						};
+						select._options = options;
+					}
+				}, [refSelect]);
+
+				return (
+					<>
+						<KolButton _label="sdfdsf" _on={on} />
+						<KolInputText
+							_label="Vorname"
+							_on={{
+								onChange: console.log,
+							}}
+						/>
+						<KolDetails _summary="Babel does not work!" _open>
+							Babel does not transpile JSX correct. In our example, we have property values as object. The workaround is, to catch the reference of the dom node
+							and set the complex property with pure javascript.
+						</KolDetails>
+						<hr />
+						<KolButton ref={refButton} _label="Click me"></KolButton>
+						<KolSelect ref={refSelect} _label="Select"></KolSelect>
+						<KolSelect _label="Select (work too)" _options={options}></KolSelect>
+					</>
+				);
+			};
+
+			const node = document.querySelector('#app');
+			const root = ReactDOM.createRoot(node);
+			root.render(
+				<>
+					<h1>Hello KoliBri!</h1>
+					<App />
+				</>,
+			);
+		</script>
+	</body>
+</html>
