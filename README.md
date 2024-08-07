@@ -22,57 +22,65 @@ These templates are meant to be used as is via the [degit](https://github.com/Ri
 
 #### Client side rendering
 
+##### Angular webpack template
+
 ```bash
-# Angular webpack template
 $ npx degit public-ui/templates/csr/angular-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Preact webpack template
+
 ```bash
-# Preact webpack template
 $ npx degit public-ui/templates/csr/preact-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### React vite template
+
 ```bash
-# React vite template
 $ npx degit public-ui/templates/csr/react-vite my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### React webpack template
+
 ```bash
-# React webpack template
 $ npx degit public-ui/templates/csr/react-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Solid webpack template
+
 ```bash
-# Solid webpack template
 $ npx degit public-ui/templates/csr/solid-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Static page template
+
 ```bash
-# Static page template
 $ npx degit public-ui/templates/csr/static-page my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Vue vite template
+
 ```bash
-# Vue vite template
 $ npx degit public-ui/templates/csr/vue-vite my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Vue webpack template
+
 ```bash
-# Vue webpack template
 $ npx degit public-ui/templates/csr/vue-webpack my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
@@ -82,29 +90,33 @@ $ npm i # or pnpm i or yarn
 
 > Not ready yet! Coming soon.
 
+##### Astro template
+
 ```bash
-# Astro template
 $ npx degit public-ui/templates/ssr/astro my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Express template
+
 ```bash
-# Express template
 $ npx degit public-ui/templates/ssr/express my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Next.js template
+
 ```bash
-# Next.js template
 $ npx degit public-ui/templates/ssr/next.js my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+##### Remix template
+
 ```bash
-# Remix template
 $ npx degit public-ui/templates/ssr/remix my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
@@ -112,15 +124,17 @@ $ npm i # or pnpm i or yarn
 
 ### Library templates
 
+#### KoliBri library template
+
 ```bash
-# KoliBri library template
 $ npx degit public-ui/templates/kolibri/library my-kolibri-project
 $ cd my-kolibri-project
 $ pnpm i # no npm or yarn
 ```
 
+#### KoliBri theme template
+
 ```bash
-# KoliBri theme template
 $ npx degit public-ui/templates/kolibri/theme my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
@@ -128,8 +142,9 @@ $ npm i # or pnpm i or yarn
 
 ### Other templates
 
+#### Svg2Font template
+
 ```bash
-# Svg2Font template
 $ npx degit public-ui/templates/svg2font my-kolibri-project
 $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
