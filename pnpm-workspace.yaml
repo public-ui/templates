@@ -1,5 +1,5 @@
 packages:
-  - 'csr/angular-webpack/'
+  # - 'csr/angular-webpack/'
   - 'csr/preact-webpack/'
   - 'csr/react-vite/'
   - 'csr/react-webpack/'
