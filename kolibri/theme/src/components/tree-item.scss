@@ -1,0 +1,47 @@
+@use '../mixins/rem' as *;
+
+@layer kol-theme-component {
+	.tree-link {
+		display: block;
+		border: 1px solid transparent;
+
+		&:hover,
+		&:focus-within {
+			border: 1px solid var(--color-primary);
+			background-color: var(--color-primary-variant);
+
+			& > a {
+				outline-offset: 0;
+			}
+
+			& > a,
+			.toggle-button {
+				color: var(--color-light);
+			}
+		}
+
+		&.active {
+			background-color: var(--color-primary);
+
+			a,
+			.toggle-button {
+				color: var(--color-light);
+			}
+		}
+
+		a {
+			display: block;
+			color: var(--color-text);
+			text-decoration: none;
+			text-align: left;
+
+			.toggle-button {
+				display: inline-block;
+
+				&:hover {
+					transform: scale(1.3);
+				}
+			}
+		}
+	}
+}

@@ -1,4 +1,6 @@
+# dist/
 node_modules/
+.npmrc
 tsconfig.tsbuildinfo
 
 # /*/.vscode/

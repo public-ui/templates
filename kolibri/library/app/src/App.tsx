@@ -96,7 +96,7 @@ ROUTE_LIST.forEach((route) => {
 });
 
 export const App: FC = () => {
-	const routerLocation = useLocation();
+	const routerLocation = useLocation() as { pathname: string };
 	const [searchParams] = useSearchParams();
 	const hideMenus = searchParams.has('hideMenus');
 
@@ -105,7 +105,7 @@ export const App: FC = () => {
 	return (
 		<HideMenusContext.Provider value={hideMenus}>
 			<div className={!hideMenus ? 'app-container' : ''}>
-				{!hideMenus && <Sidebar sample={routerLocation.pathname} routes={ROUTES} routeList={ROUTE_LIST} />}
+				{!hideMenus && <Sidebar sample={routerLocation.pathname} routes={ROUTES} routeList={ROUTE_LIST} version="" />}
 				<div className="p-4" id="route-container">
 					<Routes>
 						{ROUTE_TREE}

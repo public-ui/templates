@@ -1,6 +1,11 @@
-@import '../mixins/focus-outline';
+@use '../mixins/focus-outline' as *;
+@use '../mixins/rem' as *;
 
 @layer kol-theme-component {
+	:host {
+		font-family: var(--font-family);
+	}
+
 	.button:focus {
 		outline: none;
 	}
@@ -13,7 +18,7 @@
 		font-weight: 700;
 		min-height: var(--a11y-min-size);
 		min-width: var(--a11y-min-size);
-		padding: 8px;
+		padding: rem(8);
 		text-align: center;
 		transition-duration: 0.5s;
 		transition-property: background-color, color, border-color;
@@ -35,15 +40,15 @@
 		outline: none;
 	}
 
-	.button:disabled .button-inner {
-		cursor: not-allowed;
-		opacity: 0.5;
-	}
+	.selected {
+		button {
+			opacity: 1;
+		}
 
-	.selected .button-inner {
-		background-color: var(--color-mute-variant);
-		border-radius: var(--a11y-min-size);
-		border: 0;
-		opacity: 1 !important;
+		.button-inner {
+			background-color: var(--color-primary);
+			color: var(--color-light);
+			border: 0;
+		}
 	}
 }

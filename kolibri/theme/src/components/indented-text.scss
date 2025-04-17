@@ -1,9 +1,11 @@
+@use '../mixins/indented-text' as *;
+
 @layer kol-theme-component {
-	:host > div {
-		background-color: var(--color-light);
-		border-left: none;
-		box-shadow: -2px 0px 0px var(--color-primary-variant);
-		padding: 0 0.5rem;
-		width: 100%;
+	:host {
+		font-family: var(--font-family);
+	}
+
+	.kol-indented-text-wc > div {
+		@include indented-text;
 	}
 }

@@ -4,8 +4,7 @@
 	"private": true,
 	"scripts": {
 		"build": "tsc",
-		"lint": "tsc --noemit && eslint . --ext .ts",
-		"prepare": "rimraf assets && npm-run-all prepare:*",
+		"prepare": "rimraf assets && npm-run-all2 prepare:*",
 		"prepare:assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
 		"start": "nodemon index.ts"
 	},
@@ -15,16 +14,17 @@
 		"@public-ui/components": "2.2.8",
 		"@public-ui/hydrate": "2.2.8",
 		"@public-ui/theme-default": "2.2.8",
-		"express": "4.21.2"
+		"express": "5.1.0"
 	},
 	"devDependencies": {
+		"@types/express": "5.0.1",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"cpy-cli": "5.0.0",
-		"eslint": "8.57.0",
 		"nodemon": "3.1.9",
-		"npm-run-all": "4.1.5",
-		"rimraf": "5.0.10",
+		"npm-run-all2": "7.0.2",
+		"rimraf": "6.0.1",
+		"typescript": "5.8.3",
 		"ts-node": "10.9.2"
 	}
 }
