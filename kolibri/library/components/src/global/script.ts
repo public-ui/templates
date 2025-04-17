@@ -1,4 +1,4 @@
 import { register } from 'adopted-style-sheets';
-import { DEMO } from '@public-ui/library-theme';
+import { YOUR_THEME } from '@your/kolibri-theme';
 
-export default async () => register(DEMO, []);
+export default async () => register(YOUR_THEME, []);

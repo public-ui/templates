@@ -1,19 +1,24 @@
+@use '../mixins/rem' as *;
+
 @layer kol-theme-component {
-	li:has(:is(kol-icon + kol-link, kol-icon + span)) kol-icon {
-		font-size: 0.75rem;
+	:host {
+		font-family: var(--font-family);
+	}
+
+	li:has(:is(.kol-icon + .kol-link, .kol-icon + span)) .kol-icon {
+		font-size: rem(12);
 		color: var(--color-subtle);
 	}
 
-	kol-link::part(icon) {
-		font-size: 1.25rem;
-	}
-
-	ul li > :is(span, kol-link) {
-		line-height: 1.25rem;
-		height: 20px;
+	.kol-link::part(icon) {
+		font-size: rem(20);
 	}
 
 	ul li:last-child > span {
 		color: var(--color-subtle);
+	}
+
+	.kol-link {
+		font-family: var(--font-family);
 	}
 }

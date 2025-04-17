@@ -2,10 +2,6 @@
 	"name": "preact-webpack",
 	"version": "0.0.0",
 	"description": "description",
-	"author": {
-		"name": "Martin Oppitz",
-		"email": "6279703+deleonio@users.noreply.github.com"
-	},
 	"license": "UNLICENSED",
 	"scripts": {
 		"clean": "git clean -f -d -X",
@@ -14,8 +10,8 @@
 		"coverage": "cross-env NODE_ENV=test nyc mocha --exit",
 		"e2e": "nightwatch",
 		"format": "prettier --check src",
-		"xlint": "tsc --noemit && eslint src",
-		"prepare": "npm-run-all prepare:*",
+		"lint": "tsc --noemit",
+		"prepare": "npm-run-all2 prepare:*",
 		"prepare:components-assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" public/assets --dot",
 		"prepare:themes-assets": "cpy \"node_modules/@public-ui/themes/assets/**/*\" public/assets --dot",
 		"serve": "cross-env NODE_ENV=development webpack serve --devtool=source-map --no-hot",
@@ -26,6 +22,7 @@
 	"dependencies": {
 		"@public-ui/components": "2.2.8",
 		"@public-ui/preact": "2.2.8",
+		"@public-ui/react": "2.2.8",
 		"@public-ui/themes": "2.2.8",
 		"preact": "10.26.5"
 	},
@@ -38,13 +35,19 @@
 		"chromedriver": "123.0.4",
 		"cpy-cli": "5.0.0",
 		"cross-env": "7.0.3",
+		"css-loader": "7.1.2",
+		"esbuild-loader": "4.3.0",
+		"file-loader": "6.2.0",
 		"knip": "5.50.4",
 		"eslint-plugin-jsx-a11y": "6.10.2",
 		"nightwatch-axe-verbose": "2.3.1",
-		"npm-check-updates": "16.14.20",
-		"npm-run-all": "4.1.5",
-		"rimraf": "5.0.10",
-		"typescript": "5.8.3"
+		"npm-run-all2": "7.0.2",
+		"postcss-loader": "8.1.1",
+		"rimraf": "6.0.1",
+		"sass-loader": "16.0.5",
+		"string-replace-loader": "3.1.0",
+		"typescript": "5.8.3",
+		"webpack": "5.99.5"
 	},
 	"files": [
 		"dist"
