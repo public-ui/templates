@@ -67,6 +67,6 @@
 		"pnpm": "8.15.9",
 		"prettier": "3.5.3",
 		"rimraf": "5.0.10",
-		"lint-staged": "15.5.0"
+		"lint-staged": "15.5.1"
 	}
 }
