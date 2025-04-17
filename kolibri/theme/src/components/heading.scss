@@ -1,3 +1,5 @@
+@use '../mixins/typography' as *;
+
 @layer kol-theme-component {
 	.headline-h1,
 	.headline-h2,
@@ -7,6 +9,7 @@
 	.headline-h6 {
 		color: inherit;
 		font-style: normal;
+		font-family: var(--font-family);
 	}
 
 	.headline-h1,
@@ -16,17 +19,14 @@
 	}
 
 	.headline-h1 {
-		font-size: 1.5rem;
-		line-height: 1.75rem;
+		@include kol-typography-h1;
 	}
 
 	.headline-h2 {
-		font-size: 1.25rem;
-		line-height: 1.75rem;
+		@include kol-typography-h2;
 	}
 
 	.headline-h3 {
-		font-size: 1.125rem;
-		line-height: 1.5rem;
+		@include kol-typography-h3;
 	}
 }

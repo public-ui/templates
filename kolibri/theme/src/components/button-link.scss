@@ -1,9 +1,11 @@
+@use '../mixins/badge-text-hint' as *;
+@use '../mixins/rem' as *;
+
 @layer kol-theme-component {
 	:is(a, button) {
 		color: var(--color-primary);
 		font-style: normal;
 		font-weight: 400;
-		text-decoration-line: underline;
 		font-size: inherit;
 	}
 
@@ -11,41 +13,34 @@
 		outline: none;
 	}
 
-	:is(a, button):focus kol-span-wc {
+	:is(a, button):focus .kol-span-wc {
 		border-radius: var(--border-radius);
 		outline: calc(var(--border-width) * 2) solid;
 	}
 
-	:is(a, button):hover {
-		text-decoration-thickness: 0.25em;
+	a:hover:not([aria-disabled]),
+	button:hover:not([disabled]) {
+		.kol-span-wc .span-label {
+			text-decoration-thickness: 0.25em;
+		}
 	}
 
 	:is(a, button):visited {
 		color: var(--visited);
 	}
 
-	.hidden {
-		display: none;
-		visibility: hidden;
-	}
-
 	.skip {
-		left: -99999px;
+		left: rem(-99999);
 		overflow: hidden;
 		position: absolute;
 		z-index: 9999999;
 	}
 
 	.skip:focus {
-		background: white;
+		background-color: white;
 		left: unset;
 		position: unset;
 	}
 
-	.access-key-hint {
-		background: var(--color-mute-variant);
-		border-radius: 3px;
-		color: var(--color-text);
-		padding: 0 0.3em;
-	}
+	@include badge-text-hint;
 }

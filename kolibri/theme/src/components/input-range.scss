@@ -1,28 +1,40 @@
+@use '../mixins/alert-wc' as *;
+@use '../mixins/badge-text-hint' as *;
+@use '../mixins/input-error' as *;
+@use '../mixins/rem' as *;
+@use '../mixins/typography' as *;
+
 @layer kol-theme-component {
+	@include badge-text-hint;
+
+	:host {
+		font-family: var(--font-family);
+		@include kol-alert-theme;
+	}
+
 	.inputs-wrapper {
-		gap: 1rem;
+		gap: rem(16);
 	}
 
-	kol-input {
-		gap: 0.25rem;
+	.kol-input {
+		gap: rem(4);
 	}
 
-	kol-input .error {
+	.kol-input .error:not(.hidden-error) {
 		order: 1;
 	}
 
-	kol-input label {
+	.kol-input label {
 		order: 2;
 	}
 
-	kol-input .input {
+	.kol-input .input {
 		order: 3;
 	}
 
-	kol-input .hint {
+	.kol-input .hint {
 		order: 4;
-		font-size: 0.9rem;
-		font-style: italic;
+		@include kol-typography-hint;
 	}
 
 	input::placeholder {
@@ -35,27 +47,23 @@
 		border-radius: var(--border-radius);
 		border-style: solid;
 		border-width: 2px;
-		padding: 0 0.5rem;
+		padding: 0 rem(8);
 	}
 
-	.input > kol-icon {
-		width: 1rem;
+	.input.icon-left > .kol-icon:first-child {
+		margin-right: rem(8);
 	}
 
-	.input.icon-left > kol-icon:first-child {
-		margin-right: 0.5rem;
-	}
-
-	.input.icon-right > kol-icon:last-child {
-		margin-left: 0.5rem;
+	.input.icon-right > .kol-icon:last-child {
+		margin-left: rem(8);
 	}
 
 	.input:is(.icon-left, .icon-right) {
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: rem(16);
+		padding-right: rem(16);
 	}
 
-	.input:hover {
+	:not(.disabled) .input:hover {
 		border-color: var(--color-primary);
 	}
 
@@ -68,25 +76,11 @@
 		padding-left: 0.125em;
 	}
 
-	kol-input.error {
-		border-left: 3px solid var(--color-danger);
-		padding-left: 1rem;
+	.kol-input.error:not(.hidden-error) {
+		@include input-error;
 	}
 
-	kol-input.error .input:focus-within {
-		outline-color: var(--color-danger) !important;
-	}
-
-	kol-input.error kol-alert.error {
-		color: var(--color-danger);
-		font-weight: 700;
-	}
-
-	kol-input.disabled :is(input, label) {
-		opacity: 1;
-	}
-
-	kol-input.disabled :is(.input) {
+	.kol-input.disabled .input {
 		background-color: var(--color-mute);
 		border-color: var(--color-mute-variant);
 		color: var(--color-text);

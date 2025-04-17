@@ -12,7 +12,7 @@
 		"ncu:minor": "ncu -t minor -u -x rimraf && pnpm -r exec ncu -t minor -u -x rimraf,rxjs,typescript,zone.js",
 		"ncu:patch": "ncu -t patch -u -x rimraf && pnpm -r exec ncu -t patch -u -x rimraf",
 		"postinstall": "echo \"Don't forget to build all packages once: pnpm -r build\"",
-		"prepare": "rimraf .husky && husky && npm-run-all prepare:husky:*",
+		"prepare": "rimraf .husky && husky && npm-run-all2 prepare:husky:*",
 		"prepare:husky:commitlint": "echo \"npx commitlint --edit $1\" >> .husky/commit-msg",
 		"prepare:husky:depcheck": "echo \"pnpm -r depcheck\" >> .husky/pre-push",
 		"prepare:husky:format": "echo \"pnpm -r format\" >> .husky/pre-push",
@@ -29,9 +29,7 @@
 		"depcheck": "1.4.7",
 		"husky": "9.0.11",
 		"lint-staged": "15.2.2",
-		"npm-check-updates": "16.14.15",
-		"npm-run-all": "4.1.5",
-		"pnpm": "8.15.3",
+		"npm-run-all2": "7.0.2",
 		"prettier": "3.2.5",
 		"rimraf": "5.0.5"
 	}

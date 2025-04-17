@@ -9,13 +9,13 @@
 		"prepack": "unbuild"
 	},
 	"devDependencies": {
-		"@babel/types": "7.24.0",
+		"@babel/types": "7.27.0",
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
 		"@types/node": "ts5.3",
 		"@types/normalize-package-data": "2.4.4",
-		"typescript": "5.4.3",
+		"typescript": "5.8.3",
 		"unbuild": "2.0.0",
 		"vue": "3.4.21"
 	},
