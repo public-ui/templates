@@ -1,7 +1,6 @@
 {
 	"name": "@public-ui/sample-ssr",
 	"version": "2.0.8",
-	"private": true,
 	"scripts": {
 		"build": "tsc",
 		"prepare": "rimraf assets && npm-run-all2 prepare:*",
@@ -9,7 +8,7 @@
 		"start": "nodemon index.ts"
 	},
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"@public-ui/components": "2.2.8",
 		"@public-ui/hydrate": "2.2.8",
@@ -18,8 +17,7 @@
 	},
 	"devDependencies": {
 		"@types/express": "5.0.1",
-		"@typescript-eslint/eslint-plugin": "7.18.0",
-		"@typescript-eslint/parser": "7.18.0",
+		"adopted-style-sheets": "1.1.7",
 		"cpy-cli": "5.0.0",
 		"nodemon": "3.1.9",
 		"npm-run-all2": "7.0.2",

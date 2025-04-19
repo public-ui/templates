@@ -21,7 +21,7 @@
 		"test": "pnpm -r --workspace-concurrency=1 test",
 		"test-reset-and-update": "rimraf packages/themes/**/snapshots/** && pnpm test-update",
 		"test-update": "pnpm -r --workspace-concurrency=1 test-update",
-		"update": "pnpm ncu:patch && pnpm ncu:minor && pnpm ncu:major"
+		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "18.6.1",

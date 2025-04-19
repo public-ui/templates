@@ -1,8 +1,7 @@
 {
 	"name": "react-vite",
 	"version": "0.0.0",
-	"description": "description",
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"scripts": {
 		"build": "tsc && vite build",
 		"dev": "vite",
@@ -23,9 +22,10 @@
 		"@types/react": "18.3.20",
 		"@types/react-dom": "18.3.6",
 		"@vitejs/plugin-react": "4.4.0",
+		"adopted-style-sheets": "1.1.7",
 		"prettier": "3.5.3",
-		"unocss": "0.58.9",
+		"unocss": "66.0.0",
 		"typescript": "5.8.3",
-		"vite": "5.4.18"
+		"vite": "6.3.2"
 	}
 }

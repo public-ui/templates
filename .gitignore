@@ -1,11 +1,10 @@
+.reports/
+build/
+dist/
 node_modules/
-.npmrc
 tsconfig.tsbuildinfo
 
-# /*/.vscode/
-/*/.reports/
-/*/build/
-/*/dist/
+/*/**/.npmrc
 /*/**/assets/bundes/
 /*/**/assets/codicons/
 /*/**/assets/fontawesome-free/
@@ -19,10 +18,4 @@ tsconfig.tsbuildinfo
 /*/**/assets/kolibri.ico
 /*/**/assets/kolibri.png
 /*/**/assets/kolibri.svg
-/*/public/assets/logo.*
-# /*/.editorconfig
-# /*/.eslintignore
-# /*/.gitignore
-# /*/.npmrc
-# /*/.prettierignore
-# /*/.prettierrc.json
+/*/**/assets/logo.*

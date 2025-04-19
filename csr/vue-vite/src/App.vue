@@ -35,12 +35,11 @@
 </template>
 
 <script lang="ts">
-import { KolKolibri, KolIcon, KolLink, KolAlert } from '@public-ui/vue';
+import { KolKolibri, KolLink, KolAlert } from '@public-ui/vue';
 
 export default {
 	components: {
 		KolKolibri,
-		KolIcon,
 		KolLink,
 		KolAlert,
 	},
