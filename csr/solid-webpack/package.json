@@ -32,7 +32,7 @@
 		"cross-env": "7.0.3",
 		"css-loader": "7.1.2",
 		"esbuild-loader": "4.3.0",
-		"eslint": "8.57.0",
+		"eslint": "8.57.1",
 		"file-loader": "6.2.0",
 		"npm-run-all2": "7.0.2",
 		"postcss-loader": "8.1.1",

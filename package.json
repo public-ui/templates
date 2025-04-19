@@ -5,6 +5,7 @@
 		"build": "pnpm -r build",
 		"clean": "git clean -f -d -X",
 		"clean:branches": "git branch --merged | grep -v \\* | xargs git branch -D",
+		"health": "pnpm i --ignore-scripts && pnpm clean && pnpm i && pnpm build && pnpm lint && pnpm format",
 		"format": "pnpm -r format",
 		"lint": "pnpm -r lint",
 		"unused": "pnpm -r unused",
