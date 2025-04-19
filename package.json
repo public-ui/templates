@@ -9,7 +9,7 @@
 		"lint": "pnpm -r lint",
 		"unused": "pnpm -r unused",
 		"ncu:major": "ncu && pnpm -r exec ncu -x rimraf",
-		"ncu:minor": "ncu -t minor -u && pnpm -r exec ncu -t minor -u -x @unocss/*,unocss",
+		"ncu:minor": "ncu -t minor -u && pnpm -r exec ncu -t minor -u -x @stencil/*",
 		"ncu:patch": "ncu -t patch -u && pnpm -r exec ncu -t patch -u",
 		"postinstall": "echo \"Don't forget to build all packages once: pnpm -r build\"",
 		"prepare": "pnpm format -w && npm-run-all2 prepare:*",
@@ -55,7 +55,7 @@
 		"test": "pnpm -r --workspace-concurrency=1 test",
 		"test-reset-and-update": "rimraf packages/themes/**/snapshots/** && pnpm test-update",
 		"test-update": "pnpm -r --workspace-concurrency=1 test-update",
-		"update": "pnpm ncu:patch && pnpm ncu:minor && pnpm ncu:major"
+		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "19.8.0",

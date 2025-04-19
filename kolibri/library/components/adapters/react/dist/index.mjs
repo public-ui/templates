@@ -115,24 +115,15 @@ const createForwardRef = (ReactComponent, displayName) => {
   return React.forwardRef(forwardRef);
 };
 
-var __defProp = Object.defineProperty;
-var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-var __publicField = (obj, key, value) => {
-  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
-  return value;
-};
 const createReactComponent = (tagName, ReactComponentContext, manipulatePropsFunction, defineCustomElement) => {
-  if (defineCustomElement !== void 0) {
-    defineCustomElement();
-  }
   const displayName = dashToPascalCase(tagName);
   const ReactComponent = class extends React.Component {
+    componentEl;
+    setComponentElRef = (element) => {
+      this.componentEl = element;
+    };
     constructor(props) {
       super(props);
-      __publicField(this, "componentEl");
-      __publicField(this, "setComponentElRef", (element) => {
-        this.componentEl = element;
-      });
     }
     componentDidMount() {
       this.componentDidUpdate(this.props);
@@ -157,9 +148,6 @@ const createReactComponent = (tagName, ReactComponentContext, manipulatePropsFun
         }
         return acc;
       }, {});
-      if (manipulatePropsFunction) {
-        propsToPass = manipulatePropsFunction(this.props, propsToPass);
-      }
       const newProps = {
         ...propsToPass,
         ref: mergeRefs(forwardedRef, this.setComponentElRef),
@@ -171,9 +159,6 @@ const createReactComponent = (tagName, ReactComponentContext, manipulatePropsFun
       return displayName;
     }
   };
-  if (ReactComponentContext) {
-    ReactComponent.contextType = ReactComponentContext;
-  }
   return createForwardRef(ReactComponent, displayName);
 };
 

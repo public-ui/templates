@@ -2,8 +2,6 @@
 
 const vue = require('vue');
 
-const UPDATE_VALUE_EVENT = "update:modelValue";
-const MODEL_VALUE = "modelValue";
 const ROUTER_LINK_VALUE = "routerLink";
 const NAV_MANAGER = "navManager";
 const ROUTER_PROP_PREFIX = "router";
@@ -19,31 +17,16 @@ const getElementClasses = (ref2, componentClasses, defaultClasses = []) => {
   );
 };
 const defineContainer = (name, defineCustomElement, componentProps = [], modelProp, modelUpdateEvent) => {
-  if (defineCustomElement !== void 0) {
-    defineCustomElement();
-  }
   const Container = vue.defineComponent((props, { attrs, slots, emit }) => {
-    let modelPropValue = props[modelProp];
+    props[modelProp];
     const containerRef = vue.ref();
     const classes = new Set(getComponentClasses(attrs.class));
-    const vModelDirective = {
-      created: (el) => {
-        const eventsNames = Array.isArray(modelUpdateEvent) ? modelUpdateEvent : [modelUpdateEvent];
-        eventsNames.forEach((eventName) => {
-          el.addEventListener(eventName.toLowerCase(), (e) => {
-            modelPropValue = (e?.target)[modelProp];
-            emit(UPDATE_VALUE_EVENT, modelPropValue);
-          });
-        });
-      }
-    };
     const currentInstance = vue.getCurrentInstance();
     const hasRouter = currentInstance?.appContext?.provides[NAV_MANAGER];
     const navManager = hasRouter ? vue.inject(NAV_MANAGER) : void 0;
     const handleRouterLink = (ev) => {
       const { routerLink } = props;
-      if (routerLink === EMPTY_PROP)
-        return;
+      if (routerLink === EMPTY_PROP) return;
       if (navManager !== void 0) {
         let navigationPayload = { event: ev };
         for (const key in props) {
@@ -58,7 +41,7 @@ const defineContainer = (name, defineCustomElement, componentProps = [], modelPr
       }
     };
     return () => {
-      modelPropValue = props[modelProp];
+      props[modelProp];
       getComponentClasses(attrs.class).forEach((value) => {
         classes.add(value);
       });
@@ -82,21 +65,8 @@ const defineContainer = (name, defineCustomElement, componentProps = [], modelPr
           propsToAdd[key] = value;
         }
       }
-      if (modelProp) {
-        if (props[MODEL_VALUE] !== EMPTY_PROP) {
-          propsToAdd = {
-            ...propsToAdd,
-            [modelProp]: props[MODEL_VALUE]
-          };
-        } else if (modelPropValue !== EMPTY_PROP) {
-          propsToAdd = {
-            ...propsToAdd,
-            [modelProp]: modelPropValue
-          };
-        }
-      }
       const node = vue.h(name, propsToAdd, slots.default && slots.default());
-      return modelProp === void 0 ? node : vue.withDirectives(node, [[vModelDirective]]);
+      return node ;
     };
   });
   if (typeof Container !== "function") {
@@ -107,14 +77,10 @@ const defineContainer = (name, defineCustomElement, componentProps = [], modelPr
     componentProps.forEach((componentProp) => {
       Container.props[componentProp] = DEFAULT_EMPTY_PROP;
     });
-    if (modelProp) {
-      Container.props[MODEL_VALUE] = DEFAULT_EMPTY_PROP;
-      Container.emits = [UPDATE_VALUE_EVENT];
-    }
   }
   return Container;
 };
 
-const DemoButton = /* @__PURE__ */ defineContainer("demo-button", void 0);
+const DemoButton = /* @__PURE__ */ defineContainer("demo-button");
 
 exports.DemoButton = DemoButton;

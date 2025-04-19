@@ -2,8 +2,7 @@
 	"name": "@public-ui/library-vue",
 	"description": "Vue framework adapter for the KoliBri accessible web component library (@public-ui).",
 	"version": "0.0.0",
-	"license": "MIT",
-	"private": true,
+	"license": "EUPL-1.2",
 	"scripts": {
 		"build": "unbuild",
 		"prepack": "unbuild"
@@ -13,10 +12,10 @@
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
-		"@types/node": "ts5.3",
+		"@types/node": "22.14.1",
 		"@types/normalize-package-data": "2.4.4",
 		"typescript": "5.8.3",
-		"unbuild": "2.0.0",
+		"unbuild": "3.5.0",
 		"vue": "3.4.21"
 	},
 	"peerDependencies": {

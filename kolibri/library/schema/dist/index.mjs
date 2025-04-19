@@ -1,7 +1,8 @@
 import { Theme } from 'adopted-style-sheets';
 
 var KeyEnum = /* @__PURE__ */ ((KeyEnum2) => {
-})();
+  return KeyEnum2;
+})(KeyEnum || {});
 
 var TagEnum = /* @__PURE__ */ ((TagEnum2) => {
   TagEnum2[TagEnum2["button"] = 0] = "button";

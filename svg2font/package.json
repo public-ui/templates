@@ -5,7 +5,7 @@
 		"serve": "14.2.4",
 		"svgtofont": "6.3.2"
 	},
-	"license": "EUPL-1.2",
+	"license": "MIT",
 	"private": true,
 	"scripts": {
 		"build": "rimraf ./font && svgtofont --sources ./svg --output ./font",
