@@ -22,7 +22,6 @@
 	"dependencies": {
 		"@public-ui/components": "2.2.8",
 		"@public-ui/preact": "2.2.8",
-		"@public-ui/react": "2.2.8",
 		"@public-ui/themes": "2.2.8",
 		"preact": "10.26.5"
 	},
