@@ -1,7 +1,6 @@
 {
 	"name": "static-page",
 	"version": "0.0.0",
-	"license": "MIT",
 	"scripts": {
 		"prepare": "npm-run-all2 prepare:*",
 		"prepare:components-assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",

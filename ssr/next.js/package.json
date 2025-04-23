@@ -1,7 +1,7 @@
 {
 	"name": "next.js",
 	"version": "0.0.0",
-	"license": "MIT",
+
 	"browser": false,
 	"main": "index.js",
 	"scripts": {

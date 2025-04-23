@@ -1,14 +1,13 @@
 {
-	"name": "@public-ui/sample-ssr",
+	"name": "express.js",
 	"version": "2.0.8",
+	"license": "MIT",
 	"scripts": {
 		"build": "tsc",
 		"prepare": "rimraf assets && npm-run-all2 prepare:*",
 		"prepare:assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
 		"start": "nodemon index.ts"
 	},
-	"author": "",
-	"license": "MIT",
 	"dependencies": {
 		"@public-ui/components": "2.2.8",
 		"@public-ui/hydrate": "2.2.8",

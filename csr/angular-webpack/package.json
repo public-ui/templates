@@ -1,7 +1,6 @@
 {
 	"name": "angular-webpack",
 	"version": "0.0.0",
-	"license": "MIT",
 	"scripts": {
 		"clean": "git clean -f -d -X",
 		"build": "rimraf dist && cross-env NODE_ENV=production webpack",
