@@ -31,10 +31,10 @@
 	"dependencies": {
 		"@public-ui/library-schema": "workspace:*",
 		"@your/kolibri-theme": "workspace:*",
-		"adopted-style-sheets": "1.1.7"
+		"adopted-style-sheets": "1.1.8"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.2.8",
+		"@public-ui/components": "2.2.9",
 		"@stencil/angular-output-target": "0.8.4",
 		"@stencil/core": "4.20.0",
 		"@stencil/react-output-target": "0.5.3",

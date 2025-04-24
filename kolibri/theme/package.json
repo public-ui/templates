@@ -19,30 +19,30 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.2.8",
-		"@public-ui/sample-react": "2.2.8",
-		"@public-ui/visual-tests": "2.2.8",
+		"@public-ui/components": "2.2.9",
+		"@public-ui/sample-react": "2.2.9",
+		"@public-ui/visual-tests": "2.2.9",
 		"@rollup/plugin-commonjs": "28.0.3",
 		"@rollup/plugin-node-resolve": "16.0.1",
 		"@rollup/plugin-typescript": "12.1.2",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
-		"adopted-style-sheets": "1.1.7",
+		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
 		"eslint": "8.57.1",
 		"knip": "5.50.5",
-		"nodemon": "3.1.9",
+		"nodemon": "3.1.10",
 		"npm-run-all2": "7.0.2",
 		"prettier": "3.5.3",
 		"postcss": "8.5.3",
 		"rollup": "4.40.0",
 		"rollup-plugin-postcss": "4.0.2",
-		"sass-embedded": "1.86.3",
+		"sass-embedded": "1.87.0",
 		"typescript": "5.8.3",
 		"unbuild": "3.5.0"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "2.2.8"
+		"@public-ui/components": "2.2.9"
 	},
 	"exports": {
 		".": {
