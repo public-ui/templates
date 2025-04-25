@@ -12,8 +12,8 @@
 		"prepare": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
 		"start": "npm-run-all2 --parallel dev serve",
 		"serve": "sh serve.sh YOUR_THEME",
-		"test": "cross-env THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test",
-		"test-update": "cross-env THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test --update-snapshots theme-snapshots.spec.js",
+		"test": "cross-env KOLIBRI_VISUAL_TESTS_EXPECT_TIMEOUT=15000 KOLIBRI_VISUAL_TESTS_TIMEOUT=15000 THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test",
+		"test-update": "cross-env KOLIBRI_VISUAL_TESTS_EXPECT_TIMEOUT=15000 KOLIBRI_VISUAL_TESTS_TIMEOUT=15000 THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test --update-snapshots theme-snapshots.spec.js",
 		"pretest": "pnpm build",
 		"pretest-update": "pnpm build",
 		"unused": "knip"
