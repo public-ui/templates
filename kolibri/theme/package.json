@@ -1,7 +1,7 @@
 {
 	"name": "@your/kolibri-theme",
 	"version": "0.0.0",
-	"license": "MIT",
+	"license": "EUPL-1.2",
 	"type": "module",
 	"sideEffects": false,
 	"scripts": {
@@ -12,33 +12,38 @@
 		"prepare": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
 		"start": "npm-run-all2 --parallel dev serve",
 		"serve": "sh serve.sh YOUR_THEME",
-		"test": "pnpm test:visual",
-		"test:visual": "cross-env THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test",
-		"test-update": "cross-env THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test --update-snapshots theme-snapshots.spec.js",
+		"test": "cross-env KOLIBRI_VISUAL_TESTS_EXPECT_TIMEOUT=15000 KOLIBRI_VISUAL_TESTS_TIMEOUT=15000 THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test",
+		"test-update": "cross-env KOLIBRI_VISUAL_TESTS_EXPECT_TIMEOUT=15000 KOLIBRI_VISUAL_TESTS_TIMEOUT=15000 THEME_MODULE=dist THEME_EXPORT=YOUR_THEME kolibri-visual-test --update-snapshots theme-snapshots.spec.js",
 		"pretest": "pnpm build",
-		"pretest-update": "pnpm build"
+		"pretest-update": "pnpm build",
+		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/sample-react": "2.2.8",
-		"@public-ui/visual-tests": "2.2.8",
+		"@public-ui/components": "2.2.9",
+		"@public-ui/sample-react": "2.2.9",
+		"@public-ui/visual-tests": "2.2.9",
 		"@rollup/plugin-commonjs": "28.0.3",
-		"@rollup/plugin-node-resolve": "15.3.1",
+		"@rollup/plugin-node-resolve": "16.0.1",
 		"@rollup/plugin-typescript": "12.1.2",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
-		"adopted-style-sheets": "1.1.7",
+		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
+		"cross-env": "7.0.3",
 		"eslint": "8.57.1",
-		"nodemon": "3.1.9",
+		"knip": "5.50.5",
+		"nodemon": "3.1.10",
+		"npm-run-all2": "7.0.2",
+		"prettier": "3.5.3",
 		"postcss": "8.5.3",
-		"rollup": "4.36.0",
+		"rollup": "4.40.0",
 		"rollup-plugin-postcss": "4.0.2",
-		"sass": "1.86.0",
-		"typescript": "5.8.2",
-		"unbuild": "1.2.1"
+		"sass-embedded": "1.87.0",
+		"typescript": "5.8.3",
+		"unbuild": "3.5.0"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "2.2.8"
+		"@public-ui/components": "2.2.9"
 	},
 	"exports": {
 		".": {

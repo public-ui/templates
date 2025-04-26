@@ -1,9 +1,8 @@
 {
 	"name": "@public-ui/library-angular",
-	"description": "Angular (v17) framework adapter for KoliBri - The accessible HTML-Standard.",
+	"description": "Angular framework adapter for KoliBri - The accessible HTML-Standard.",
 	"version": "0.0.0",
-	"license": "MIT",
-	"private": true,
+	"license": "EUPL-1.2",
 	"sideEffects": false,
 	"scripts": {
 		"clean": "lerna exec --stream -- git clean -f -d -X && git clean -f -d -X",
@@ -32,7 +31,7 @@
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
-		"@types/node": "ts5.2",
+		"@types/node": "22.14.1",
 		"@types/normalize-package-data": "2.4.4",
 		"prettier": "3.5.3",
 		"rimraf": "6.0.1",

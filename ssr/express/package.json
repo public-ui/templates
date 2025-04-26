@@ -1,27 +1,24 @@
 {
-	"name": "@public-ui/sample-ssr",
+	"name": "express.js",
 	"version": "2.0.8",
-	"private": true,
+	"license": "MIT",
 	"scripts": {
 		"build": "tsc",
 		"prepare": "rimraf assets && npm-run-all2 prepare:*",
 		"prepare:assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
 		"start": "nodemon index.ts"
 	},
-	"author": "",
-	"license": "ISC",
 	"dependencies": {
-		"@public-ui/components": "2.2.8",
-		"@public-ui/hydrate": "2.2.8",
-		"@public-ui/theme-default": "2.2.8",
+		"@public-ui/components": "2.2.9",
+		"@public-ui/hydrate": "2.2.9",
+		"@public-ui/theme-default": "2.2.9",
 		"express": "5.1.0"
 	},
 	"devDependencies": {
 		"@types/express": "5.0.1",
-		"@typescript-eslint/eslint-plugin": "7.18.0",
-		"@typescript-eslint/parser": "7.18.0",
+		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
-		"nodemon": "3.1.9",
+		"nodemon": "3.1.10",
 		"npm-run-all2": "7.0.2",
 		"rimraf": "6.0.1",
 		"typescript": "5.8.3",

@@ -1,5 +1,6 @@
 assets/
 dist/
+node_modules/
 test-results/
 
 # But not these files...

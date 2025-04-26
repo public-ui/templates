@@ -1,9 +1,6 @@
 {
 	"name": "static-page",
 	"version": "0.0.0",
-	"description": "description",
-	"license": "UNLICENSED",
-	"private": true,
 	"scripts": {
 		"prepare": "npm-run-all2 prepare:*",
 		"prepare:components-assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
@@ -11,8 +8,9 @@
 		"start": "serve"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.2.8",
-		"@public-ui/themes": "2.2.8",
+		"@public-ui/components": "2.2.9",
+		"@public-ui/themes": "2.2.9",
+		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
 		"npm-run-all2": "7.0.2",
 		"serve": "14.2.4"

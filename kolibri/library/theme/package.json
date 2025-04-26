@@ -1,9 +1,7 @@
 {
 	"name": "@public-ui/library-theme",
-	"description": "",
 	"version": "0.0.0",
-	"license": "MIT",
-	"private": true,
+	"license": "EUPL-1.2",
 	"scripts": {
 		"build": "unbuild",
 		"clear": "git clean -fdx",
@@ -19,25 +17,22 @@
 		"unused": "knip",
 		"update": "ncu -t minor -u -x rimraf,unbuild && ncu -x rimraf,unbuild"
 	},
-	"dependencies": {
-		"@public-ui/schema": "2.0.8"
-	},
 	"devDependencies": {
 		"@public-ui/sample-react": "2.2.8",
 		"@public-ui/visual-tests": "2.2.8",
-		"@types/node": "ts5.3",
+		"@types/node": "22.14.1",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"cross-env": "7.0.3",
-		"eslint": "8.57.0",
-		"nodemon": "3.1.9",
+		"eslint": "8.57.1",
+		"nodemon": "3.1.10",
 		"npm-run-all2": "7.0.2",
-		"knip": "5.50.4",
+		"knip": "5.50.5",
 		"prettier": "3.5.3",
 		"rollup": "4.40.0",
 		"rollup-plugin-postcss": "4.0.2",
 		"typescript": "5.8.3",
-		"unbuild": "2.0.0"
+		"unbuild": "3.5.0"
 	},
 	"peerDependencies": {
 		"@public-ui/components": "^2.2.8"
