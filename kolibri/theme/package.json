@@ -19,9 +19,9 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.2.9",
-		"@public-ui/sample-react": "2.2.9",
-		"@public-ui/visual-tests": "2.2.9",
+		"@public-ui/components": "2.2.10",
+		"@public-ui/sample-react": "2.2.10",
+		"@public-ui/visual-tests": "2.2.10",
 		"@rollup/plugin-commonjs": "28.0.3",
 		"@rollup/plugin-node-resolve": "16.0.1",
 		"@rollup/plugin-typescript": "12.1.2",
@@ -36,14 +36,14 @@
 		"npm-run-all2": "7.0.2",
 		"prettier": "3.5.3",
 		"postcss": "8.5.3",
-		"rollup": "4.40.0",
+		"rollup": "4.40.1",
 		"rollup-plugin-postcss": "4.0.2",
 		"sass-embedded": "1.87.0",
 		"typescript": "5.8.3",
 		"unbuild": "3.5.0"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "2.2.9"
+		"@public-ui/components": "2.2.10"
 	},
 	"exports": {
 		".": {
