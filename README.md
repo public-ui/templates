@@ -150,7 +150,7 @@ set -euo pipefail
 rm -rf my-own-kolibri-theme
 
 # Repository klonen
-npx degit public-ui/templates/kolibri/theme#fix/npmrc my-own-kolibri-theme
+npx degit public-ui/templates/kolibri/theme my-own-kolibri-theme
 
 # Wechsel in das neue Verzeichnis
 cd my-own-kolibri-theme || { echo "Verzeichniswechsel fehlgeschlagen"; exit 1; }
