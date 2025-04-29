@@ -140,6 +140,47 @@ $ cd my-kolibri-project
 $ npm i # or pnpm i or yarn
 ```
 
+Here a short shell script to make a full round trip:
+
+```bash
+#!/bin/bash
+set -euo pipefail
+
+# Vorhandenes Verzeichnis löschen
+rm -rf my-own-kolibri-theme
+
+# Repository klonen
+npx degit public-ui/templates/kolibri/theme#fix/npmrc my-own-kolibri-theme
+
+# Wechsel in das neue Verzeichnis
+cd my-own-kolibri-theme || { echo "Verzeichniswechsel fehlgeschlagen"; exit 1; }
+
+# VS Code im aktuellen Verzeichnis öffnen
+if command -v code >/dev/null 2>&1; then
+  code .
+else
+  echo "VS Code (code) ist nicht installiert oder nicht im PATH."
+fi
+
+# Abhängigkeiten installieren mit pnpm@^10
+npx --yes pnpm@^10 install
+
+# Git-Repository initialisieren und initialen Commit machen
+git init
+git add .
+git commit -m "chore: commit initial code"
+
+# Snapshot-Tests aktualisieren
+npm run test-update || true
+
+# Neue Snapshots committen
+git add .
+git commit -m "chore: commit initial snapshots"
+
+# Projekt starten
+npm start
+```
+
 ### Other templates
 
 #### Svg2Font template
