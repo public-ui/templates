@@ -1,0 +1,17 @@
+{
+	"extends": ["stylelint-config-standard", "stylelint-config-recommended-scss"],
+	"plugins": ["stylelint-scss"],
+	"rules": {
+		"block-no-empty": true,
+		"color-no-invalid-hex": true,
+		"custom-property-pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:--[a-z0-9]+(?:-[a-z0-9]+)*)*$",
+		"declaration-block-no-duplicate-properties": true,
+		"declaration-property-value-no-unknown": null,
+		"no-duplicate-selectors": true,
+		"selector-class-pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:__(?:[a-z0-9]+(?:-[a-z0-9]+)*))?(?:--(?:[a-z0-9]+(?:-[a-z0-9]+)*))?$",
+
+		"scss/load-no-partial-leading-underscore": true,
+		"scss/at-mixin-pattern": "^[a-z][a-z0-9-]*$",
+		"scss/dollar-variable-pattern": "^[a-z][a-z0-9-]*$"
+	}
+}
