@@ -29,6 +29,7 @@
 
 			&:focus-within {
 				@include focus-outline;
+
 				cursor: pointer;
 
 				button {
@@ -41,6 +42,7 @@
 				place-items: baseline center;
 				text-align: left;
 				gap: 0.5em;
+
 				@include kol-typography-accordion;
 			}
 

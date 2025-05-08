@@ -7,7 +7,7 @@
 		word-break: break-word;
 	}
 
-	@media (min-width: 1024px) {
+	@media (width >= 1024px) {
 		div.pagination .kol-pagination {
 			display: flex;
 			align-items: center;
