@@ -9,6 +9,7 @@
 
 	:host {
 		font-family: var(--font-family);
+
 		@include kol-alert-theme;
 	}
 
@@ -34,6 +35,7 @@
 
 	.kol-input .hint {
 		order: 4;
+
 		@include kol-typography-hint;
 	}
 

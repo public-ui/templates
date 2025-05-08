@@ -12,6 +12,7 @@ $visible-options: 5;
 
 	:host {
 		font-family: var(--font-family);
+
 		@include kol-alert-theme;
 	}
 
@@ -61,8 +62,7 @@ $visible-options: 5;
 			border-width: 1px;
 			border-radius: var(--border-radius);
 			border-color: var(--color-subtle);
-			overflow-y: auto;
-			overflow-x: hidden;
+			overflow: hidden auto;
 			box-sizing: border-box;
 			width: 100%;
 			max-height: calc($option-height * $visible-options + rem(2));
@@ -106,6 +106,7 @@ $visible-options: 5;
 
 	.kol-input .hint {
 		order: 5;
+
 		@include kol-typography-hint;
 	}
 

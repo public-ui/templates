@@ -10,13 +10,13 @@
 
 	:host {
 		font-family: var(--font-family);
+
 		@include kol-alert-theme;
 	}
 
 	.kol-input {
 		display: grid;
-		align-items: center;
-		justify-items: left;
+		place-items: center left;
 		width: 100%;
 		min-height: var(--a11y-min-size);
 		gap: rem(6.4);
@@ -89,12 +89,13 @@
 		border-width: 2px;
 		border-style: solid;
 		border-radius: var(--border-radius);
+
 		@include kol-typography-body;
 	}
 
 	input:hover {
 		border-color: var(--color-primary);
-		box-shadow: 0 2px 8px 2px rgba(8, 35, 48, 0.24);
+		box-shadow: 0 2px 8px 2px rgb(8 35 48 / 24%);
 	}
 
 	input:focus:hover {
@@ -156,11 +157,12 @@
 		min-width: 3.5em;
 		position: relative;
 		width: 3.5em;
+
 		/* Visible with forced colors  */
 		outline: transparent solid rem(1);
 	}
 
-	.kol-input.switch input[type='checkbox']:before {
+	.kol-input.switch input[type='checkbox']::before {
 		width: 1.25em;
 		height: 1.25em;
 		left: calc(0.25em - rem(2));
@@ -174,11 +176,11 @@
 		background-color: var(--color-primary);
 	}
 
-	.kol-input.switch input[type='checkbox']:checked:before {
+	.kol-input.switch input[type='checkbox']:checked::before {
 		transform: translateX(2em);
 	}
 
-	.kol-input.switch input[type='checkbox']:indeterminate:before {
+	.kol-input.switch input[type='checkbox']:indeterminate::before {
 		transform: translateX(1em);
 	}
 
@@ -207,7 +209,6 @@
 			border-top-width: 1px;
 			border-left-width: 1px;
 			border-bottom-width: 1px;
-
 			border-top-style: solid;
 			border-left-style: solid;
 			border-bottom-style: solid;
@@ -222,19 +223,15 @@
 			border-top-width: 1px;
 			border-right-width: 1px;
 			border-bottom-width: 1px;
-
 			border-top-style: solid;
 			border-right-style: solid;
 			border-bottom-style: solid;
-
-			justify-self: stretch;
-			align-self: stretch;
+			place-self: stretch stretch;
 			display: flex;
-
 			padding-right: rem(16);
 
 			.input-label-span {
-				margin: auto auto;
+				margin: auto;
 				font-weight: 700;
 			}
 		}

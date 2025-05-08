@@ -13,7 +13,7 @@
 		--color-warning: var(--kolibri-color-warning, #c44931);
 		--color-success: var(--kolibri-color-success, #005c45);
 		--color-subtle: var(--kolibri-color-subtle, #576164);
-		--color-light: var(--kolibri-color-light, #ffffff);
+		--color-light: var(--kolibri-color-light, #fff);
 		--color-text: var(--kolibri-color-text, #202020);
 		--color-mute: var(--kolibri-color-mute, #f2f3f4);
 		--color-mute-variant: var(--kolibri-color-mute-variant, #bec5c9);
@@ -38,10 +38,8 @@
 	.kol-input:is(.checkbox, .radio) input:focus,
 	summary:focus {
 		cursor: pointer;
-		outline-color: var(--color-primary-variant);
+		outline: var(--color-primary-variant) solid 3px;
 		outline-offset: 2px;
-		outline-style: solid;
-		outline-width: 3px;
 		transition: outline-offset 0.2s linear;
 	}
 

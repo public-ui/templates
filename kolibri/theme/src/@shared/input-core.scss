@@ -9,6 +9,7 @@
 
 	:host {
 		font-family: var(--font-family);
+
 		@include kol-alert-theme;
 	}
 
@@ -35,7 +36,6 @@
 
 		.input {
 			order: 3;
-
 			background-color: var(--color-light);
 			border-color: var(--color-subtle);
 			border-radius: var(--border-radius);
@@ -76,6 +76,7 @@
 
 		.hint {
 			order: 4;
+
 			@include kol-typography-hint;
 		}
 	}
