@@ -35,14 +35,14 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: ${{ runner.os }}-pnpm-store-
 
-      - name: Delete old branch if exists
-        run: |
-          git fetch origin
-          git branch -D auto/update-deps || true
-          git push origin --delete auto/update-deps || true
+      # - name: Delete old branch if exists
+      #   run: |
+      #     git fetch origin
+      #     git branch -D auto/update-deps || true
+      #     git push origin --delete auto/update-deps || true
 
-      - name: Create update branch
-        run: git checkout -B auto/update-deps
+      # - name: Create update branch
+      #   run: git checkout -B auto/update-deps
 
       - name: Install
         run: pnpm i
@@ -56,8 +56,12 @@ jobs:
       - name: Commit and create PR
         uses: peter-evans/create-pull-request@v6
         with:
+          add-paths: |
+            **/package.json
+            pnpm-lock.yaml
           branch: auto/update-dependencies
           title: 'chore: update dependencies'
           body: This PR updates all dependencies using `pnpm update`.
           commit-message: 'chore: update dependencies'
           author: GitHub Actions <actions@github.com>
+          delete-branch: true
