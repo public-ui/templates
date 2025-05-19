@@ -26,27 +26,36 @@ jobs:
         id: pnpm-cache
         shell: bash
         run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v4
+
+      - name: Cache pnpm store
+        id: pnpm-cache-step
+        uses: actions/cache@v4
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store
-          restore-keys: ${{ runner.os }}-pnpm-store
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: ${{ runner.os }}-pnpm-store-
+
+      - name: Delete old branch if exists
+        run: |
+          git fetch origin
+          git branch -D auto/update-deps || true
+          git push origin --delete auto/update-deps || true
 
       - name: Create update branch
-        run: git checkout -b auto/update-deps
+        run: git checkout -B auto/update-deps
 
       - name: Install
         run: pnpm i
       - name: Update dependencies
         run: pnpm run update
       - name: Reinstall dependencies
-        run: pnpm i
+        run: pnpm i --frozen-lockfile
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update all depedencies
-          push_options: '--force'
+          commit_message: Update all dependencies
+          push_options: '--no-verify'
           file_pattern: '/**/package.json pnpm-lock.yaml'
           commit_user_name: '${{ steps.app-token.outputs.app-slug }}[bot]'
           commit_user_email: '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
