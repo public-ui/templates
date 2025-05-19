@@ -49,7 +49,7 @@ jobs:
       - name: Update dependencies
         run: pnpm ncu:minor
       - name: Reinstall dependencies
-        run: pnpm i --frozen-lockfile
+        run: pnpm i --no-frozen-lockfile
 
       - name: Commit and create PR
         uses: peter-evans/create-pull-request@v6
