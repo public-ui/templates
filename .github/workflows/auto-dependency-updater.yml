@@ -35,11 +35,11 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: ${{ runner.os }}-pnpm-store-
 
-      - name: Delete old branch if exists
-        run: |
-          git fetch origin
-          git branch -D auto/update-deps || true
-          git push origin --delete auto/update-deps || true
+      # - name: Delete old branch if exists
+      #   run: |
+      #     git fetch origin
+      #     git branch -D auto/update-deps || true
+      #     git push origin --delete auto/update-deps || true
 
       - name: Create update branch
         run: git checkout -B auto/update-deps
@@ -51,11 +51,12 @@ jobs:
       - name: Reinstall dependencies
         run: pnpm i --frozen-lockfile
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit and create PR
+        uses: peter-evans/create-pull-request@v6
         with:
-          commit_message: Update all dependencies
-          push_options: '--no-verify'
-          file_pattern: '/**/package.json pnpm-lock.yaml'
-          commit_user_name: '${{ steps.app-token.outputs.app-slug }}[bot]'
-          commit_user_email: '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
+          branch: auto/update-dependencies
+          title: 'chore: update dependencies'
+          body: This PR updates all dependencies using `pnpm update`.
+          commit-message: 'chore: update dependencies'
+          author: GitHub Actions <actions@github.com>
+          delete-branch: true
