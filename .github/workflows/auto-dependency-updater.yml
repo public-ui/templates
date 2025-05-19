@@ -50,6 +50,8 @@ jobs:
         run: pnpm ncu:minor
       - name: Reinstall dependencies
         run: pnpm i --no-frozen-lockfile
+      - name: Build mono repository dependencies
+        run: pnpm -r build
 
       - name: Commit and create PR
         uses: peter-evans/create-pull-request@v6
