@@ -30,7 +30,7 @@
 		"astro": "1.9.2",
 		"cpy-cli": "5.0.0",
 		"cross-env": "7.0.3",
-		"npm-run-all2": "7.0.2",
+		"npm-run-all2": "8.0.4",
 		"preact": "10.19.6",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
