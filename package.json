@@ -53,21 +53,22 @@
 		"xprepare:husky:unused": "echo \"pnpm -r unused\" >> .husky/pre-push",
 		"prepare:remove": "npm-run-all2 prepare:remove:*",
 		"prepare:remove:outdated": "pnpm -r exec rimraf prettier.config.js prettier.config.cjs",
+		"smoketest": "pnpm clean && pnpm i && pnpm build && pnpm format && pnpm lint && pnpm unused",
 		"test": "pnpm -r --workspace-concurrency=1 test",
 		"test-reset-and-update": "rimraf packages/themes/**/snapshots/** && pnpm test-update",
 		"test-update": "pnpm -r --workspace-concurrency=1 test-update",
 		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "19.8.0",
-		"@commitlint/config-conventional": "19.8.0",
+		"@commitlint/cli": "19.8.1",
+		"@commitlint/config-conventional": "19.8.1",
 		"cpy-cli": "5.0.0",
 		"husky": "9.1.7",
 		"npm-check-updates": "18.0.1",
-		"npm-run-all2": "7.0.2",
+		"npm-run-all2": "8.0.4",
 		"prettier": "3.5.3",
 		"rimraf": "6.0.1",
-		"lint-staged": "15.5.1"
+		"lint-staged": "16.1.2"
 	},
 	"engines": {
 		"node": "^22",

@@ -4,189 +4,174 @@
 
 # KoliBri Templates
 
-This repository holds most of the official starter templates for [KoliBri library](https://github.com/public-ui/kolibri).
+This repository contains official starter templates for the [KoliBri library](https://github.com/public-ui/kolibri).
 
 > Learn more on the [KoliBri website](https://public-ui.github.io/en/).
 
 ## Introduction
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+These templates are maintained using [pnpm](https://pnpm.io) for dependency management. You can update dependencies using `pnpm up -Lri`. While pnpm is recommended, any package manager will work. The `pnpm-lock.yaml` file can be safely removed after cloning a template.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Available Templates
 
-## Get started
+### Client Side Rendering (CSR)
 
-These templates are meant to be used as is via the [degit](https://github.com/Rich-Harris/degit) utility.
+#### Angular Templates
 
-### Application templates
+- **Angular** (Modern)
+  ```bash
+  npx degit public-ui/templates/csr/angular my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
 
-#### Client side rendering
+#### React Templates
 
-##### Angular webpack template
+- **React Vite** (Modern, Recommended)
+  ```bash
+  npx degit public-ui/templates/csr/react-vite my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+- **React Vite with Formik**
+  ```bash
+  npx degit public-ui/templates/csr/react-vite-formik my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+- **React Standalone**
+  ```bash
+  npx degit public-ui/templates/csr/react-standalone my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+- **React Webpack** (Legacy)
+  ```bash
+  npx degit public-ui/templates/csr/react-webpack my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
 
-```bash
-$ npx degit public-ui/templates/csr/angular-webpack my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
+#### Vue Templates
 
-##### Preact webpack template
+- **Vue Vite** (Modern, Recommended)
+  ```bash
+  npx degit public-ui/templates/csr/vue-vite my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+- **Vue Webpack** (Legacy)
+  ```bash
+  npx degit public-ui/templates/csr/vue-webpack my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
 
-```bash
-$ npx degit public-ui/templates/csr/preact-webpack my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
+#### Other CSR Templates
 
-##### React vite template
+- **Preact Webpack**
+  ```bash
+  npx degit public-ui/templates/csr/preact-webpack my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+- **Solid Webpack**
+  ```bash
+  npx degit public-ui/templates/csr/solid-webpack my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+- **Static Page**
+  ```bash
+  npx degit public-ui/templates/csr/static-page my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
 
-```bash
-$ npx degit public-ui/templates/csr/react-vite my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
+### Server Side Rendering (SSR)
 
-##### React webpack template
+> Note: Most SSR templates are still in development. Only Express is currently available.
 
-```bash
-$ npx degit public-ui/templates/csr/react-webpack my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
+- **Express**
+  ```bash
+  npx degit public-ui/templates/ssr/express my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
 
-##### Solid webpack template
+Coming soon:
 
-```bash
-$ npx degit public-ui/templates/csr/solid-webpack my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
+- Astro
+- Next.js
+- Remix
 
-##### Static page template
+### KoliBri Library Templates
 
-```bash
-$ npx degit public-ui/templates/csr/static-page my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-##### Vue vite template
-
-```bash
-$ npx degit public-ui/templates/csr/vue-vite my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-##### Vue webpack template
-
-```bash
-$ npx degit public-ui/templates/csr/vue-webpack my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-#### Server side rendering
-
-> Not ready yet! Coming soon.
-
-##### Astro template
-
-```bash
-$ npx degit public-ui/templates/ssr/astro my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-##### Express template
-
-```bash
-$ npx degit public-ui/templates/ssr/express my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-##### Next.js template
-
-```bash
-$ npx degit public-ui/templates/ssr/next.js my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
-```
-
-##### Remix template
+#### Library Template
 
 ```bash
-$ npx degit public-ui/templates/ssr/remix my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
+npx degit public-ui/templates/kolibri/library my-kolibri-project
+cd my-kolibri-project
+pnpm i # pnpm required
 ```
 
-### Library templates
-
-#### KoliBri library template
+#### Theme Template
 
 ```bash
-$ npx degit public-ui/templates/kolibri/library my-kolibri-project
-$ cd my-kolibri-project
-$ pnpm i # no npm or yarn
+npx degit public-ui/templates/kolibri/theme my-kolibri-project
+cd my-kolibri-project
+npm i # or pnpm i or yarn
 ```
 
-#### KoliBri theme template
+### Utility Templates
+
+#### SVG to Font Converter
 
 ```bash
-$ npx degit public-ui/templates/kolibri/theme my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
+npx degit public-ui/templates/svg2font my-kolibri-project
+cd my-kolibri-project
+npm i # or pnpm i or yarn
 ```
 
-Here a short shell script to make a full round trip:
+## Quick Start Script
+
+Here's a helpful shell script to quickly set up a new KoliBri theme project:
 
 ```bash
 #!/bin/bash
 set -euo pipefail
 
-# Vorhandenes Verzeichnis löschen
+# Remove existing directory if it exists
 rm -rf my-own-kolibri-theme
 
-# Repository klonen
+# Clone repository
 npx degit public-ui/templates/kolibri/theme my-own-kolibri-theme
 
-# Wechsel in das neue Verzeichnis
-cd my-own-kolibri-theme || { echo "Verzeichniswechsel fehlgeschlagen"; exit 1; }
+# Change to new directory
+cd my-own-kolibri-theme || { echo "Directory change failed"; exit 1; }
 
-# VS Code im aktuellen Verzeichnis öffnen
+# Open VS Code if available
 if command -v code >/dev/null 2>&1; then
   code .
 else
-  echo "VS Code (code) ist nicht installiert oder nicht im PATH."
+  echo "VS Code (code) is not installed or not in PATH."
 fi
 
-# Abhängigkeiten installieren mit pnpm@^10
+# Install dependencies with pnpm@^10
 npx --yes pnpm@^10 install
 
-# Git-Repository initialisieren und initialen Commit machen
+# Initialize git repository and make initial commit
 git init
 git add .
 git commit -m "chore: commit initial code"
 
-# Snapshot-Tests aktualisieren
+# Update snapshot tests
 npm run test-update || true
 
-# Neue Snapshots committen
+# Commit new snapshots
 git add .
 git commit -m "chore: commit initial snapshots"
 
-# Projekt starten
+# Start the project
 npm start
-```
-
-### Other templates
-
-#### Svg2Font template
-
-```bash
-$ npx degit public-ui/templates/svg2font my-kolibri-project
-$ cd my-kolibri-project
-$ npm i # or pnpm i or yarn
 ```
