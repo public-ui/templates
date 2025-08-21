@@ -1,7 +1,7 @@
 import React from 'react';
 import App from 'next/app';
 import { applyPolyfills, defineCustomElements } from '@public-ui/components/dist/loader';
-import { ITZBund } from '@public-ui/themes';
+import { ITZBund } from '@public-ui/theme-default';
 import { register } from '@public-ui/components';
 import '../style.css';
 import '../style.scss';
