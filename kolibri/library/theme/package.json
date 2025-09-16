@@ -14,8 +14,7 @@
 		"serve": "cross-env THEME_MODULE=\"`pwd`/dist\" THEME_EXPORT=DEMO npm --prefix \"node_modules/@public-ui/sample-react/\" start",
 		"xtest": "THEME_MODULE=src THEME_EXPORT=DEMO kolibri-visual-test",
 		"xtest-update": "THEME_MODULE=src THEME_EXPORT=DEMO kolibri-visual-test --update-snapshots theme-snapshots.spec.js",
-		"unused": "knip",
-		"update": "ncu -t minor -u -x rimraf,unbuild && ncu -x rimraf,unbuild"
+		"unused": "knip"
 	},
 	"devDependencies": {
 		"@public-ui/sample-react": "3.0.5",

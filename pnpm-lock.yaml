@@ -564,9 +564,6 @@ importers:
       knip:
         specifier: 5.63.1
         version: 5.63.1(@types/node@24.3.0)(typescript@5.9.2)
-      nodemon:
-        specifier: 3.1.10
-        version: 3.1.10
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -582,9 +579,6 @@ importers:
       rollup-plugin-postcss:
         specifier: 4.0.2
         version: 4.0.2(postcss@8.5.6)(ts-node@10.9.2(@swc/core@1.13.5)(@types/node@24.3.0)(typescript@5.9.2))
-      sass-embedded:
-        specifier: 1.92.1
-        version: 1.92.1
       stylelint:
         specifier: 16.24.0
         version: 16.24.0(typescript@5.9.2)
@@ -600,9 +594,6 @@ importers:
       typescript:
         specifier: 5.9.2
         version: 5.9.2
-      unbuild:
-        specifier: 3.6.1
-        version: 3.6.1(sass@1.92.1)(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
 
   ssr/express:
     dependencies:
@@ -9805,7 +9796,8 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@bufbuild/protobuf@2.5.2': {}
+  '@bufbuild/protobuf@2.5.2':
+    optional: true
 
   '@cnakazawa/watch@1.0.4':
     dependencies:
@@ -12805,7 +12797,8 @@ snapshots:
     dependencies:
       node-int64: 0.4.0
 
-  buffer-builder@0.2.0: {}
+  buffer-builder@0.2.0:
+    optional: true
 
   buffer-crc32@0.2.13: {}
 
@@ -13156,7 +13149,8 @@ snapshots:
 
   colorette@2.0.20: {}
 
-  colorjs.io@0.5.2: {}
+  colorjs.io@0.5.2:
+    optional: true
 
   colors-cli@1.0.33: {}
 
@@ -14985,7 +14979,8 @@ snapshots:
 
   immutable@4.3.6: {}
 
-  immutable@5.1.1: {}
+  immutable@5.1.1:
+    optional: true
 
   import-cwd@3.0.0:
     dependencies:
@@ -18187,6 +18182,7 @@ snapshots:
       sass-embedded-unknown-all: 1.92.1
       sass-embedded-win32-arm64: 1.92.1
       sass-embedded-win32-x64: 1.92.1
+    optional: true
 
   sass@1.77.4:
     dependencies:
@@ -18929,8 +18925,10 @@ snapshots:
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.1.3
+    optional: true
 
-  sync-message-port@1.1.3: {}
+  sync-message-port@1.1.3:
+    optional: true
 
   synckit@0.9.2:
     dependencies:
@@ -19559,7 +19557,8 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  varint@6.0.0: {}
+  varint@6.0.0:
+    optional: true
 
   vary@1.1.2: {}
 

@@ -1,6 +1,5 @@
 {
-	"entry": ["src/index.ts"],
-	"ignoreBinaries": ["playwright", "pwd"],
+	"ignoreBinaries": ["playwright"],
 	"ignoreDependencies": ["@public-ui/sample-react"],
 	"project": ["src/**/*.ts"]
 }
