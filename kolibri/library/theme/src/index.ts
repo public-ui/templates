@@ -6,13 +6,11 @@ import alertCss from './components/alert.scss';
 import badgeCss from './components/badge.scss';
 import breadcrumbCss from './components/breadcrumb.scss';
 import buttonCss from './components/button.scss';
-import buttonGroupCss from './components/button-group.scss';
 import buttonLinkCss from './components/button-link.scss';
 import cardCss from './components/card.scss';
 import detailsCss from './components/details.scss';
 import headingCss from './components/heading.scss';
 import iconCss from './components/icon.scss';
-import indentedTextCss from './components/indented-text.scss';
 import inputCheckboxCss from './components/input-checkbox.scss';
 import inputColorCss from './components/input-color.scss';
 import inputDateCss from './components/input-date.scss';
@@ -45,13 +43,11 @@ export const DEMO = KoliBri.createTheme('demo', {
 	'KOL-BADGE': badgeCss,
 	'KOL-BREADCRUMB': breadcrumbCss,
 	'KOL-BUTTON': buttonCss,
-	'KOL-BUTTON-GROUP': buttonGroupCss,
 	'KOL-BUTTON-LINK': buttonLinkCss,
 	'KOL-CARD': cardCss,
 	'KOL-DETAILS': detailsCss,
 	'KOL-HEADING': headingCss,
 	'KOL-ICON': iconCss,
-	'KOL-INDENTED-TEXT': indentedTextCss,
 	'KOL-INPUT-CHECKBOX': inputCheckboxCss,
 	'KOL-INPUT-COLOR': inputColorCss,
 	'KOL-INPUT-DATE': inputDateCss,

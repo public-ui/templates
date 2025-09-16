@@ -9,17 +9,17 @@
 		"start": "nodemon index.ts"
 	},
 	"dependencies": {
-		"@public-ui/components": "2.2.10",
-		"@public-ui/hydrate": "2.2.10",
-		"@public-ui/theme-default": "2.2.10",
+		"@public-ui/components": "3.0.0",
+		"@public-ui/hydrate": "3.0.0",
+		"@public-ui/theme-default": "3.0.0",
 		"express": "5.1.0"
 	},
 	"devDependencies": {
-		"@types/express": "5.0.1",
+		"@types/express": "5.0.3",
 		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
 		"nodemon": "3.1.10",
-		"npm-run-all2": "7.0.2",
+		"npm-run-all2": "8.0.4",
 		"rimraf": "6.0.1",
 		"typescript": "5.8.3",
 		"ts-node": "10.9.2"

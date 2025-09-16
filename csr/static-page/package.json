@@ -4,15 +4,15 @@
 	"scripts": {
 		"prepare": "npm-run-all2 prepare:*",
 		"prepare:components-assets": "cpy \"node_modules/@public-ui/components/assets/**/*\" assets --dot",
-		"prepare:themes-assets": "cpy \"node_modules/@public-ui/themes/assets/**/*\" assets --dot",
+		"prepare:theme-assets": "cpy \"node_modules/@public-ui/theme-default/assets/**/*\" assets --dot",
 		"start": "serve"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.2.10",
-		"@public-ui/themes": "2.2.10",
+		"@public-ui/components": "3.0.0",
+		"@public-ui/theme-default": "3.0.0",
 		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
-		"npm-run-all2": "7.0.2",
+		"npm-run-all2": "8.0.4",
 		"serve": "14.2.4"
 	}
 }

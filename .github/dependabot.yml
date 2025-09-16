@@ -19,12 +19,6 @@ updates:
     schedule:
       interval: daily
   - package-ecosystem: npm
-    directory: /templates/angular-webpack/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
     directory: /templates/astro/
     labels:
       - dependabot
@@ -37,25 +31,7 @@ updates:
     schedule:
       interval: daily
   - package-ecosystem: npm
-    directory: /templates/preact-webpack/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
     directory: /templates/react-vite/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/react-webpack/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/solid-webpack/
     labels:
       - dependabot
     schedule:
@@ -74,12 +50,6 @@ updates:
       interval: daily
   - package-ecosystem: npm
     directory: /templates/vue-vite/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/vue-webpack/
     labels:
       - dependabot
     schedule:
