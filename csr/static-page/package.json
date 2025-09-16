@@ -8,8 +8,8 @@
 		"start": "serve"
 	},
 	"devDependencies": {
-		"@public-ui/components": "3.0.0",
-		"@public-ui/theme-default": "3.0.0",
+		"@public-ui/components": "3.0.5",
+		"@public-ui/theme-default": "3.0.5",
 		"adopted-style-sheets": "1.1.8",
 		"cpy-cli": "5.0.0",
 		"npm-run-all2": "8.0.4",

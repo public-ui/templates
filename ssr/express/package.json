@@ -9,9 +9,9 @@
 		"start": "nodemon index.ts"
 	},
 	"dependencies": {
-		"@public-ui/components": "3.0.0",
-		"@public-ui/hydrate": "3.0.0",
-		"@public-ui/theme-default": "3.0.0",
+		"@public-ui/components": "3.0.5",
+		"@public-ui/hydrate": "3.0.5",
+		"@public-ui/theme-default": "3.0.5",
 		"express": "5.1.0"
 	},
 	"devDependencies": {

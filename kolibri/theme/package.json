@@ -47,7 +47,7 @@
 		"typescript": "5.9.2"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "3.0.0"
+		"@public-ui/components": "3.0.5"
 	},
 	"exports": {
 		".": {

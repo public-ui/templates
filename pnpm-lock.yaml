@@ -70,14 +70,14 @@ importers:
   csr/react-vite:
     dependencies:
       '@public-ui/components':
-        specifier: 3.0.0
-        version: 3.0.0(adopted-style-sheets@1.1.8)
+        specifier: 3.0.5
+        version: 3.0.5(adopted-style-sheets@1.1.8)
       '@public-ui/react':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@public-ui/theme-default':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -168,11 +168,11 @@ importers:
   csr/static-page:
     devDependencies:
       '@public-ui/components':
-        specifier: 3.0.0
-        version: 3.0.0(adopted-style-sheets@1.1.8)
+        specifier: 3.0.5
+        version: 3.0.5(adopted-style-sheets@1.1.8)
       '@public-ui/theme-default':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))
       adopted-style-sheets:
         specifier: 1.1.8
         version: 1.1.8
@@ -189,14 +189,14 @@ importers:
   csr/vue-vite:
     dependencies:
       '@public-ui/components':
-        specifier: 3.0.0
-        version: 3.0.0(adopted-style-sheets@1.1.8)
+        specifier: 3.0.5
+        version: 3.0.5(adopted-style-sheets@1.1.8)
       '@public-ui/theme-default':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))
       '@public-ui/vue':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))(vue@3.5.21(typescript@5.9.2))
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))(vue@3.5.21(typescript@5.9.2))
       vue:
         specifier: 3.5.21
         version: 3.5.21(typescript@5.9.2)
@@ -239,8 +239,8 @@ importers:
         version: 1.1.8
     devDependencies:
       '@public-ui/components':
-        specifier: 3.0.0
-        version: 3.0.0(adopted-style-sheets@1.1.8)
+        specifier: 3.0.5
+        version: 3.0.5(adopted-style-sheets@1.1.8)
       '@stencil/angular-output-target':
         specifier: 0.8.4
         version: 0.8.4(@stencil/core@4.20.0)
@@ -598,14 +598,14 @@ importers:
   ssr/express:
     dependencies:
       '@public-ui/components':
-        specifier: 3.0.0
-        version: 3.0.0(adopted-style-sheets@1.1.8)
+        specifier: 3.0.5
+        version: 3.0.5(adopted-style-sheets@1.1.8)
       '@public-ui/hydrate':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))
       '@public-ui/theme-default':
-        specifier: 3.0.0
-        version: 3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))
+        specifier: 3.0.5
+        version: 3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))
       express:
         specifier: 5.1.0
         version: 5.1.0
@@ -1413,23 +1413,14 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@floating-ui/core@1.7.1':
-    resolution: {integrity: sha512-azI0DrjMMfIug/ExbBaeDVJXcY0a7EPvPjb2xAJPa4HeimBX+Z18HK8QQR3jb6356SnDDdxx+hinMLcJEDdOjw==}
-
   '@floating-ui/core@1.7.3':
     resolution: {integrity: sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==}
-
-  '@floating-ui/dom@1.6.13':
-    resolution: {integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==}
 
   '@floating-ui/dom@1.7.4':
     resolution: {integrity: sha512-OOchDgh4F2CchOX94cRVqhvy7b3AFb+/rQXyswmzmGakRfkMgoWVjfnLWkRirfLEfuD4ysVW16eXzwt3jHIzKA==}
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
-
-  '@floating-ui/utils@0.2.9':
-    resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
 
   '@formatjs/ecma402-abstract@2.0.0':
     resolution: {integrity: sha512-rRqXOqdFmk7RYvj4khklyqzcfQl9vEL/usogncBHRZfZBDOwMGuSRNFl02fu5KGHXdbinju+YXyuR+Nk8xlr/g==}
@@ -1874,20 +1865,15 @@ packages:
   '@polka/url@1.0.0-next.25':
     resolution: {integrity: sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==}
 
-  '@public-ui/components@3.0.0':
-    resolution: {integrity: sha512-pVG1pv5+TCEiun2zb+Mz2eVlr9C5dyAXLeRUktqfjYimyvlg7NRcqA/LNUg0ybPqBNqwjPLPbLxfOyn+MSHS/g==}
-    peerDependencies:
-      adopted-style-sheets: 1.1.9-rc.18
-
   '@public-ui/components@3.0.5':
     resolution: {integrity: sha512-rWfimFPPH+xggQ8d3ryEe0E4eMZTIVy3XPznGiU912wvuE3/wjB0EYcyJqePgtT8JD2pMoDfxinHfnOVSVljGw==}
     peerDependencies:
       adopted-style-sheets: 1.1.9-rc.20
 
-  '@public-ui/hydrate@3.0.0':
-    resolution: {integrity: sha512-gzOUIy62c9ECdjCGnaOLIf/G3NcYp5QyXM/eyC8oqKXuGQPx/f9hpUbx8PKWJ4hyUTUYjAzMiH3DDhOTEpRIOw==}
+  '@public-ui/hydrate@3.0.5':
+    resolution: {integrity: sha512-zafOax66HihcX18K52K4SACcFrbU5pBuHCtBI0XCE+qgqFj8iFj8ZeZdxN12HPZ5FizPaqaSxHFVyFY0WExR3g==}
     peerDependencies:
-      '@public-ui/components': 3.0.0
+      '@public-ui/components': 3.0.5
 
   '@public-ui/react-standalone@3.0.5':
     resolution: {integrity: sha512-Zj+67itsuCHIVbZYeVVJTJGJ8+Uk7X8ggGtd2v3SqAGphB1V/TjfNQs5u8xRwWS+rHXHH13onuCm3y0mwOm/tw==}
@@ -1903,13 +1889,6 @@ packages:
       react: '>=19.1.1'
       react-dom: '>=19.1.1'
 
-  '@public-ui/react@3.0.0':
-    resolution: {integrity: sha512-CHxePbJLT/WaUlvj7bLvNiJh4VjinGszGgzpm6ng9qDGh884lb70m1+KkXFea7ydv3AsaZFJsmbS6RY1lZT4Zw==}
-    peerDependencies:
-      '@public-ui/components': 3.0.0
-      react: '>=16.14.0'
-      react-dom: '>=16.14.0'
-
   '@public-ui/react@3.0.5':
     resolution: {integrity: sha512-jxcSA1FKrTMJXFsyDssSkBKIM+SUcUYorvapBMycn6tTN1YpHr+8sG0+9gtP2qIcWMAiRXTQB0SSvscf+d6Dhw==}
     peerDependencies:
@@ -1919,11 +1898,6 @@ packages:
 
   '@public-ui/sample-react@3.0.5':
     resolution: {integrity: sha512-xwnmZQ5G4QLqtJZ6dvDyghqfZEH8oXgi8Wx/KM0g5qlRLobg2uj9rrbTnBXns6kh1DXHJb+THoh8np9hdx2hQQ==}
-
-  '@public-ui/theme-default@3.0.0':
-    resolution: {integrity: sha512-d1HXwb39Lrzk3CdeCyN39bK5eysOwhXdrRDx4eJHtswNYGublEn+Nj84e1ZWl+/WFTR3cpr1N2RG8TJXNBFDtw==}
-    peerDependencies:
-      '@public-ui/components': 3.0.0
 
   '@public-ui/theme-default@3.0.5':
     resolution: {integrity: sha512-AaFTvm/P8P+n52BcnDex7Vt6BNP6bQyF2nSeC2r14qYoL9j8r+oVabMS9GNTbPZ7G2W6QI0f8YUXDLa6vS5YSg==}
@@ -1942,10 +1916,10 @@ packages:
     peerDependencies:
       '@playwright/test': 1.55.0
 
-  '@public-ui/vue@3.0.0':
-    resolution: {integrity: sha512-/IVEw1n4gpo1zNUKLfeog5mugNjLP6X3hpTja6MB5LvsIT4tuzbgqLaVcJw9nt/QZk6kbU6QlQN/nxLXe94prg==}
+  '@public-ui/vue@3.0.5':
+    resolution: {integrity: sha512-+wCtGp8hH1Ww7pl4ysfGGw3kGzzQoJDA0fGVvwiMEfM/NBKIEhcaarSnK4Lf5x7eLcKpt5GVgpp8Evj9YQ9KEg==}
     peerDependencies:
-      '@public-ui/components': 3.0.0
+      '@public-ui/components': 3.0.5
       vue: '>=3'
 
   '@puppeteer/browsers@2.10.5':
@@ -4874,10 +4848,6 @@ packages:
   get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
-
-  get-east-asian-width@1.2.0:
-    resolution: {integrity: sha512-2nk+7SIVb14QrgXFHcm84tD4bKQz0RxPuMT8Ag5KPOq7J5fEmAg0UbXdTOSHqNuHSU28k55qnceesxXRZGzKWA==}
-    engines: {node: '>=18'}
 
   get-east-asian-width@1.4.0:
     resolution: {integrity: sha512-QZjmEOC+IT1uk6Rx0sX22V6uHWVwbdbxf1faPqJ1QhLdGgsRGCZoyaQBm/piRdJy/D2um6hM1UP7ZEeQ4EkP+Q==}
@@ -10166,18 +10136,9 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@floating-ui/core@1.7.1':
-    dependencies:
-      '@floating-ui/utils': 0.2.9
-
   '@floating-ui/core@1.7.3':
     dependencies:
       '@floating-ui/utils': 0.2.10
-
-  '@floating-ui/dom@1.6.13':
-    dependencies:
-      '@floating-ui/core': 1.7.1
-      '@floating-ui/utils': 0.2.9
 
   '@floating-ui/dom@1.7.4':
     dependencies:
@@ -10185,8 +10146,6 @@ snapshots:
       '@floating-ui/utils': 0.2.10
 
   '@floating-ui/utils@0.2.10': {}
-
-  '@floating-ui/utils@0.2.9': {}
 
   '@formatjs/ecma402-abstract@2.0.0':
     dependencies:
@@ -10786,13 +10745,16 @@ snapshots:
 
   '@polka/url@1.0.0-next.25': {}
 
-  '@public-ui/components@3.0.0(adopted-style-sheets@1.1.8)':
+  '@public-ui/components@3.0.5(adopted-style-sheets@1.1.8)':
     dependencies:
-      '@floating-ui/dom': 1.6.13
+      '@floating-ui/dom': 1.7.4
       adopted-style-sheets: 1.1.8
+      boxen: 8.0.1
+      chalk: 5.6.0
       clsx: 2.1.1
-      color-convert: 2.0.1
+      color-convert: 3.1.0
       color-rgba: 2.4.0
+      figlet: 1.8.2
       lodash-es: 4.17.21
       markdown-it: 14.1.0
       query-selector-all-shadow-root: 0.0.3
@@ -10819,9 +10781,9 @@ snapshots:
       typed-bem: 1.0.0-rc.7
       wcag-contrast: 3.0.0
 
-  '@public-ui/hydrate@3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))':
+  '@public-ui/hydrate@3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))':
     dependencies:
-      '@public-ui/components': 3.0.0(adopted-style-sheets@1.1.8)
+      '@public-ui/components': 3.0.5(adopted-style-sheets@1.1.8)
 
   '@public-ui/react-standalone@3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.9-rc.20))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -10835,9 +10797,9 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
-  '@public-ui/react@3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@public-ui/react@3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@public-ui/components': 3.0.0(adopted-style-sheets@1.1.8)
+      '@public-ui/components': 3.0.5(adopted-style-sheets@1.1.8)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
@@ -10909,9 +10871,9 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@public-ui/theme-default@3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))':
+  '@public-ui/theme-default@3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))':
     dependencies:
-      '@public-ui/components': 3.0.0(adopted-style-sheets@1.1.8)
+      '@public-ui/components': 3.0.5(adopted-style-sheets@1.1.8)
 
   '@public-ui/theme-default@3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.9-rc.20))':
     dependencies:
@@ -10950,9 +10912,9 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@public-ui/vue@3.0.0(@public-ui/components@3.0.0(adopted-style-sheets@1.1.8))(vue@3.5.21(typescript@5.9.2))':
+  '@public-ui/vue@3.0.5(@public-ui/components@3.0.5(adopted-style-sheets@1.1.8))(vue@3.5.21(typescript@5.9.2))':
     dependencies:
-      '@public-ui/components': 3.0.0(adopted-style-sheets@1.1.8)
+      '@public-ui/components': 3.0.5(adopted-style-sheets@1.1.8)
       vue: 3.5.21(typescript@5.9.2)
 
   '@puppeteer/browsers@2.10.5':
@@ -14612,8 +14574,6 @@ snapshots:
 
   get-caller-file@2.0.5: {}
 
-  get-east-asian-width@1.2.0: {}
-
   get-east-asian-width@1.4.0: {}
 
   get-func-name@2.0.2: {}
@@ -15138,7 +15098,7 @@ snapshots:
 
   is-fullwidth-code-point@5.0.0:
     dependencies:
-      get-east-asian-width: 1.2.0
+      get-east-asian-width: 1.4.0
 
   is-generator-fn@2.1.0: {}
 
