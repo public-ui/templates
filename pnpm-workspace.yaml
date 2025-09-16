@@ -1,14 +1,10 @@
 packages:
   # Client Side Rendering (CSR) Templates
-  - 'csr/preact-webpack/'
   - 'csr/react-vite/'
   - 'csr/react-vite-formik/'
   - 'csr/react-standalone/'
-  - 'csr/react-webpack/'
-  - 'csr/solid-webpack/'
   - 'csr/static-page/'
   - 'csr/vue-vite/'
-  - 'csr/vue-webpack/'
 
   # Server Side Rendering (SSR) Templates
   - 'ssr/express/'
@@ -18,7 +14,7 @@ packages:
   # - 'ssr/remix/'
 
   # KoliBri Library Templates
-  - 'kolibri/library/app/'
+  # - 'kolibri/library/app/'
   - 'kolibri/library/components/'
   - 'kolibri/library/components/adapters/angular/'
   - 'kolibri/library/components/adapters/react/'
