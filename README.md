@@ -19,6 +19,7 @@ These templates are maintained using [pnpm](https://pnpm.io) for dependency mana
 #### Angular Templates
 
 - **Angular** (Modern)
+
   ```bash
   npx degit public-ui/templates/csr/angular my-kolibri-project
   cd my-kolibri-project
@@ -28,26 +29,25 @@ These templates are maintained using [pnpm](https://pnpm.io) for dependency mana
 #### React Templates
 
 - **React Vite** (Modern, Recommended)
+
   ```bash
   npx degit public-ui/templates/csr/react-vite my-kolibri-project
   cd my-kolibri-project
   npm i # or pnpm i or yarn
   ```
+
 - **React Vite with Formik**
+
   ```bash
   npx degit public-ui/templates/csr/react-vite-formik my-kolibri-project
   cd my-kolibri-project
   npm i # or pnpm i or yarn
   ```
+
 - **React Standalone**
+
   ```bash
   npx degit public-ui/templates/csr/react-standalone my-kolibri-project
-  cd my-kolibri-project
-  npm i # or pnpm i or yarn
-  ```
-- **React Webpack** (Legacy)
-  ```bash
-  npx degit public-ui/templates/csr/react-webpack my-kolibri-project
   cd my-kolibri-project
   npm i # or pnpm i or yarn
   ```
@@ -55,33 +55,17 @@ These templates are maintained using [pnpm](https://pnpm.io) for dependency mana
 #### Vue Templates
 
 - **Vue Vite** (Modern, Recommended)
+
   ```bash
   npx degit public-ui/templates/csr/vue-vite my-kolibri-project
-  cd my-kolibri-project
-  npm i # or pnpm i or yarn
-  ```
-- **Vue Webpack** (Legacy)
-  ```bash
-  npx degit public-ui/templates/csr/vue-webpack my-kolibri-project
   cd my-kolibri-project
   npm i # or pnpm i or yarn
   ```
 
 #### Other CSR Templates
 
-- **Preact Webpack**
-  ```bash
-  npx degit public-ui/templates/csr/preact-webpack my-kolibri-project
-  cd my-kolibri-project
-  npm i # or pnpm i or yarn
-  ```
-- **Solid Webpack**
-  ```bash
-  npx degit public-ui/templates/csr/solid-webpack my-kolibri-project
-  cd my-kolibri-project
-  npm i # or pnpm i or yarn
-  ```
 - **Static Page**
+
   ```bash
   npx degit public-ui/templates/csr/static-page my-kolibri-project
   cd my-kolibri-project
@@ -93,6 +77,7 @@ These templates are maintained using [pnpm](https://pnpm.io) for dependency mana
 > Note: Most SSR templates are still in development. Only Express is currently available.
 
 - **Express**
+
   ```bash
   npx degit public-ui/templates/ssr/express my-kolibri-project
   cd my-kolibri-project
