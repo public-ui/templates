@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -22,14 +22,14 @@ jobs:
       #   with:
       #     run_install: false
       #     version: 10
-      # - uses: actions/setup-node@v4
+      # - uses: actions/setup-node@v5
       #   with:
       #     cache: pnpm
       #     node-version: 22
 
       # https://github.com/pnpm/action-setup#use-cache-to-reduce-installation-time
       - name: Install Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           # cache: pnpm
           node-version: 22
