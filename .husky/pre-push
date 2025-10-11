@@ -1,1 +1,1 @@
-pnpm -r format
+pnpm -r --no-bail format
