@@ -1,1 +1,1 @@
-pnpm -r lint
+pnpm -r --no-bail lint

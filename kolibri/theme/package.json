@@ -22,32 +22,32 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/components": "3.0.5",
-		"@public-ui/sample-react": "3.0.5",
-		"@public-ui/visual-tests": "3.0.5",
+		"@public-ui/components": "3.0.6",
+		"@public-ui/sample-react": "3.0.6",
+		"@public-ui/visual-tests": "3.0.6",
 		"@rollup/plugin-commonjs": "28.0.6",
-		"@rollup/plugin-node-resolve": "16.0.1",
+		"@rollup/plugin-node-resolve": "16.0.2",
 		"@rollup/plugin-typescript": "12.1.4",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"adopted-style-sheets": "1.1.9-rc.20",
 		"cpy-cli": "6.0.0",
-		"cross-env": "10.0.0",
+		"cross-env": "10.1.0",
 		"eslint": "8.57.1",
-		"knip": "5.63.1",
+		"knip": "5.64.3",
 		"npm-run-all2": "8.0.4",
 		"prettier": "3.6.2",
 		"postcss": "8.5.6",
-		"rollup": "4.50.2",
+		"rollup": "4.52.4",
 		"rollup-plugin-postcss": "4.0.2",
-		"stylelint": "16.24.0",
-		"stylelint-config-recommended-scss": "16.0.1",
-		"stylelint-config-standard": "39.0.0",
+		"stylelint": "16.25.0",
+		"stylelint-config-recommended-scss": "16.0.2",
+		"stylelint-config-standard": "39.0.1",
 		"stylelint-scss": "6.12.1",
-		"typescript": "5.9.2"
+		"typescript": "5.9.3"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "3.0.5"
+		"@public-ui/components": "3.0.6"
 	},
 	"exports": {
 		".": {
