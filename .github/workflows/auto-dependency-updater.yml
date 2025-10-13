@@ -43,7 +43,7 @@ jobs:
         run: pnpm i
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update all depedencies
           push_options: '--force'
