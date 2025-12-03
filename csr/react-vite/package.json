@@ -22,14 +22,14 @@
 		"@testing-library/jest-dom": "6.9.1",
 		"@testing-library/react": "16.3.0",
 		"@testing-library/user-event": "14.6.1",
-		"@types/react": "18.3.26",
+		"@types/react": "18.3.27",
 		"@types/react-dom": "18.3.7",
 		"@vitejs/plugin-react-swc": "4.2.2",
 		"adopted-style-sheets": "1.1.8",
-		"prettier": "3.6.2",
-		"unocss": "66.5.3",
+		"prettier": "3.7.3",
+		"unocss": "66.5.10",
 		"typescript": "5.9.3",
-		"vite": "6.3.6",
-		"vitest": "4.0.14"
+		"vite": "6.4.1",
+		"vitest": "4.0.15"
 	}
 }
