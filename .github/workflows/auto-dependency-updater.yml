@@ -70,8 +70,9 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Remove Git Hooks
-        run: rm -rf .husky
+      - name: Build
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: pnpm build
 
       - name: Create Pull Request
         if: steps.verify-changed-files.outputs.changed == 'true'
@@ -87,7 +88,6 @@ jobs:
       - name: Quality Checks
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          pnpm build
           pnpm format
           pnpm lint
           pnpm test
