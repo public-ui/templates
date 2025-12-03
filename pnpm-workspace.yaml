@@ -1,6 +1,7 @@
 packages:
   # Client Side Rendering (CSR) Templates
   - 'csr/react-vite/'
+  - 'csr/react-vite-react-hook-form/'
   - 'csr/react-vite-formik/'
   - 'csr/react-standalone/'
   - 'csr/static-page/'
