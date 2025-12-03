@@ -22,9 +22,9 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/components": "3.0.6",
-		"@public-ui/sample-react": "3.0.6",
-		"@public-ui/visual-tests": "3.0.6",
+		"@public-ui/components": "4.0.0-alpha.5",
+		"@public-ui/sample-react": "4.0.0-alpha.5",
+		"@public-ui/visual-tests": "4.0.0-alpha.5",
 		"@rollup/plugin-commonjs": "28.0.6",
 		"@rollup/plugin-node-resolve": "16.0.2",
 		"@rollup/plugin-typescript": "12.1.4",
@@ -47,7 +47,7 @@
 		"typescript": "5.9.3"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "3.0.6"
+		"@public-ui/components": "4.0.0-alpha.5"
 	},
 	"exports": {
 		".": {

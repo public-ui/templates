@@ -17,8 +17,8 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/sample-react": "3.0.6",
-		"@public-ui/visual-tests": "3.0.6",
+		"@public-ui/sample-react": "4.0.0-alpha.5",
+		"@public-ui/visual-tests": "4.0.0-alpha.5",
 		"@types/node": "22.18.9",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
@@ -34,7 +34,7 @@
 		"unbuild": "3.6.1"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "3.0.6"
+		"@public-ui/components": "4.0.0-alpha.5"
 	},
 	"sideEffects": false,
 	"type": "module",

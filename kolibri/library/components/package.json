@@ -34,7 +34,7 @@
 		"adopted-style-sheets": "1.1.8"
 	},
 	"devDependencies": {
-		"@public-ui/components": "3.0.5",
+		"@public-ui/components": "4.0.0-alpha.5",
 		"@stencil/angular-output-target": "0.8.4",
 		"@stencil/core": "4.20.0",
 		"@stencil/react-output-target": "0.5.3",
