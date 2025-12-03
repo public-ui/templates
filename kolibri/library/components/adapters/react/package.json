@@ -11,14 +11,14 @@
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
-		"@types/node": "22.15.3",
+		"@types/node": "22.19.1",
 		"@types/normalize-package-data": "2.4.4",
-		"@types/react": "18.3.20",
-		"@types/react-dom": "18.3.6",
+		"@types/react": "18.3.27",
+		"@types/react-dom": "18.3.7",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"typescript": "5.8.3",
-		"unbuild": "3.5.0"
+		"typescript": "5.9.3",
+		"unbuild": "3.6.1"
 	},
 	"peerDependencies": {
 		"@public-ui/library-components": "workspace:*",
