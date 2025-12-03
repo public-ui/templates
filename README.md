@@ -36,6 +36,14 @@ These templates are maintained using [pnpm](https://pnpm.io) for dependency mana
   npm i # or pnpm i or yarn
   ```
 
+- **React Vite with React Hook Form**
+
+  ```bash
+  npx degit public-ui/templates/csr/react-vite-react-hook-form my-kolibri-project
+  cd my-kolibri-project
+  npm i # or pnpm i or yarn
+  ```
+
 - **React Vite with Formik**
 
   ```bash
