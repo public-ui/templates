@@ -88,6 +88,7 @@ jobs:
       - name: Quality Checks
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
+          pnpm audit --audit-level high
           pnpm format
           pnpm lint
           pnpm test
