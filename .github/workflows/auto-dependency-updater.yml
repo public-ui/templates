@@ -1,8 +1,5 @@
 name: Auto dependency updater
 
-env:
-  issue: 6350
-
 on:
   schedule:
     - cron: '0 2 * * *' # Runs daily at 02:00 UTC
@@ -73,15 +70,18 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Remove Git Hooks
+        run: rm -rf .husky
+
       - name: Create Pull Request
         if: steps.verify-changed-files.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           base: ${{ matrix.base }}
-          branch: ${{ env.issue }}-${{ env.version }}/auto-update-deps
+          branch: ${{ env.version }}/auto-update-deps
           commit-message: 'chore: update dependencies and lock file'
           title: 'chore(${{ env.version }}): update dependencies and lock file'
-          body: 'Automated dependency updates from issue #${{ env.issue }} for ${{ env.version }}.'
+          body: 'Automated dependency updates for ${{ env.version }}.'
           delete-branch: true
 
       - name: Quality Checks
