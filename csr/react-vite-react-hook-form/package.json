@@ -19,16 +19,16 @@
 		"react": "19.2.0",
 		"react-dom": "19.2.0",
 		"react-hook-form": "7.67.0",
-		"zod": "3.25.76"
+		"zod": "4.1.13"
 	},
 	"devDependencies": {
 		"@leanup/stack": "1.3.54",
 		"@types/react": "19.2.7",
 		"@types/react-dom": "19.2.3",
-		"@vitejs/plugin-react": "4.7.0",
+		"@vitejs/plugin-react-swc": "4.2.2",
 		"prettier": "3.7.3",
 		"typescript": "5.9.3",
-		"unocss": "0.65.4",
-		"vite": "6.4.1"
+		"unocss": "66.5.10",
+		"vite": "7.2.6"
 	}
 }

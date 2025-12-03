@@ -8,11 +8,11 @@
 		"prepack": "unbuild"
 	},
 	"devDependencies": {
-		"@babel/types": "7.28.4",
+		"@babel/types": "7.28.5",
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
-		"@types/node": "22.18.9",
+		"@types/node": "22.19.1",
 		"@types/normalize-package-data": "2.4.4",
 		"typescript": "5.9.3",
 		"unbuild": "3.6.1",

@@ -16,11 +16,8 @@
 		"prepare": "pnpm format -w && npm-run-all2 prepare:*",
 		"prepare:defaults": "npm-run-all2 prepare:defaults:*",
 		"prepare:defaults:config": "npm-run-all2 prepare:defaults:config:*",
-		"prepare:defaults:csr": "npm-run-all2 prepare:defaults:csr:*",
 		"prepare:defaults:config:csr-react-vite": "cpy --dot \".defaults/config/**/*\" \"csr/react-vite/\"",
 		"prepare:defaults:config:csr-vue-vite": "cpy --dot \".defaults/config/**/*\" \"csr/vue-vite/\"",
-		"prepare:defaults:csr:react-vite": "cpy --dot \"csr/.defaults/**/*\" \"csr/react-vite/\"",
-		"prepare:defaults:csr:vue-vite": "cpy --dot \"csr/.defaults/**/*\" \"csr/vue-vite/\"",
 		"prepare:defaults:config:kolibri-library": "cpy --dot \".defaults/config/**/*\" \"kolibri/library/\"",
 		"prepare:defaults:config:kolibri-library-app": "cpy --dot \".defaults/config/**/*\" \"kolibri/library/app/\"",
 		"prepare:defaults:config:kolibri-library-components": "cpy --dot \".defaults/config/**/*\" \"kolibri/library/components/\"",
@@ -28,6 +25,9 @@
 		"prepare:defaults:config:kolibri-library-theme": "cpy --dot \".defaults/config/**/*\" \"kolibri/library/theme/\"",
 		"prepare:defaults:config:kolibri-theme": "cpy --dot \".defaults/config/**/*\" \"kolibri/theme/\"",
 		"prepare:defaults:config:svg2font": "cpy --dot \".defaults/config/**/*\" \"svg2font/\"",
+		"prepare:defaults:csr": "npm-run-all2 prepare:defaults:csr:*",
+		"prepare:defaults:csr:react-vite": "cpy --dot \"csr/.defaults/**/*\" \"csr/react-vite/\"",
+		"prepare:defaults:csr:vue-vite": "cpy --dot \"csr/.defaults/**/*\" \"csr/vue-vite/\"",
 		"prepare:defaults:static": "npm-run-all2 prepare:defaults:static:*",
 		"prepare:defaults:static:csr-react-vite": "cpy --dot \".defaults/static/**/*\" \"csr/react-vite/\"",
 		"prepare:defaults:static:csr-vue-vite": "cpy --dot \".defaults/static/**/*\" \"csr/vue-vite/\"",
@@ -45,20 +45,19 @@
 		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "19.8.1",
-		"@commitlint/config-conventional": "19.8.1",
-		"cpy-cli": "5.0.0",
+		"@commitlint/cli": "20.1.0",
+		"@commitlint/config-conventional": "20.0.0",
+		"cpy-cli": "6.0.0",
 		"husky": "9.1.7",
-		"npm-check-updates": "18.3.1",
+		"npm-check-updates": "19.1.2",
 		"npm-run-all2": "8.0.4",
-		"prettier": "3.6.2",
-		"rimraf": "6.0.1",
-		"lint-staged": "16.2.4"
+		"prettier": "3.7.3",
+		"rimraf": "6.1.2",
+		"lint-staged": "16.2.7"
 	},
 	"engines": {
 		"node": "^22",
 		"npm": "^10",
 		"pnpm": "^10"
-	},
-	"packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a"
+	}
 }
