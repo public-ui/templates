@@ -6,6 +6,8 @@ describe('App', () => {
 	it('should render the welcome text', () => {
 		render(<App />);
 
+		screen.debug();
+
 		expect(screen.getByText('Hello Vite + React + KoliBri!')).toBeInTheDocument();
 	});
 
