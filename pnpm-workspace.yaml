@@ -3,6 +3,7 @@ packages:
   - 'csr/react-vite/'
   - 'csr/react-vite-react-hook-form/'
   - 'csr/react-vite-formik/'
+  - 'csr/react-vitest/'
   - 'csr/react-standalone/'
   - 'csr/static-page/'
   - 'csr/vue-vite/'

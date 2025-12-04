@@ -1,0 +1,38 @@
+{
+  "name": "public-ui-kolibri-v3-vite-react",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "npm run build && vite preview",
+    "update": "ncu -t minor -u && ncu",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@public-ui/components": "3.0.7",
+    "@public-ui/react-v19": "3.0.7",
+    "@public-ui/theme-default": "3.0.7",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.8.0",
+    "@testing-library/react": "16.3.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.0.4",
+    "jsdom": "26.1.0",
+    "npm-check-updates": "^19",
+    "prettier": "^3",
+    "typescript": "^5",
+    "unocss": "^66",
+    "vite": "^7",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm run test"
+  }
+}
