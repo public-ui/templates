@@ -5,52 +5,31 @@
 
 version: 2
 updates:
+  # === Default Branch ===
   - package-ecosystem: github-actions
     directory: /
     labels:
       - dependabot
+      - v4
     schedule:
-      interval: daily
+      interval: weekly
 
-  - package-ecosystem: npm
+  # === Release Branch: v3 ===
+  - package-ecosystem: github-actions
     directory: /
+    target-branch: release/3
     labels:
       - dependabot
+      - v3
     schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/astro/
+      interval: weekly
+
+  # === Release Branch: v2 ===
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: release/2
     labels:
       - dependabot
+      - v2
     schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/next.js/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/react-vite/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/static-page/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/svg2font/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /templates/vue-vite/
-    labels:
-      - dependabot
-    schedule:
-      interval: daily
+      interval: weekly
