@@ -16,9 +16,9 @@
 		"@public-ui/react-hook-form-adapter": "3.0.8",
 		"@public-ui/react-v19": "3.0.8",
 		"@public-ui/theme-default": "3.0.8",
-		"react": "19.2.0",
-		"react-dom": "19.2.0",
-		"react-hook-form": "7.67.0",
+		"react": "19.2.3",
+		"react-dom": "19.2.3",
+		"react-hook-form": "7.68.0",
 		"zod": "4.1.13"
 	},
 	"devDependencies": {
@@ -26,9 +26,9 @@
 		"@types/react": "19.2.7",
 		"@types/react-dom": "19.2.3",
 		"@vitejs/plugin-react-swc": "4.2.2",
-		"prettier": "3.7.3",
+		"prettier": "3.7.4",
 		"typescript": "5.9.3",
 		"unocss": "66.5.10",
-		"vite": "7.2.6"
+		"vite": "7.2.7"
 	}
 }
