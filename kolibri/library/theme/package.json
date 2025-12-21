@@ -17,24 +17,24 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/sample-react": "3.0.8",
-		"@public-ui/visual-tests": "3.0.8",
-		"@types/node": "22.19.2",
+		"@public-ui/sample-react": "3.0.9",
+		"@public-ui/visual-tests": "3.0.9",
+		"@types/node": "22.19.3",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"cross-env": "10.1.0",
 		"eslint": "8.57.1",
 		"nodemon": "3.1.11",
 		"npm-run-all2": "8.0.4",
-		"knip": "5.73.3",
+		"knip": "5.76.1",
 		"prettier": "3.7.4",
-		"rollup": "4.53.3",
+		"rollup": "4.54.0",
 		"rollup-plugin-postcss": "4.0.2",
 		"typescript": "5.9.3",
 		"unbuild": "3.6.1"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "3.0.8"
+		"@public-ui/components": "3.0.9"
 	},
 	"sideEffects": false,
 	"type": "module",
