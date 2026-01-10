@@ -46,11 +46,6 @@
 		"prepare:defaults:static:csr-solid-webpack": "cpy --dot \".defaults/static/**/*\" \"csr/solid-webpack/public/\"",
 		"prepare:defaults:static:csr-vue-vite": "cpy --dot \".defaults/static/**/*\" \"csr/vue-vite/\"",
 		"prepare:defaults:static:csr-vue-webpack": "cpy --dot \".defaults/static/**/*\" \"csr/vue-webpack/public/\"",
-		"prepare:husky": "rimraf .husky && husky && npm-run-all2 prepare:husky:*",
-		"prepare:husky:commitlint": "echo \"npx commitlint --edit $1\" >> .husky/commit-msg",
-		"prepare:husky:format": "echo \"pnpm -r format\" >> .husky/pre-push",
-		"prepare:husky:lint": "echo \"pnpm -r lint\" >> .husky/pre-commit",
-		"xprepare:husky:unused": "echo \"pnpm -r unused\" >> .husky/pre-push",
 		"prepare:remove": "npm-run-all2 prepare:remove:*",
 		"prepare:remove:outdated": "pnpm -r exec rimraf prettier.config.js prettier.config.cjs",
 		"test": "pnpm -r --workspace-concurrency=1 test",
@@ -59,15 +54,11 @@
 		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "19.8.1",
-		"@commitlint/config-conventional": "19.8.1",
 		"cpy-cli": "5.0.0",
-		"husky": "9.1.7",
 		"npm-check-updates": "18.3.1",
 		"npm-run-all2": "7.0.2",
 		"prettier": "3.7.4",
-		"rimraf": "6.1.2",
-		"lint-staged": "15.5.2"
+		"rimraf": "6.1.2"
 	},
 	"engines": {
 		"node": "^22",
