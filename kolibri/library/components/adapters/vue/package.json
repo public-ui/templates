@@ -12,7 +12,7 @@
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
-		"@types/node": "22.19.3",
+		"@types/node": "22.19.5",
 		"@types/normalize-package-data": "2.4.4",
 		"typescript": "5.9.3",
 		"unbuild": "3.6.1",

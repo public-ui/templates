@@ -11,12 +11,12 @@
 		"start": "npm run dev"
 	},
 	"dependencies": {
-		"@public-ui/components": "3.0.9",
+		"@public-ui/components": "3.1.0",
 		"@public-ui/react": "3.0.8",
-		"@public-ui/theme-default": "3.0.9",
+		"@public-ui/theme-default": "3.1.0",
 		"react": "19.2.0",
 		"react-dom": "19.2.0",
-		"zod": "4.2.1",
+		"zod": "4.3.5",
 		"zod-formik-adapter": "2.0.0"
 	},
 	"devDependencies": {
@@ -27,7 +27,7 @@
 		"formik": "2.4.9",
 		"prettier": "3.7.4",
 		"typescript": "5.9.3",
-		"unocss": "66.5.10",
-		"vite": "7.3.0"
+		"unocss": "66.5.12",
+		"vite": "7.3.1"
 	}
 }
