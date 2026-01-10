@@ -31,11 +31,6 @@
 		"prepare:defaults:static": "npm-run-all2 prepare:defaults:static:*",
 		"prepare:defaults:static:csr-react-vite": "cpy --dot \".defaults/static/**/*\" \"csr/react-vite/\"",
 		"prepare:defaults:static:csr-vue-vite": "cpy --dot \".defaults/static/**/*\" \"csr/vue-vite/\"",
-		"prepare:husky": "rimraf .husky && husky && npm-run-all2 prepare:husky:*",
-		"prepare:husky:commitlint": "echo \"npx commitlint --edit $1\" >> .husky/commit-msg",
-		"prepare:husky:format": "echo \"pnpm -r --no-bail format\" >> .husky/pre-push",
-		"prepare:husky:lint": "echo \"pnpm -r --no-bail lint\" >> .husky/pre-commit",
-		"xprepare:husky:unused": "echo \"pnpm -r --no-bail unused\" >> .husky/pre-push",
 		"prepare:remove": "npm-run-all2 prepare:remove:*",
 		"prepare:remove:outdated": "pnpm -r --no-bail exec rimraf prettier.config.js prettier.config.cjs",
 		"smoketest": "pnpm clean && pnpm i && pnpm build && pnpm format && pnpm lint && pnpm unused",
@@ -45,10 +40,7 @@
 		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "20.3.1",
-		"@commitlint/config-conventional": "20.3.1",
 		"cpy-cli": "6.0.0",
-		"husky": "9.1.7",
 		"npm-check-updates": "19.3.1",
 		"npm-run-all2": "8.0.4",
 		"prettier": "3.7.4",
