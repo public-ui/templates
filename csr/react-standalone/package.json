@@ -8,10 +8,10 @@
 		"start": "serve"
 	},
 	"dependencies": {
-		"@babel/standalone": "7.28.5",
-		"@public-ui/components": "3.1.0",
-		"@public-ui/react-standalone": "3.1.0",
-		"@public-ui/theme-default": "3.1.0",
+		"@babel/standalone": "7.29.1",
+		"@public-ui/components": "3.1.2",
+		"@public-ui/react-standalone": "3.1.2",
+		"@public-ui/theme-default": "3.1.2",
 		"react": "18.3.1",
 		"react-dom": "18.3.1"
 	},
