@@ -18,24 +18,24 @@
 		"update": "ncu -t minor -u -x rimraf,unbuild && ncu -x rimraf,unbuild"
 	},
 	"devDependencies": {
-		"@public-ui/sample-react": "2.2.19",
-		"@public-ui/visual-tests": "2.2.19",
-		"@types/node": "22.19.5",
+		"@public-ui/sample-react": "2.2.20",
+		"@public-ui/visual-tests": "2.2.20",
+		"@types/node": "22.19.9",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"cross-env": "7.0.3",
 		"eslint": "8.57.1",
 		"nodemon": "3.1.11",
 		"npm-run-all2": "7.0.2",
-		"knip": "5.80.2",
-		"prettier": "3.7.4",
-		"rollup": "4.55.1",
+		"knip": "5.83.1",
+		"prettier": "3.8.1",
+		"rollup": "4.57.1",
 		"rollup-plugin-postcss": "4.0.2",
 		"typescript": "5.9.3",
 		"unbuild": "3.6.1"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "^2.2.19"
+		"@public-ui/components": "^2.2.20"
 	},
 	"sideEffects": false,
 	"type": "module",
