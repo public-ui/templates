@@ -1,17 +1,18 @@
 @font-face {
   font-family: "kolicons";
-  src: url('kolicons.eot?t=1767996739469'); /* IE9*/
-  src: url('kolicons.eot?t=1767996739469#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("kolicons.woff2?t=1767996739469") format("woff2"),
-  url("kolicons.woff?t=1767996739469") format("woff"),
-  url('kolicons.ttf?t=1767996739469') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('kolicons.svg?t=1767996739469#kolicons') format('svg'); /* iOS 4.1- */
+  src: url('kolicons.eot?t=1770450415065'); /* IE9*/
+  src: url('kolicons.eot?t=1770450415065#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("kolicons.woff2?t=1770450415065") format("woff2"),
+  url("kolicons.woff?t=1770450415065") format("woff"),
+  url('kolicons.ttf?t=1770450415065') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('kolicons.svg?t=1770450415065#kolicons') format('svg'); /* iOS 4.1- */
 }
 
 [class^="kolicon-"], [class*=" kolicon-"] {
   font-family: 'kolicons';
   font-size: inherit;
   font-style:normal;
+  font-weight: 400;
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
