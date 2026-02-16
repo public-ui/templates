@@ -19,7 +19,7 @@
 	"devDependencies": {
 		"@public-ui/sample-react": "4.0.3",
 		"@public-ui/visual-tests": "4.0.3",
-		"@types/node": "22.19.9",
+		"@types/node": "22.19.11",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"cross-env": "7.0.3",
