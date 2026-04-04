@@ -23,7 +23,7 @@
 		"@vitejs/plugin-react": "4.7.0",
 		"adopted-style-sheets": "1.1.8",
 		"prettier": "3.8.1",
-		"unocss": "66.6.0",
+		"unocss": "66.6.7",
 		"typescript": "5.9.3",
 		"vite": "6.4.1"
 	}
