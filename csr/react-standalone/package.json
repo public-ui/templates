@@ -8,16 +8,16 @@
 		"start": "serve"
 	},
 	"dependencies": {
-		"@babel/standalone": "7.29.1",
-		"@public-ui/components": "4.0.3",
-		"@public-ui/react-standalone": "4.0.3",
-		"@public-ui/theme-default": "4.0.3",
+		"@babel/standalone": "7.29.2",
+		"@public-ui/components": "4.1.2",
+		"@public-ui/react-standalone": "4.1.2",
+		"@public-ui/theme-default": "4.1.2",
 		"react": "18.3.1",
 		"react-dom": "18.3.1"
 	},
 	"devDependencies": {
 		"cpy-cli": "5.0.0",
 		"npm-run-all2": "8.0.4",
-		"serve": "14.2.5"
+		"serve": "14.2.6"
 	}
 }
