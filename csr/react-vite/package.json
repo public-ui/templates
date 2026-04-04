@@ -22,14 +22,14 @@
 		"@testing-library/jest-dom": "6.9.1",
 		"@testing-library/react": "16.3.2",
 		"@testing-library/user-event": "14.6.1",
-		"@types/react": "19.2.13",
+		"@types/react": "19.2.14",
 		"@types/react-dom": "19.2.3",
-		"@vitejs/plugin-react-swc": "4.2.3",
+		"@vitejs/plugin-react-swc": "4.3.0",
 		"adopted-style-sheets": "1.1.8",
 		"prettier": "3.8.1",
-		"unocss": "66.6.0",
+		"unocss": "66.6.7",
 		"typescript": "5.9.3",
 		"vite": "7.3.1",
-		"vitest": "4.0.18"
+		"vitest": "4.1.2"
 	}
 }
