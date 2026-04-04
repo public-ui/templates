@@ -13,15 +13,15 @@
 		"@public-ui/components": "3.0.5",
 		"@public-ui/theme-default": "3.0.5",
 		"@public-ui/vue": "3.0.5",
-		"vue": "3.5.27"
+		"vue": "3.5.32"
 	},
 	"devDependencies": {
 		"@leanup/stack": "1.3.54",
-		"@vitejs/plugin-vue": "6.0.4",
-		"@vue/tsconfig": "0.8.1",
+		"@vitejs/plugin-vue": "6.0.5",
+		"@vue/tsconfig": "0.9.1",
 		"adopted-style-sheets": "1.1.8",
 		"prettier": "3.8.1",
-		"unocss": "66.6.0",
+		"unocss": "66.6.7",
 		"typescript": "5.9.3",
 		"vite": "7.3.1"
 	}
