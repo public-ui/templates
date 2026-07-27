@@ -40,9 +40,9 @@
 		"update": "pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
-		"cpy-cli": "6.0.0",
-		"npm-check-updates": "19.6.6",
-		"npm-run-all2": "8.0.4",
+		"cpy-cli": "7.0.0",
+		"npm-check-updates": "23.0.0",
+		"npm-run-all2": "9.0.2",
 		"prettier": "3.9.6",
 		"rimraf": "6.1.3"
 	}
