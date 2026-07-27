@@ -22,10 +22,10 @@
 		"unused": "knip"
 	},
 	"devDependencies": {
-		"@public-ui/components": "3.1.4",
-		"@public-ui/sample-react": "3.1.4",
-		"@public-ui/visual-tests": "3.1.4",
-		"@rollup/plugin-commonjs": "29.0.2",
+		"@public-ui/components": "3.1.5",
+		"@public-ui/sample-react": "3.1.5",
+		"@public-ui/visual-tests": "3.1.5",
+		"@rollup/plugin-commonjs": "29.0.3",
 		"@rollup/plugin-node-resolve": "16.0.3",
 		"@rollup/plugin-typescript": "12.3.0",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
@@ -36,9 +36,9 @@
 		"eslint": "8.57.1",
 		"knip": "5.88.1",
 		"npm-run-all2": "8.0.4",
-		"prettier": "3.8.1",
-		"postcss": "8.5.8",
-		"rollup": "4.60.1",
+		"prettier": "3.9.6",
+		"postcss": "8.5.23",
+		"rollup": "4.62.3",
 		"rollup-plugin-postcss": "4.0.2",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
@@ -47,7 +47,7 @@
 		"typescript": "5.9.3"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "3.1.4"
+		"@public-ui/components": "3.1.5"
 	},
 	"exports": {
 		".": {
