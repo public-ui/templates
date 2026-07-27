@@ -24,7 +24,6 @@
 		"prepare:defaults:config:kolibri-library-schema": "cpy --dot \".defaults/config/**/*\" \"kolibri/library/schema/\"",
 		"prepare:defaults:config:kolibri-library-theme": "cpy --dot \".defaults/config/**/*\" \"kolibri/library/theme/\"",
 		"prepare:defaults:config:kolibri-theme": "cpy --dot \".defaults/config/**/*\" \"kolibri/theme/\"",
-		"prepare:defaults:config:svg2font": "cpy --dot \".defaults/config/**/*\" \"svg2font/\"",
 		"prepare:defaults:csr": "npm-run-all2 prepare:defaults:csr:*",
 		"prepare:defaults:csr:react-vite": "cpy --dot \"csr/.defaults/**/*\" \"csr/react-vite/\"",
 		"prepare:defaults:csr:vue-vite": "cpy --dot \"csr/.defaults/**/*\" \"csr/vue-vite/\"",
@@ -48,7 +47,7 @@
 		"lint-staged": "16.4.0"
 	},
 	"engines": {
-		"node": "^22",
+		"node": "^24",
 		"npm": "^10",
 		"pnpm": "^10"
 	}
