@@ -23,7 +23,7 @@ import { ${componentListStr} } from './components';
 export { ${componentListStr} }
 
 @NgModule({
-  declarations: [${componentListStr}],
+  imports: [${componentListStr}],
   exports: [${componentListStr}],
 })
 export class KoliBriModule {}
