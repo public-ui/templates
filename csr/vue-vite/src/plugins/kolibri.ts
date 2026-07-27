@@ -1,5 +1,5 @@
 import { register } from '@public-ui/components';
-import { defineCustomElements } from '@public-ui/components/dist/loader';
+import { defineCustomElements } from '@public-ui/components/loader';
 import { DEFAULT } from '@public-ui/theme-default';
 
 export const ComponentLibrary = {
