@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { HashRouter as Router } from 'react-router-dom';
 
 import { register } from '@public-ui/components';
-import { defineCustomElements as KoliBri } from '@public-ui/components/dist/loader';
+import { defineCustomElements as KoliBri } from '@public-ui/components/loader';
 import { defineCustomElements as Demo } from '@public-ui/library-components/dist/loader';
 
 import { App } from './App';

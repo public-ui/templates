@@ -6,7 +6,7 @@ This is the default theme for the [Public UI web component library](https://publ
 
 ```tsx
 import { register } from '@public-ui/components';
-import { defineCustomElements } from '@public-ui/components/dist/loader';
+import { defineCustomElements } from '@public-ui/components/loader';
 import { YOUR_THEME } from '@your/kolibri-theme';
 
 register(YOUR_THEME, defineCustomElements).then(() => {
@@ -53,7 +53,7 @@ Theme importieren und registrieren:
 
 ```js
 import { register } from '@public-ui/components';
-import { defineCustomElements } from '@public-ui/components/dist/loader';
+import { defineCustomElements } from '@public-ui/components/loader';
 import { YOUR_THEME } from '@your/kolibri-theme';
 
 register(YOUR_THEME, defineCustomElements);

@@ -11,23 +11,23 @@
 		"start": "npm run dev"
 	},
 	"dependencies": {
-		"@public-ui/components": "4.1.2",
-		"@public-ui/react": "4.1.2",
-		"@public-ui/theme-default": "4.1.2",
+		"@public-ui/components": "4.2.1",
+		"@public-ui/react": "4.2.1",
+		"@public-ui/theme-default": "4.2.1",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
-		"zod": "3.25.76",
-		"zod-formik-adapter": "1.3.0"
+		"zod": "4.4.3",
+		"zod-formik-adapter": "2.0.0"
 	},
 	"devDependencies": {
 		"@leanup/stack": "1.3.54",
-		"@types/react": "18.3.28",
-		"@types/react-dom": "18.3.7",
-		"@vitejs/plugin-react": "4.7.0",
+		"@types/react": "19.2.17",
+		"@types/react-dom": "19.2.3",
+		"@vitejs/plugin-react": "6.0.4",
 		"formik": "2.4.9",
-		"prettier": "3.8.1",
+		"prettier": "3.9.6",
 		"typescript": "5.9.3",
-		"unocss": "0.65.4",
-		"vite": "6.4.1"
+		"unocss": "66.7.5",
+		"vite": "8.1.5"
 	}
 }
