@@ -14,21 +14,23 @@
 		<main class="grid md:grid-cols-2 gap-6 p-12">
 			<KolAlert :_type="'success'" _label="Dokumentation" _variant="card" :_level="2">
 				<KolLink _href="https://public-ui.github.io/" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-sharp fa-solid fa-book" /> Dokumentation öffnen
+					<span slot="expert"><KolIcon _label="" _icons="fa-sharp fa-solid fa-book" /> Dokumentation öffnen</span>
 				</KolLink>
 			</KolAlert>
 			<KolAlert :_type="'info'" _label="Theming" _variant="card" :_level="2">
 				<KolLink _href="https://public-ui.github.io/docs/concepts/styling/designer" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-solid fa-palette" /> KoliBri-Designer öffnen
+					<span slot="expert"><KolIcon _label="" _icons="fa-solid fa-palette" /> KoliBri-Designer öffnen</span>
 				</KolLink>
 			</KolAlert>
 			<KolAlert :_type="'warning'" _label="Mitwirken" _variant="card" :_level="2">
 				<KolLink _href="https://github.com/public-ui/kolibri/" _label="" _target="_blank">
-					<KolIcon _label="" _icons="fa-brands fa-github" /> GitHub öffnen
+					<span slot="expert"><KolIcon _label="" _icons="fa-brands fa-github" /> GitHub öffnen</span>
 				</KolLink>
 			</KolAlert>
 			<KolAlert :_type="'error'" _label="Kontakt" _variant="card" :_level="2">
-				<KolLink _href="mailto:kolibri@itzbund.de" _label="" _target="_blank"> <KolIcon _label="" _icons="fa-solid fa-envelope" /> E-Mail schreiben </KolLink>
+				<KolLink _href="mailto:kolibri@itzbund.de" _label="" _target="_blank">
+					<span slot="expert"><KolIcon _label="" _icons="fa-solid fa-envelope" /> E-Mail schreiben</span>
+				</KolLink>
 			</KolAlert>
 		</main>
 	</div>
