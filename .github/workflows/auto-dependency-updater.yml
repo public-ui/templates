@@ -18,8 +18,6 @@ jobs:
         include:
           - base: main
             version: v4
-          - base: release/3
-            version: v3
           - base: release/2
             version: v2
           # - base: release/1
