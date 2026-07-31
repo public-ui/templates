@@ -108,7 +108,7 @@
 }
 
 * {
-	font-family: var(--font-family-sans);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
