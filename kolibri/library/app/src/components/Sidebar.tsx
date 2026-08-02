@@ -1,7 +1,7 @@
 import type { FC, PropsWithChildren } from 'react';
 import React from 'react';
 
-import { KolAccordion, KolButton, KolHeading, KolLink, KolVersion } from '@public-ui/react';
+import { KolAccordion, KolButton, KolHeading, KolLink, KolVersion } from '@public-ui/react-v19';
 
 import DemoPackageJson from '@public-ui/library-components/package.json';
 

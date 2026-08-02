@@ -3,7 +3,7 @@ import React from 'react';
 import { useLocation } from 'react-router';
 import { Navigate, Route, Routes, useSearchParams } from 'react-router-dom';
 
-import { KolAlert } from '@public-ui/react';
+import { KolAlert } from '@public-ui/react-v19';
 
 import { Sidebar } from './components/Sidebar';
 import { useSetCurrentLocation } from './hooks/useSetCurrentLocation';

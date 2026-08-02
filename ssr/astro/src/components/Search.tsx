@@ -1,7 +1,7 @@
 /** @jsxImportSource react */
 import './Search.css';
 
-import { KolAlert, KolIcon, KolKolibri, KolLink } from '@public-ui/react';
+import { KolAlert, KolIcon, KolKolibri, KolLink } from '@public-ui/react-v19';
 
 export default function Search() {
 	return (

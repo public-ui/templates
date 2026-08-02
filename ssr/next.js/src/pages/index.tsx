@@ -1,4 +1,4 @@
-import { KolAlert, KolIcon, KolKolibri, KolLink } from '@public-ui/react';
+import { KolAlert, KolIcon, KolKolibri, KolLink } from '@public-ui/react-v19';
 import React from 'react';
 import Head from 'next/head';
 

@@ -1,7 +1,7 @@
 import type { Components } from '@public-ui/components';
 import React, { forwardRef } from 'react';
 
-import { KolButton } from '@public-ui/react';
+import { KolButton } from '@public-ui/react-v19';
 
 export const ButtonCases = forwardRef<HTMLKolButtonElement, Components.KolButton>(function InputCheckboxCases(props, ref) {
 	return (

@@ -20,7 +20,7 @@
 		"@public-ui/components": "4.2.1",
 		"@public-ui/library-components": "workspace:*",
 		"@public-ui/library-react": "workspace:*",
-		"@public-ui/react": "4.2.1",
+		"@public-ui/react-v19": "4.2.1",
 		"adopted-style-sheets": "1.1.8",
 		"@types/node": "22.15.32",
 		"@types/react": "18.3.23",

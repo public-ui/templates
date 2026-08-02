@@ -17,7 +17,7 @@ import {
 	KolInputText,
 	KolSelect,
 	KolTextarea,
-} from '@public-ui/react';
+} from '@public-ui/react-v19';
 import { useState } from 'react';
 import { z } from 'zod';
 import { toFormikValidationSchema } from 'zod-formik-adapter';
