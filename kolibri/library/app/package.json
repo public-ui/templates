@@ -22,7 +22,7 @@
 		"@public-ui/library-react": "workspace:*",
 		"@public-ui/react": "4.2.1",
 		"adopted-style-sheets": "1.1.8",
-		"@types/node": "22.15.32",
+		"@types/node": "26.0.0",
 		"@types/react": "18.3.23",
 		"@types/react-dom": "18.3.7",
 		"ajv": "8.17.1",
