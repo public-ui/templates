@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { KolButton } from '@public-ui/react';
+import { KolButton } from '@public-ui/react-v19';
 
 import type { FC } from 'react';
 export const ButtonAccessKey: FC = () => (

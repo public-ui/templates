@@ -1,5 +1,5 @@
 import './App.css';
-import { KolButton } from '@public-ui/react';
+import { KolButton } from '@public-ui/react-v19';
 
 function App() {
 	return (
