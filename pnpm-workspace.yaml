@@ -25,3 +25,11 @@ packages:
 
   # Utility Templates
   - 'svg2font/'
+allowBuilds:
+  '@parcel/watcher': true
+  '@public-ui/components': true
+  '@swc/core': true
+  chromedriver: true
+  core-js: true
+  esbuild: true
+  ttf2woff2: true
