@@ -9,7 +9,6 @@
 	},
 	"devDependencies": {
 		"@public-ui/library-components": "workspace:*",
-		"@types/minimatch": "6.0.0",
 		"@types/minimist": "1.2.5",
 		"@types/node": "26.1.2",
 		"@types/normalize-package-data": "2.4.4",
