@@ -1,0 +1,20 @@
+:host {
+	display: block;
+}
+
+kol-kolibri {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}
+
+/*
+ * Workaround: KoliBri-Links rendern Pseudo-Elemente (::before / ::after),
+ * die im kombinierten Einsatz mit Angular-Slots zusätzlichen Abstand erzeugen.
+ * Die Leerzeichen-Inhalte unterdrücken diesen unerwünschten Leerraum.
+ * Siehe: https://public-ui.github.io/docs/concepts/styling
+ */
+kol-link::after,
+kol-link::before {
+	content: ' ';
+}

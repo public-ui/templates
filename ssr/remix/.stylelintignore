@@ -1,0 +1,6 @@
+dist/
+assets/
+public/assets/
+**/fontawesome-free/**
+**/codicons/**
+**/kolicons/**

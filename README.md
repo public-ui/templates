@@ -4,7 +4,9 @@ Official starter templates for the [KoliBri](https://github.com/public-ui/kolibr
 
 > **Documentation:** https://public-ui.github.io/en/
 
-These templates let you scaffold a ready-to-use project in seconds — whether you're building a static page, a full React/Vue application, an SSR-powered site with Express/Astro/Next.js, or your own component library and theme.
+These templates let you scaffold a ready-to-use project in seconds — whether you're building a static page, a full React/Vue/Solid/Svelte/Preact application, an SSR-powered site with Express/Astro/Next.js/Remix, or your own component library and theme.
+
+Every CSR and SSR template ships with an identical **unified start page** (header + 2×2 card grid) so you can compare frameworks at a glance. See [`AGENTS.md`](AGENTS.md) for the layout specification.
 
 ## Table of Contents
 
@@ -70,50 +72,37 @@ register(BWSt, defineCustomElements).then(() => {
 
 > CSR templates are ready to use. Each includes a dev server, hot module replacement, linting, and formatting — all configured for KoliBri.
 
-#### React Templates
-
-| Template | Description |
-|---|---|
-| **react-vite** *(recommended)* | Modern React + Vite. Fast HMR, TypeScript, UnoCSS. Full testing setup with Vitest & Testing Library. |
-| **react-vite-formik** | Same as `react-vite` plus [Formik](https://formik.org/) for form handling. |
-| **react-standalone** | No build tool required — runs entirely in the browser via Babel Standalone. Ideal for quick prototypes or CMS integrations. |
-
-```bash
-npx degit public-ui/templates/csr/react-vite my-kolibri-project
-```
-
-#### Vue Templates
-
-| Template | Description |
-|---|---|
-| **vue-vite** *(recommended)* | Modern Vue + Vite. TypeScript, UnoCSS, and Testing Library pre-configured. |
+| Template | Framework | Description |
+|---|---|---|
+| **angular-cli** | Angular 21 | Angular CLI (`@angular/build`) with KoliBri web components via `CUSTOM_ELEMENTS_SCHEMA`. UnoCSS, TypeScript. |
+| **react-vite** *(recommended)* | React 19 | React + Vite (SWC). Fast HMR, TypeScript, UnoCSS. Includes **Vitest + Testing Library**. |
+| **react-vite-hook-form** | React 19 | Same as `react-vite` plus [React Hook Form](https://react-hook-form.com/) and Zod for form handling & validation. |
+| **react-standalone** | — | No build step required — runs entirely in the browser via native ES modules. Ideal for quick prototypes or CMS integrations. |
+| **vue-vite** *(recommended)* | Vue 3 | Vue + Vite. TypeScript, UnoCSS. The reference ("Gold Standard") template. |
+| **solid-vite** | SolidJS | Solid + Vite. TypeScript, UnoCSS. |
+| **svelte-vite** | Svelte 5 | Svelte + Vite. TypeScript, UnoCSS. |
+| **preact-vite** | Preact | Preact + Vite. TypeScript, UnoCSS. |
+| **static-page** | — | A minimal static HTML page with KoliBri components served via a local dev server. |
 
 ```bash
-npx degit public-ui/templates/csr/vue-vite my-kolibri-project
-```
-
-#### Other CSR Templates
-
-| Template | Description |
-|---|---|
-| **static-page** | A minimal static HTML page with KoliBri components served via a local dev server. |
-
-```bash
-npx degit public-ui/templates/csr/static-page my-kolibri-project
+npx degit public-ui/templates/csr/<template> my-kolibri-project
+# e.g. npx degit public-ui/templates/csr/react-vite my-kolibri-project
 ```
 
 ### Server Side Rendering (SSR)
 
 > SSR templates support universal rendering with KoliBri's hydration. Check each template's README for framework-specific details.
 
-| Template | Status |
-|---|---|
-| **express** | ✅ Ready — Express.js with TypeScript and `nodemon`. |
-| **astro** | 🚧 In development — not yet part of the workspace. |
-| **next.js** | 🚧 In development — not yet part of the workspace. |
+| Template | Framework | Description |
+|---|---|---|
+| **express** | Express 5 + TypeScript | Real server-side rendering via `@public-ui/hydrate` (`renderToString`), served with `nodemon`. |
+| **astro** | Astro + React 19 | Astro with React integration, UnoCSS. |
+| **next.js** | Next.js 15 + React 19 | Next.js App Router, UnoCSS. |
+| **remix** | React Router v8 (Remix) | Remix (now React Router v7 framework mode) on Vite, React 19. |
 
 ```bash
-npx degit public-ui/templates/ssr/express my-kolibri-project
+npx degit public-ui/templates/ssr/<template> my-kolibri-project
+# e.g. npx degit public-ui/templates/ssr/express my-kolibri-project
 ```
 
 ### KoliBri Library Templates
@@ -161,21 +150,26 @@ npx degit public-ui/templates/svg2font my-kolibri-project
 
 ```
 templates/
-├── .defaults/          # Shared default configs (editor, prettier, vscode)
-├── csr/                # Client-Side-Rendering templates
-│   ├── react-vite/
-│   ├── react-vite-formik/
-│   ├── react-standalone/
-│   ├── vue-vite/
-│   └── static-page/
-├── ssr/                # Server-Side-Rendering templates
-│   ├── express/
-│   ├── astro/          # (in development)
-│   └── next.js/        # (in development)
-├── kolibri/            # KoliBri library & theme templates
+├── .defaults/              # Shared default configs (editor, prettier, vscode)
+├── csr/                    # Client-Side-Rendering templates
+│   ├── angular-cli/        # Angular 21
+│   ├── react-vite/         # React 19 + Vite
+│   ├── react-vite-hook-form/  # React 19 + React Hook Form
+│   ├── react-standalone/   # No-build, native ES modules
+│   ├── vue-vite/           # Vue 3 + Vite
+│   ├── solid-vite/         # SolidJS + Vite
+│   ├── svelte-vite/        # Svelte 5 + Vite
+│   ├── preact-vite/        # Preact + Vite
+│   └── static-page/        # Minimal static HTML
+├── ssr/                    # Server-Side-Rendering templates
+│   ├── express/            # Express 5 + @public-ui/hydrate
+│   ├── astro/              # Astro + React
+│   ├── next.js/            # Next.js 15 + React
+│   └── remix/             # React Router v8 (Remix) + Vite
+├── kolibri/                # KoliBri library & theme templates
 │   ├── library/
 │   └── theme/
-└── svg2font/           # SVG-to-font converter utility
+└── svg2font/               # SVG-to-font converter utility
 ```
 
 ## Package Manager
@@ -198,10 +192,10 @@ Most templates share a common set of scripts:
 |---|---|
 | `npm start` | Start the development server with hot module replacement. |
 | `npm run build` | Create a production build. |
-| `npm run lint` | Type-check and lint the code (`tsc --noemit`). |
+| `npm run lint` | Type-check and lint the code (`tsc --noemit`, or `svelte-check` for Svelte). |
 | `npm run format` | Check code formatting with Prettier. |
 | `npm run unused` | Check for unused code and dependencies. |
-| `npm test` | Run unit/snapshot tests. |
+| `npm test` | Run unit/snapshot tests (currently only `react-vite` includes a test setup with Vitest). |
 
 ## Quick Start Script
 

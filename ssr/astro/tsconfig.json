@@ -1,7 +1,10 @@
 {
-  "extends": "astro/tsconfigs/strictest",
-  "compilerOptions": {
-    "jsx": "preserve",
-    "skipLibCheck": true
-  }
+	"extends": "astro/tsconfigs/strictest",
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		"skipLibCheck": true
+	},
+	"include": [".astro/types.d.ts", "**/*"],
+	"exclude": ["dist", "src/assets"]
 }

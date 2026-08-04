@@ -1,17 +1,20 @@
 packages:
   # Client Side Rendering (CSR) Templates
-  - 'csr/react-vite/'
-  - 'csr/react-vite-formik/'
+  - 'csr/angular-cli/'
+  - 'csr/preact-vite/'
   - 'csr/react-standalone/'
+  - 'csr/react-vite/'
+  - 'csr/react-vite-hook-form/'
+  - 'csr/solid-vite/'
   - 'csr/static-page/'
+  - 'csr/svelte-vite/'
   - 'csr/vue-vite/'
 
   # Server Side Rendering (SSR) Templates
+  - 'ssr/astro/'
   - 'ssr/express/'
-  # Coming soon:
-  # - 'ssr/astro/'
-  # - 'ssr/next.js/'
-  # - 'ssr/remix/'
+  - 'ssr/next.js/'
+  - 'ssr/remix/'
 
   # KoliBri Library Templates
   # - 'kolibri/library/app/'
@@ -32,4 +35,7 @@ allowBuilds:
   chromedriver: true
   core-js: true
   esbuild: true
+  lmdb: true
+  msgpackr-extract: true
+  sharp: true
   ttf2woff2: true

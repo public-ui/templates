@@ -1,0 +1,14 @@
+{
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.svelte"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"moduleResolution": "bundler",
+		"module": "ESNext",
+		"target": "ESNext",
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true
+	}
+}

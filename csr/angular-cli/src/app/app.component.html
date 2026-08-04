@@ -1,0 +1,35 @@
+<div class="itzbund container mx-auto my-10 max-w-800px">
+	<header class="text-center">
+		<div class="grid grid-cols-2 items-center">
+			<div class="block m-auto w-40">
+				<kol-kolibri _labeled="false"></kol-kolibri>
+			</div>
+			<div>
+				<img class="block m-auto h-25" src="assets/logo.angular.png" alt="Logo vom Angular Framework" />
+			</div>
+		</div>
+		<strong class="text-2xl">Willkommen zu KoliBri</strong>
+	</header>
+	<main class="grid md:grid-cols-2 gap-6 p-12">
+		<kol-alert _type="success" _label="Manifest" _variant="card" _level="2">
+			<kol-link _href="https://public-ui.github.io/en/docs/manifest" _label="Manifest öffnen" _target="_blank">
+				<span slot="expert"><kol-icon _label="Scroll-Icon" _icons="fa-solid fa-scroll"></kol-icon> Manifest öffnen</span>
+			</kol-link>
+		</kol-alert>
+		<kol-alert _type="info" _label="Konzepte" _variant="card" _level="2">
+			<kol-link _href="https://public-ui.github.io/en/docs/concepts/architecture" _label="Konzepte öffnen" _target="_blank">
+				<span slot="expert"><kol-icon _label="Architektur-Icon" _icons="fa-solid fa-sitemap"></kol-icon> Konzepte öffnen</span>
+			</kol-link>
+		</kol-alert>
+		<kol-alert _type="warning" _label="Komponenten" _variant="card" _level="2">
+			<kol-link _href="https://public-ui.github.io/en/docs/components" _label="Komponenten öffnen" _target="_blank">
+				<span slot="expert"><kol-icon _label="Bausteine-Icon" _icons="fa-solid fa-cubes"></kol-icon> Komponenten öffnen</span>
+			</kol-link>
+		</kol-alert>
+		<kol-alert _type="error" _label="MCP" _variant="card" _level="2">
+			<kol-link _href="https://www.npmjs.com/package/@public-ui/mcp" _label="MCP öffnen" _target="_blank">
+				<span slot="expert"><kol-icon _label="Roboter-Icon" _icons="fa-solid fa-robot"></kol-icon> MCP öffnen</span>
+			</kol-link>
+		</kol-alert>
+	</main>
+</div>

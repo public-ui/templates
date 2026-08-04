@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="de" dir="ltr">
 	<head>
-		<title>Seed-Projekt | KoliBri</title>
+		<title>Static Page | KoliBri</title>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Webanwendung mit der KoliBri-Komponentenbibliothek." />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" type="image/x-icon" href="assets/kolibri.ico" />
 		<link rel="stylesheet" href="assets/codicons/codicon.css" />
-		<link rel="stylesheet" href="assets/kolicons/style.css" />
 		<link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css" />
 		<link rel="stylesheet" href="style.css" />
 		<meta name="robots" content="noindex" />
-		<meta name="kolibri" content="dev-mode=true,experimental-mode=true" />
+		<meta name="kolibri" content="dev-mode=true" />
 		<script type="module">
 			import { register } from '/node_modules/@public-ui/components/dist/index.js';
 			import { defineCustomElements } from '/node_modules/@public-ui/components/loader/index.mjs';
@@ -30,25 +29,40 @@
 						<img class="block m-auto h-25" src="assets/logo.vanilla.png" alt="Logo vom Web Components" />
 					</div>
 				</div>
-				<kol-heading _label="Willkommen bei KoliBri"></kol-heading>
+				<kol-heading _label="Willkommen zu KoliBri"></kol-heading>
 			</header>
 			<main class="grid md:grid-cols-2 gap-6 p-12">
-				<kol-alert _type="success" _label="Dokumentation" _variant="card" _level="2">
-					<kol-link _href="https://public-ui.github.io/" _icons="fa-sharp fa-solid fa-book" _label="Dokumentation öffnen" _target="_blank"></kol-link>
-				</kol-alert>
-				<kol-alert _type="info" _label="Theming" _variant="card" _level="2">
+				<kol-alert _type="success" _label="Manifest" _variant="card" _level="2">
 					<kol-link
-						_href="https://public-ui.github.io/docs/concepts/styling/designer"
-						_icons="fa-solid fa-palette"
-						_label="KoliBri-Designer öffnen"
+						_href="https://public-ui.github.io/en/docs/manifest"
+						_icons="fa-solid fa-scroll"
+						_label="Manifest öffnen"
 						_target="_blank"
 					></kol-link>
 				</kol-alert>
-				<kol-alert _type="warning" _label="Mitwirken" _variant="card" _level="2">
-					<kol-link _href="https://github.com/public-ui/kolibri/" _icons="fa-brands fa-github" _label="GitHub öffnen" _target="_blank"></kol-link>
+				<kol-alert _type="info" _label="Konzepte" _variant="card" _level="2">
+					<kol-link
+						_href="https://public-ui.github.io/en/docs/concepts/architecture"
+						_icons="fa-solid fa-sitemap"
+						_label="Konzepte öffnen"
+						_target="_blank"
+					></kol-link>
 				</kol-alert>
-				<kol-alert _type="error" _label="Kontakt" _variant="card" _level="2">
-					<kol-link _href="mailto:kolibri@itzbund.de" _icons="fa-solid fa-envelope" _label="E-Mail schreiben" _target="_blank"></kol-link>
+				<kol-alert _type="warning" _label="Komponenten" _variant="card" _level="2">
+					<kol-link
+						_href="https://public-ui.github.io/en/docs/components"
+						_icons="fa-solid fa-cubes"
+						_label="Komponenten öffnen"
+						_target="_blank"
+					></kol-link>
+				</kol-alert>
+				<kol-alert _type="error" _label="MCP" _variant="card" _level="2">
+					<kol-link
+						_href="https://www.npmjs.com/package/@public-ui/mcp"
+						_icons="fa-solid fa-robot"
+						_label="MCP öffnen"
+						_target="_blank"
+					></kol-link>
 				</kol-alert>
 			</main>
 		</div>

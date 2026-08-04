@@ -1,19 +1,15 @@
 import React from 'react';
 import App from 'next/app';
-import { applyPolyfills, defineCustomElements } from '@public-ui/components/loader';
-import { ITZBund } from '@public-ui/theme-default';
 import { register } from '@public-ui/components';
+import { defineCustomElements } from '@public-ui/components/loader';
+import { DEFAULT } from '@public-ui/theme-default';
 import '../style.css';
 import '../style.scss';
 
 class RootApp extends App {
 	componentDidMount() {
-		void applyPolyfills()
-			.then(() => {
-				return register(ITZBund, []).then(() => {
-					void defineCustomElements(window);
-				});
-			})
+		register(DEFAULT, defineCustomElements)
+			.then(() => console.log('Components registered'))
 			.catch(console.warn);
 	}
 

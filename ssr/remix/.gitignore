@@ -1,0 +1,10 @@
+/.react-router/
+/assets/codicons/
+/assets/fontawesome-free/
+/assets/kolicons/
+/assets/variants/
+/assets/kolibri.ico
+/assets/kolibri.png
+/assets/kolibri.svg
+/build/
+/node_modules/

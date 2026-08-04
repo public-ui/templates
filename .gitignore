@@ -1,14 +1,16 @@
 .reports/
+.zcode/
 build/
 dist/
 node_modules/
 tsconfig.tsbuildinfo
 
-/*/**/.npmrc
-/*/**/assets/codicons/
-/*/**/assets/fontawesome-free/
-/*/**/assets/kolicons/
-/*/**/assets/variants/
-/*/**/assets/kolibri.ico
-/*/**/assets/kolibri.png
-/*/**/assets/kolibri.svg
+/**/.npmrc
+/**/package-lock.json
+/**/assets/codicons/
+/**/assets/fontawesome-free/
+/**/assets/kolicons/
+/**/assets/variants/
+/**/assets/kolibri.ico
+/**/assets/kolibri.png
+/**/assets/kolibri.svg

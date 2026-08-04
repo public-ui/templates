@@ -1,0 +1,101 @@
+name: Template-Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - 'develop'
+      - 'main'
+      - 'release/*'
+  workflow_dispatch:
+
+jobs:
+  template:
+    name: ${{ matrix.template }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # CSR
+          - { template: csr/angular-cli,          stylelint: true }
+          - { template: csr/preact-vite,          stylelint: true }
+          - { template: csr/react-standalone,     stylelint: true, skip_tsc: true }
+          - { template: csr/react-vite,           stylelint: true }
+          - { template: csr/react-vite-hook-form, stylelint: true }
+          - { template: csr/solid-vite,           stylelint: true }
+          - { template: csr/static-page,          stylelint: true, skip_tsc: true }
+          - { template: csr/svelte-vite,          stylelint: true }
+          - { template: csr/vue-vite,             stylelint: true }
+          # SSR
+          - { template: ssr/astro,                stylelint: true }
+          - { template: ssr/express }
+          - { template: ssr/next.js,              stylelint: true }
+          - { template: ssr/remix,                stylelint: true }
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      # https://github.com/pnpm/action-setup#use-cache-to-reduce-installation-time
+      - name: Install Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+        id: pnpm-install
+        with:
+          version: 10
+          run_install: false
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v6
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ matrix.template }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install
+        run: pnpm i --no-frozen-lockfile
+
+      - name: Build
+        working-directory: ${{ matrix.template }}
+        run: npm run --if-present build
+
+      - name: Lint
+        working-directory: ${{ matrix.template }}
+        run: npm run --if-present lint
+
+      - name: Type-Check (framework checker)
+        working-directory: ${{ matrix.template }}
+        run: npm run --if-present check
+
+      - name: Format
+        working-directory: ${{ matrix.template }}
+        run: npm run --if-present format
+
+      - name: Unused (knip)
+        working-directory: ${{ matrix.template }}
+        run: npm run --if-present unused
+
+      - name: TSC
+        if: ${{ matrix.skip_tsc != true }}
+        working-directory: ${{ matrix.template }}
+        run: |
+          if [ -f tsconfig.json ]; then
+            npx --no-install tsc --noEmit
+          else
+            echo "Kein tsconfig.json vorhanden – TSC-Schritt übersprungen."
+          fi
+
+      - name: Stylelint
+        if: ${{ matrix.stylelint == true }}
+        working-directory: ${{ matrix.template }}
+        run: npm run --if-present stylelint
