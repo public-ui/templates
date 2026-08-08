@@ -11,7 +11,7 @@
 		"@babel/types": "7.29.8",
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimist": "1.2.5",
-		"@types/node": "26.1.2",
+		"@types/node": "26.2.0",
 		"@types/normalize-package-data": "2.4.4",
 		"typescript": "5.9.3",
 		"unbuild": "3.6.1",
