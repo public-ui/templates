@@ -13,25 +13,25 @@
 		"unused": "knip"
 	},
 	"dependencies": {
-		"@public-ui/components": "4.2.1",
-		"@public-ui/svelte": "4.2.1",
-		"@public-ui/theme-default": "4.2.1"
+		"@public-ui/components": "4.3.0",
+		"@public-ui/svelte": "4.3.0",
+		"@public-ui/theme-default": "4.3.0"
 	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "7.2.0",
 		"@tsconfig/svelte": "5.0.8",
-		"adopted-style-sheets": "1.1.9-rc.22",
-		"knip": "6.31.0",
+		"adopted-style-sheets": "1.1.9-rc.25",
+		"knip": "6.32.0",
 		"prettier": "3.9.6",
 		"prettier-plugin-svelte": "4.1.1",
 		"svelte": "5.56.8",
-		"svelte-check": "4.7.4",
+		"svelte-check": "4.7.5",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
 		"stylelint-config-standard": "39.0.1",
 		"stylelint-scss": "6.14.0",
 		"typescript": "5.9.3",
 		"unocss": "66.7.5",
-		"vite": "8.2.0"
+		"vite": "8.2.1"
 	}
 }

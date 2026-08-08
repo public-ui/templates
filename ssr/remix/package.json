@@ -15,9 +15,9 @@
 		"stylelint": "stylelint \"app/**/*.{css,scss}\""
 	},
 	"dependencies": {
-		"@public-ui/components": "4.2.1",
-		"@public-ui/react-v19": "4.2.1",
-		"@public-ui/theme-default": "4.2.1",
+		"@public-ui/components": "4.3.0",
+		"@public-ui/react-v19": "4.3.0",
+		"@public-ui/theme-default": "4.3.0",
 		"@react-router/node": "8.3.0",
 		"@react-router/serve": "8.3.0",
 		"isbot": "5.2.1",
@@ -27,7 +27,7 @@
 	},
 	"devDependencies": {
 		"@react-router/dev": "8.3.0",
-		"@types/node": "26.0.0",
+		"@types/node": "26.2.0",
 		"@types/react": "19.2.18",
 		"@types/react-dom": "19.2.4",
 		"cpy-cli": "7.0.0",
@@ -38,6 +38,6 @@
 		"stylelint-config-standard": "39.0.1",
 		"stylelint-scss": "6.14.0",
 		"typescript": "5.9.3",
-		"vite": "8.2.0"
+		"vite": "8.2.1"
 	}
 }
