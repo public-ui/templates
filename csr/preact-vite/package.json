@@ -23,6 +23,7 @@
 		"adopted-style-sheets": "1.1.9-rc.22",
 		"knip": "6.31.0",
 		"prettier": "3.9.6",
+		"sass-embedded": "1.92.1",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
 		"stylelint-config-standard": "39.0.1",

@@ -130,6 +130,9 @@ importers:
       prettier:
         specifier: 3.9.6
         version: 3.9.6
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -228,6 +231,9 @@ importers:
       prettier:
         specifier: 3.9.6
         version: 3.9.6
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -292,6 +298,9 @@ importers:
       prettier:
         specifier: 3.9.6
         version: 3.9.6
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -338,6 +347,9 @@ importers:
       prettier:
         specifier: 3.9.6
         version: 3.9.6
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -426,6 +438,9 @@ importers:
       prettier-plugin-svelte:
         specifier: 4.1.1
         version: 4.1.1(prettier@3.9.6)(svelte@5.56.8)
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -484,6 +499,9 @@ importers:
       prettier:
         specifier: 3.9.6
         version: 3.9.6
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -1009,6 +1027,9 @@ importers:
       prettier:
         specifier: 3.9.6
         version: 3.9.6
+      sass-embedded:
+        specifier: 1.92.1
+        version: 1.92.1
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.9.3)
@@ -13918,8 +13939,7 @@ snapshots:
   '@bruits/satteri-win32-x64-msvc@0.9.5':
     optional: true
 
-  '@bufbuild/protobuf@2.5.2':
-    optional: true
+  '@bufbuild/protobuf@2.5.2': {}
 
   '@cacheable/memory@2.2.0':
     dependencies:
@@ -18089,8 +18109,7 @@ snapshots:
     dependencies:
       node-int64: 0.4.0
 
-  buffer-builder@0.2.0:
-    optional: true
+  buffer-builder@0.2.0: {}
 
   buffer-crc32@0.2.13: {}
 
@@ -18461,8 +18480,7 @@ snapshots:
 
   colorette@2.0.20: {}
 
-  colorjs.io@0.5.2:
-    optional: true
+  colorjs.io@0.5.2: {}
 
   colors-cli@1.0.33: {}
 
@@ -24159,7 +24177,6 @@ snapshots:
       sass-embedded-unknown-all: 1.92.1
       sass-embedded-win32-arm64: 1.92.1
       sass-embedded-win32-x64: 1.92.1
-    optional: true
 
   sass@1.77.4:
     dependencies:
@@ -25101,10 +25118,8 @@ snapshots:
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.1.3
-    optional: true
 
-  sync-message-port@1.1.3:
-    optional: true
+  sync-message-port@1.1.3: {}
 
   synckit@0.9.3:
     dependencies:
@@ -25796,8 +25811,7 @@ snapshots:
 
   validate-npm-package-name@7.0.2: {}
 
-  varint@6.0.0:
-    optional: true
+  varint@6.0.0: {}
 
   vary@1.1.2: {}
 
