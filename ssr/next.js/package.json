@@ -29,6 +29,7 @@
 		"prettier": "3.9.6",
 		"unocss": "66.7.5",
 		"typescript": "5.9.3",
+		"sass-embedded": "1.92.1",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
 		"stylelint-config-standard": "39.0.1",
