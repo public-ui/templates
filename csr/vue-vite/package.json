@@ -19,7 +19,7 @@
 		"vue": "3.5.43"
 	},
 	"devDependencies": {
-		"@vitejs/plugin-vue": "6.0.9",
+		"@vitejs/plugin-vue": "6.0.10",
 		"@vue/tsconfig": "0.9.1",
 		"adopted-style-sheets": "1.1.9-rc.25",
 		"knip": "6.41.0",
