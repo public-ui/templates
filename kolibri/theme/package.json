@@ -38,7 +38,7 @@
 		"npm-run-all2": "8.0.4",
 		"prettier": "3.9.9",
 		"postcss": "8.5.29",
-		"rollup": "4.64.3",
+		"rollup": "4.64.4",
 		"rollup-plugin-postcss": "4.0.2",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
