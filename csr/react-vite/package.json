@@ -22,9 +22,9 @@
 		"@types/react-dom": "18.3.7",
 		"@vitejs/plugin-react": "4.7.0",
 		"adopted-style-sheets": "1.1.8",
-		"prettier": "3.9.9",
-		"unocss": "66.10.5",
+		"prettier": "3.9.10",
+		"unocss": "66.11.0",
 		"typescript": "5.9.3",
-		"vite": "6.4.4"
+		"vite": "6.4.5"
 	}
 }
