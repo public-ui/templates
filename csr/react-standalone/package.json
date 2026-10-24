@@ -14,7 +14,7 @@
 	},
 	"devDependencies": {
 		"cpy-cli": "7.0.0",
-		"npm-run-all2": "9.0.3",
+		"npm-run-all2": "9.0.4",
 		"serve": "14.2.6",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
