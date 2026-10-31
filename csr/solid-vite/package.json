@@ -16,20 +16,20 @@
 		"@public-ui/components": "4.5.0",
 		"@public-ui/solid": "4.5.0",
 		"@public-ui/theme-default": "4.5.0",
-		"solid-js": "1.9.17"
+		"solid-js": "1.9.18"
 	},
 	"devDependencies": {
 		"adopted-style-sheets": "1.1.9-rc.25",
-		"knip": "6.41.0",
-		"prettier": "3.9.9",
-		"sass-embedded": "1.105.1",
+		"knip": "6.44.0",
+		"prettier": "3.9.10",
+		"sass-embedded": "1.107.1",
 		"stylelint": "16.26.1",
 		"stylelint-config-recommended-scss": "16.0.2",
 		"stylelint-config-standard": "39.0.1",
 		"stylelint-scss": "6.14.0",
 		"typescript": "5.9.3",
-		"unocss": "66.10.5",
-		"vite": "8.3.4",
-		"vite-plugin-solid": "2.11.14"
+		"unocss": "66.12.0",
+		"vite": "8.3.5",
+		"vite-plugin-solid": "2.11.15"
 	}
 }
