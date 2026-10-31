@@ -8,7 +8,7 @@
 		"prepack": "unbuild"
 	},
 	"devDependencies": {
-		"@babel/types": "7.29.8",
+		"@babel/types": "7.29.11",
 		"@public-ui/library-components": "workspace:*",
 		"@types/minimatch": "5.1.2",
 		"@types/minimist": "1.2.5",
