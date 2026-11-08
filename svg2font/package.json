@@ -1,8 +1,8 @@
 {
 	"name": "svg-2font-icons",
 	"dependencies": {
-		"rimraf": "6.1.3",
-		"serve": "14.2.6",
+		"rimraf": "6.1.4",
+		"serve": "14.2.7",
 		"svgtofont": "6.5.3"
 	},
 	"license": "EUPL-1.2",
